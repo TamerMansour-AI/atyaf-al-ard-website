@@ -49,6 +49,12 @@ a:focus-visible {
   gap: 1.5rem;
 }
 
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
 .site-logo {
   display: flex;
   align-items: center;
@@ -85,6 +91,29 @@ a:focus-visible {
 .site-nav a:focus-visible {
   color: var(--color-accent);
   border-color: var(--color-accent);
+}
+
+.lang-switch {
+  font-size: 0.9rem;
+  color: var(--color-muted, #666666);
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  white-space: nowrap;
+}
+
+.lang-switch a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.lang-switch a:hover {
+  color: var(--color-accent, #d6452a);
+}
+
+.lang-switch .active-lang {
+  font-weight: 600;
+  color: var(--color-text, #111111);
 }
 
 main {
@@ -160,6 +189,10 @@ html[dir="rtl"] body {
 }
 
 html[dir="rtl"] .header-inner {
+  flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .header-right {
   flex-direction: row-reverse;
 }
 
