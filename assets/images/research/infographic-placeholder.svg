@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Research Infographic Placeholder</title>
+  <desc id="desc">Light grid with centered placeholder text</desc>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#dce4ef" stroke-width="1" />
+    </pattern>
+  </defs>
+  <rect width="800" height="500" fill="#f7fbff" stroke="#d0dae6" />
+  <rect x="0" y="0" width="800" height="500" fill="url(#grid)" />
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#32475b" font-family="Arial, sans-serif" font-size="22" font-weight="600">
+    Research Infographic Placeholder
+  </text>
+</svg>

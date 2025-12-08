@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" role="img" aria-labelledby="title desc">
+  <title id="title">Atyaf Al Ard Hero Placeholder</title>
+  <desc id="desc">Soft gradient rectangle with centered placeholder text</desc>
+  <defs>
+    <linearGradient id="heroGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e0f4ff" />
+      <stop offset="100%" stop-color="#d9e4ff" />
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="800" height="400" fill="url(#heroGradient)" rx="12" ry="12" />
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="24" font-weight="600">
+    Atyaf Al Ard – Hero Image Placeholder
+  </text>
+</svg>
