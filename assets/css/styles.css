@@ -307,6 +307,31 @@ p {
   margin-bottom: 0.75rem;
 }
 
+/* Research page layout */
+.research-figure {
+  text-align: center;
+  margin: 2.5rem auto;
+}
+
+.research-image-link {
+  display: inline-block;
+}
+
+.research-image {
+  max-width: 480px;
+  width: 100%;
+  height: auto;
+  border-radius: 0.75rem;
+  box-shadow: var(--shadow-soft, 0 8px 24px rgba(0, 0, 0, 0.18));
+  cursor: pointer;
+}
+
+.research-caption {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
+
 .numbered-list {
   margin: 0.75rem 0 0;
   padding-left: 1.25rem;
