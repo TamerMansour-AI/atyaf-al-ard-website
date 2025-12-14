@@ -1,0 +1,4 @@
+This is a placeholder note for the English foundational research PDF.
+When uploading, name the file exactly: foundational-overview-en.pdf
+Source file: Palestine_Evidence_Narrative.pdf
+Path used on the site: /atyaf-al-ard-website/assets/docs/research/foundational-overview-en.pdf
