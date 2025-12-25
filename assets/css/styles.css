@@ -967,3 +967,83 @@ html[dir="rtl"] main {
     padding-block: 2rem;
   }
 }
+
+/* Updates page */
+
+.updates-page .page-hero {
+  padding-block: 2.5rem 1.75rem;
+}
+
+.updates-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.update-card {
+  padding: 1.5rem 1.6rem;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.16);
+}
+
+.update-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  opacity: 0.8;
+  margin-bottom: 0.4rem;
+}
+
+.update-tag {
+  padding: 0.1rem 0.5rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 0.7rem;
+}
+
+.update-title {
+  font-size: 1.05rem;
+  margin-bottom: 0.5rem;
+}
+
+.update-body {
+  font-size: 0.92rem;
+  line-height: 1.7;
+  opacity: 0.92;
+  margin-bottom: 0.5rem;
+}
+
+.update-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-top: 0.6rem;
+}
+
+.update-links .text-link {
+  font-size: 0.88rem;
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
+}
+
+/* RTL tweak */
+
+.updates-page[dir="rtl"] .update-meta {
+  justify-content: flex-start;
+}
+
+@media (max-width: 768px) {
+  .updates-page .page-hero {
+    padding-block: 2rem 1.25rem;
+  }
+
+  .update-card {
+    padding: 1.3rem 1.25rem;
+  }
+}
