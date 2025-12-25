@@ -1,0 +1,115 @@
+# Atyaf Al Ard — Technical Audit
+
+## 1. File map
+- Root pages
+  - index.html
+  - about/index.html
+  - research/index.html
+  - media/index.html
+  - social/index.html
+  - contact/index.html
+  - support/index.html
+  - updates/index.html
+- Arabic pages
+  - ar/index.html
+  - ar/about/index.html
+  - ar/research/index.html
+  - ar/media/index.html
+  - ar/social/index.html
+  - ar/contact/index.html
+  - ar/support/index.html
+  - ar/updates/index.html
+- Assets
+  - assets/css/styles.css
+  - assets/images/{about,common,contact,home,media,research,social,support,updates}/...
+  - assets/videos/hero-atyaf-al-ard-loop.mp4
+  - assets/docs/research/foundational-overview-{en,ar}.{pdf,txt}
+  - Palestine_Evidence_Narrative.pdf
+- Other
+  - planning/ (notes)
+
+## 2. Per-page structure
+- /index.html
+  - Sections: hero with autoplaying background video, “What is Atyaf Al Ard?” intro, three pillars grid, phase-1 focus bullet list, support grid with CTA, follow/links list.
+  - CTAs: “Explore the research” → research/; “Support the project” → support/; “See support options” → support/; follow list links to updates/, research/, media/, social/.
+  - TODO/placeholder: follow section notes NotebookLM links “coming soon.”
+- /ar/index.html
+  - Sections mirror English home: hero with video, intro, three pillars, phase-1 bullets, support grid and CTA, follow list.
+  - CTAs: “استكشف الأبحاث” → ar/research/; “ادعم المشروع” → ar/support/; support CTA → ar/support/; follow list links to ar/updates/, ar/research/, ar/media/, ar/social/.
+  - TODO/placeholder: follow list notes NotebookLM links coming soon.
+- /about/index.html
+  - Sections: hero figure image, project intro, “Why this project exists” with bullets, founders bios, “How we work” numbered list of streams, current phase bullets, invitation/contact paragraph.
+  - CTAs: links to support/ and contact/ pages; links to research/ and media/ in invitation.
+  - TODO/placeholder: none explicit beyond phase-in-progress messaging.
+- /ar/about/index.html
+  - Sections match English about: hero image (Arabic variant), project intro, purpose bullets, founders bios, work streams list, current phase bullets, invitation with links.
+  - CTAs: links to support/, contact/, research/, media/, updates/.
+  - TODO/placeholder: phase still in progress.
+- /research/index.html
+  - Sections: hero/intro, foundational research feature with infographic card and links, research list containing “Continuity of Life and Culture…” article with bullets, infographic figure, NotebookLM CTA.
+  - CTAs: PDF and NotebookLM links for foundational map; NotebookLM link for main research track.
+  - TODO/placeholder: note that NotebookLM content is Arabic; comment invites future research tracks.
+- /ar/research/index.html
+  - Sections parallel English research: hero, foundational map card, continuity article with bullets and figure, NotebookLM CTA.
+  - CTAs: PDF/NotebookLM links; primary button to NotebookLM research.
+  - TODO/placeholder: comment for adding future tracks.
+- /media/index.html
+  - Sections: hero/intro, video gallery section with description and nine YouTube video cards (thumbnail, title, description, metadata).
+  - CTAs: each card links to corresponding YouTube video (new tab).
+  - TODO/placeholder: none called out; gallery limited to current videos.
+- /ar/media/index.html
+  - Sections mirror English media with Arabic copy and same nine video cards.
+  - CTAs: YouTube links per card.
+  - TODO/placeholder: none noted.
+- /social/index.html
+  - Sections: hero describing social/community presence, official channels section with single Facebook card, note about future platforms.
+  - CTAs: Facebook page link.
+  - TODO/placeholder: text notes more platforms coming soon.
+- /ar/social/index.html
+  - Sections mirror English social page: hero, official channels with Facebook card, upcoming platforms note.
+  - CTAs: Facebook link.
+  - TODO/placeholder: more platforms coming soon.
+- /contact/index.html
+  - Sections: hero describing collaboration intent, “Get in touch” with single contact card and email link, note about future dedicated inboxes.
+  - CTAs: mailto: atyafalard@gmail.com.
+  - TODO/placeholder: future specialized addresses mentioned.
+- /ar/contact/index.html
+  - Sections: hero, contact methods with email card, note about possible future addresses.
+  - CTAs: mailto: atyafalard@gmail.com.
+  - TODO/placeholder: same as English.
+
+## 3. Technical observations
+- Accessibility
+  - No skip-to-content links; header nav repeats on every page without bypass option.
+  - Hero video on home pages autoplays muted with no captions or transcript, and no accessible controls.
+  - Many images lack `loading="lazy"` (except some research graphics) which can impact users on slower devices.
+  - Inline style blocks (e.g., opacity styling on social/contact notes) embed presentation rather than semantic cues.
+- Internationalization
+  - Arabic pages set `lang="ar"` and `dir="rtl"`; English set `lang="en"`, maintaining base URL via `<base>`.
+  - Content parity is strong, but language toggles point to root English home (`href=""`) from Arabic pages, which may be unclear if deployed at a different base path.
+  - NotebookLM notes indicate Arabic-only source content; English readers rely on AI translation within the tool.
+- Performance
+  - Hero video (`assets/videos/hero-atyaf-al-ard-loop.mp4`) autoloads on landing, which may be heavy for mobile users; no fallback image for users with reduced data.
+  - YouTube thumbnails load full-resolution and lack lazy loading, potentially delaying first render on the media pages.
+  - Large PNG infographics are embedded directly (research pages) without evident compression hints or responsive sizing.
+- Code quality / structure
+  - Repeated header/footer markup across all pages without templating increases maintenance overhead and risk of nav drift.
+  - Inline `style` attributes used for opacity/margins instead of consolidated CSS.
+  - Paths rely on `<base href="/atyaf-al-ard-website/">`; the blank `href=""` for the site logo and Home link depends on that base and could misresolve if the site root changes.
+- Broken or suspicious links
+  - Follow section on home pages references NotebookLM links “coming soon,” which may confuse users until added.
+  - Social pages promise additional platforms but only provide Facebook; absence of stubs or “inactive” labels could be misleading.
+
+## 4. Quick opportunities
+- Add a skip-to-content link and ensure focus states are visible to improve keyboard navigation.
+- Provide captions/transcript and a play/pause toggle for the hero video, or swap to a poster image on mobile/reduced-motion.
+- Lazy-load non-critical images (YouTube thumbnails, infographic images) and consider responsive sizing to reduce initial payloads.
+- Compress large PNGs and MP4 assets; offer modern formats (WebP/AVIF, optimized MP4) with size budgets.
+- Replace inline style attributes with shared CSS utilities to keep presentation centralized.
+- Extract shared header/footer into includes or templating to keep navigation synchronized across locales.
+- Clarify language toggles so Arabic pages link to `/` or `/index.html` explicitly, avoiding reliance on empty href plus base.
+- Add visible status tags where links are “coming soon” to set expectations.
+- Extend alt text to describe informational infographics (especially research figures) for screen readers.
+- Provide mirrored NotebookLM summaries in English PDFs or bilingual abstracts to reduce reliance on AI translation.
+- Add structured metadata (Open Graph/Twitter cards) and favicons for better sharing and bookmarking.
+- Consider a sitemap and robots hints once structure stabilizes.
