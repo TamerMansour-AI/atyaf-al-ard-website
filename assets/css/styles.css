@@ -814,6 +814,24 @@ html[dir="rtl"] main {
 
 /* Support page */
 
+.content-section {
+  margin-block: 2.5rem;
+}
+
+.section-header {
+  margin-bottom: 1.25rem;
+}
+
+.section-header p {
+  margin: 0.4rem 0 0;
+  max-width: 50rem;
+  opacity: 0.9;
+}
+
+.contact-email {
+  margin-top: 1rem;
+}
+
 .support-hero {
   padding-block: 3rem 2rem;
 }
