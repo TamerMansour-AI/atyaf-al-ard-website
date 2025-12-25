@@ -935,3 +935,35 @@ html[dir="rtl"] main {
     grid-template-columns: 1fr;
   }
 }
+
+/* CTA sections (About + Research) */
+
+.cta-section {
+  padding-block: 2.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  margin-top: 1rem;
+}
+
+.cta-section h2 {
+  margin-bottom: 0.75rem;
+}
+
+.cta-section p {
+  max-width: 48rem;
+  font-size: 0.96rem;
+  line-height: 1.7;
+  opacity: 0.92;
+}
+
+.cta-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .cta-section {
+    padding-block: 2rem;
+  }
+}
