@@ -1,26 +1,24 @@
-# Codex GitHub-First Workflow Plan
+# Codex GitHub Workflow Plan
+
+This document is superseded by the direct-to-main workflow update.
 
 ## Current state
-- The repo did not have any `.github/workflows` files before this change.
-- That meant GitHub Actions had no existing branch or event triggers to inspect or extend.
-- The site is a static HTML repository, so the right first step is a small validation workflow instead of a framework-specific build pipeline.
+- The repo now uses a direct-to-main GitHub workflow.
+- The site is a static HTML repository, so the right fit is a single validation workflow rather than a PR-gated or branch-specific pipeline.
 
-## Recommended GitHub-first workflow
-- Use `codex/<scope>` branches for all Codex work.
-- Never push Codex changes directly to `main`.
-- Open a pull request from `codex/<scope>` into `main` as the normal handoff path.
-- Keep `main` as the only branch that represents reviewed, merged site state.
+## Current workflow
+- Codex should work directly on `main` for this repo.
+- Changes should be pushed straight to `origin/main`.
+- `codex/**` branch handling is retired for the website workflow.
 
 ## Actions trigger policy
-- `pull_request` targeting `main`: run full validation.
 - `push` to `main`: run full validation again after merge.
-- `push` to `codex/**`: run only smoke validation, not deploy/release jobs.
+- `workflow_dispatch`: allow a manual full validation run when needed.
 
 ## Why this split works
-- Codex branches stay fast and low-noise.
-- PRs still get the real validation pass before merge.
-- `main` remains the authoritative branch for merged content.
-- The repo stays GitHub-native without forcing a heavier CI stack than the site needs.
+- `main` is the single source of truth.
+- Every push gets the same validation path.
+- Manual dispatch is available for extra verification without reintroducing branch complexity.
 
 ## Workflow file added
 - `.github/workflows/github-first-ci.yml`
@@ -29,6 +27,5 @@
 - `.github/scripts/validate_site.py`
 
 ## Phase 6 recommendation
-- Keep this workflow, then add branch protection for `main` and require the validation checks before merge.
+- Keep the direct-to-main workflow and add branch protection only if you later want to prevent accidental pushes.
 - If GitHub Pages or another publish target is added later, wire deployment only to `push` on `main`.
-- Leave `codex/**` as validation-only branches unless you deliberately want preview deployments later.

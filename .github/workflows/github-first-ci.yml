@@ -1,37 +1,18 @@
-name: GitHub-first site validation
+name: Direct-to-main site validation
 
 on:
-  pull_request:
-    branches:
-      - main
+  workflow_dispatch:
   push:
     branches:
       - main
-      - "codex/**"
 
 permissions:
   contents: read
 
 jobs:
-  smoke:
-    name: Smoke validation
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-
-      - name: Run smoke validation
-        run: python .github/scripts/validate_site.py
-
-  full:
+  validate:
     name: Full validation
     runs-on: ubuntu-latest
-    if: github.event_name == 'pull_request' || github.ref == 'refs/heads/main'
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
