@@ -1,0 +1,110 @@
+{
+  "repo": "C:\\Users\\Extreme\\Tamer_Work\\01_PROJECTS\\Atyaf Al Ard\\01_sources\\github\\atyaf-al-ard-website",
+  "materially_improved_records": {
+    "productions": [
+      "canaanite-wedding-song",
+      "crimson-cry-short",
+      "decision-announcement-short",
+      "deep-history-evidence-stories-ar",
+      "deep-history-evidence-stories-en",
+      "echoes-of-the-first-hearth",
+      "echoes-of-the-land-song",
+      "heartbeat-of-the-land",
+      "journey-to-canaan-short-a",
+      "journey-to-canaan-short-b",
+      "princes-of-ashes-trailer",
+      "visual-memory-teaser"
+    ],
+    "research": [
+      "canaanite-fact-series",
+      "canaanite-kitchen-memory",
+      "evidence-first-palestine-deep-history",
+      "foundational-overview",
+      "notebooklm-public-lab"
+    ],
+    "social": [
+      "canaanite-fact-launch-post",
+      "canaanite-kitchen-memory-post",
+      "facebook-launch-post-april-13",
+      "facebook-launch-post-april-18",
+      "facebook-launch-post-april-20",
+      "facebook-launch-post-april-25",
+      "facebook-launch-post-april-28",
+      "facebook-launch-post-april-29",
+      "facebook-mission-post-oct-2025",
+      "may-30-promo-reel",
+      "palestine-tv-volunteer-call",
+      "ramallah-ai-dialogue-post",
+      "reel-april-13-2025",
+      "whatsapp-community-invite"
+    ],
+    "timeline": [
+      "canaanite-fact-series-launch",
+      "canaanite-kitchen-memory-post",
+      "facebook-first-reel",
+      "facebook-launch-window",
+      "may-promo-reel",
+      "october-mission-post",
+      "palestine-tv-interview-and-volunteer-call",
+      "princes-of-ashes-trailer-release",
+      "ramallah-dialogue-event",
+      "visual-memory-teaser-release",
+      "website-structured-foundation",
+      "whatsapp-community-launch",
+      "youtube-evidence-first-explainers",
+      "youtube-first-release-day"
+    ],
+    "media": [
+      "palestine-tv-interview",
+      "ramallah-municipality-dialogue"
+    ],
+    "community": [
+      "october-support-and-team-call",
+      "social-launch-volunteer-call",
+      "whatsapp-community-invite"
+    ],
+    "site": [
+      "about",
+      "contact",
+      "home",
+      "support"
+    ]
+  },
+  "materially_improved_record_count": 54,
+  "modified_in_last_build": {},
+  "modified_in_last_build_count": 0,
+  "counts": {
+    "productions": 12,
+    "research": 5,
+    "social": 14,
+    "timeline": 14,
+    "media": 2,
+    "community": 3,
+    "site": 4
+  },
+  "relation_total": 149,
+  "assets_reintroduced": {
+    "home": [
+      "assets/videos/hero-atyaf-al-ard-loop.mp4",
+      "assets/images/home/hero-atyaf-al-ard-v1.png",
+      "assets/images/home/hero-fallback.jpg",
+      "assets/Palestine_Evidence_Narrative.pdf"
+    ],
+    "about": [
+      "assets/images/about/about-founders-portal.png",
+      "assets/images/about/about-founders-portal-ar.png",
+      "assets/Palestine_Evidence_Narrative.pdf"
+    ],
+    "research": [
+      "assets/images/research/jericho-continuity-en.png",
+      "assets/images/research/jericho-continuity-ar.png",
+      "assets/Palestine_Evidence_Narrative.pdf",
+      "assets/images/research/foundational-overview-en.png",
+      "assets/images/research/foundational-overview-ar.png",
+      "assets/docs/research/foundational-overview-en.pdf",
+      "assets/docs/research/foundational-overview-ar.pdf",
+      "assets/docs/research/foundational-overview-en.txt",
+      "assets/docs/research/foundational-overview-ar.txt"
+    ]
+  }
+}
