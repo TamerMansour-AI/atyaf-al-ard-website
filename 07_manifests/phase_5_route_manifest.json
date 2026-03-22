@@ -1,0 +1,626 @@
+{
+  "repo": "C:\\Users\\Extreme\\Tamer_Work\\01_PROJECTS\\Atyaf Al Ard\\01_sources\\github\\atyaf-al-ard-website",
+  "route_count": 124,
+  "routes": [
+    {
+      "route": "/",
+      "relative_path": "index.html",
+      "content_type": "home"
+    },
+    {
+      "route": "/about/",
+      "relative_path": "about/index.html",
+      "content_type": "about"
+    },
+    {
+      "route": "/productions/",
+      "relative_path": "productions/index.html",
+      "content_type": "productions_index"
+    },
+    {
+      "route": "/productions/princes-of-ashes-trailer/",
+      "relative_path": "productions/princes-of-ashes-trailer/index.html",
+      "content_type": "production_detail"
+    },
+    {
+      "route": "/productions/visual-memory-teaser/",
+      "relative_path": "productions/visual-memory-teaser/index.html",
+      "content_type": "production_detail"
+    },
+    {
+      "route": "/productions/deep-history-evidence-stories-ar/",
+      "relative_path": "productions/deep-history-evidence-stories-ar/index.html",
+      "content_type": "production_detail"
+    },
+    {
+      "route": "/productions/deep-history-evidence-stories-en/",
+      "relative_path": "productions/deep-history-evidence-stories-en/index.html",
+      "content_type": "production_detail"
+    },
+    {
+      "route": "/productions/decision-announcement-short/",
+      "relative_path": "productions/decision-announcement-short/index.html",
+      "content_type": "production_detail"
+    },
+    {
+      "route": "/productions/crimson-cry-short/",
+      "relative_path": "productions/crimson-cry-short/index.html",
+      "content_type": "production_detail"
+    },
+    {
+      "route": "/productions/echoes-of-the-land-song/",
+      "relative_path": "productions/echoes-of-the-land-song/index.html",
+      "content_type": "production_detail"
+    },
+    {
+      "route": "/productions/canaanite-wedding-song/",
+      "relative_path": "productions/canaanite-wedding-song/index.html",
+      "content_type": "production_detail"
+    },
+    {
+      "route": "/productions/heartbeat-of-the-land/",
+      "relative_path": "productions/heartbeat-of-the-land/index.html",
+      "content_type": "production_detail"
+    },
+    {
+      "route": "/productions/echoes-of-the-first-hearth/",
+      "relative_path": "productions/echoes-of-the-first-hearth/index.html",
+      "content_type": "production_detail"
+    },
+    {
+      "route": "/productions/journey-to-canaan-short-a/",
+      "relative_path": "productions/journey-to-canaan-short-a/index.html",
+      "content_type": "production_detail"
+    },
+    {
+      "route": "/productions/journey-to-canaan-short-b/",
+      "relative_path": "productions/journey-to-canaan-short-b/index.html",
+      "content_type": "production_detail"
+    },
+    {
+      "route": "/research/",
+      "relative_path": "research/index.html",
+      "content_type": "research_index"
+    },
+    {
+      "route": "/research/notebooklm-public-lab/",
+      "relative_path": "research/notebooklm-public-lab/index.html",
+      "content_type": "research_detail"
+    },
+    {
+      "route": "/research/foundational-overview/",
+      "relative_path": "research/foundational-overview/index.html",
+      "content_type": "research_detail"
+    },
+    {
+      "route": "/research/evidence-first-palestine-deep-history/",
+      "relative_path": "research/evidence-first-palestine-deep-history/index.html",
+      "content_type": "research_detail"
+    },
+    {
+      "route": "/research/canaanite-kitchen-memory/",
+      "relative_path": "research/canaanite-kitchen-memory/index.html",
+      "content_type": "research_detail"
+    },
+    {
+      "route": "/research/canaanite-fact-series/",
+      "relative_path": "research/canaanite-fact-series/index.html",
+      "content_type": "research_detail"
+    },
+    {
+      "route": "/timeline/",
+      "relative_path": "timeline/index.html",
+      "content_type": "timeline_index"
+    },
+    {
+      "route": "/timeline/website-structured-foundation/",
+      "relative_path": "timeline/website-structured-foundation/index.html",
+      "content_type": "timeline_detail"
+    },
+    {
+      "route": "/timeline/palestine-tv-interview-and-volunteer-call/",
+      "relative_path": "timeline/palestine-tv-interview-and-volunteer-call/index.html",
+      "content_type": "timeline_detail"
+    },
+    {
+      "route": "/timeline/princes-of-ashes-trailer-release/",
+      "relative_path": "timeline/princes-of-ashes-trailer-release/index.html",
+      "content_type": "timeline_detail"
+    },
+    {
+      "route": "/timeline/visual-memory-teaser-release/",
+      "relative_path": "timeline/visual-memory-teaser-release/index.html",
+      "content_type": "timeline_detail"
+    },
+    {
+      "route": "/timeline/youtube-evidence-first-explainers/",
+      "relative_path": "timeline/youtube-evidence-first-explainers/index.html",
+      "content_type": "timeline_detail"
+    },
+    {
+      "route": "/timeline/october-mission-post/",
+      "relative_path": "timeline/october-mission-post/index.html",
+      "content_type": "timeline_detail"
+    },
+    {
+      "route": "/timeline/may-promo-reel/",
+      "relative_path": "timeline/may-promo-reel/index.html",
+      "content_type": "timeline_detail"
+    },
+    {
+      "route": "/timeline/whatsapp-community-launch/",
+      "relative_path": "timeline/whatsapp-community-launch/index.html",
+      "content_type": "timeline_detail"
+    },
+    {
+      "route": "/timeline/ramallah-dialogue-event/",
+      "relative_path": "timeline/ramallah-dialogue-event/index.html",
+      "content_type": "timeline_detail"
+    },
+    {
+      "route": "/timeline/youtube-first-release-day/",
+      "relative_path": "timeline/youtube-first-release-day/index.html",
+      "content_type": "timeline_detail"
+    },
+    {
+      "route": "/timeline/facebook-launch-window/",
+      "relative_path": "timeline/facebook-launch-window/index.html",
+      "content_type": "timeline_detail"
+    },
+    {
+      "route": "/timeline/canaanite-kitchen-memory-post/",
+      "relative_path": "timeline/canaanite-kitchen-memory-post/index.html",
+      "content_type": "timeline_detail"
+    },
+    {
+      "route": "/timeline/canaanite-fact-series-launch/",
+      "relative_path": "timeline/canaanite-fact-series-launch/index.html",
+      "content_type": "timeline_detail"
+    },
+    {
+      "route": "/timeline/facebook-first-reel/",
+      "relative_path": "timeline/facebook-first-reel/index.html",
+      "content_type": "timeline_detail"
+    },
+    {
+      "route": "/archive/",
+      "relative_path": "archive/index.html",
+      "content_type": "archive_index"
+    },
+    {
+      "route": "/archive/social/palestine-tv-volunteer-call/",
+      "relative_path": "archive/social/palestine-tv-volunteer-call/index.html",
+      "content_type": "social_detail"
+    },
+    {
+      "route": "/archive/social/facebook-mission-post-oct-2025/",
+      "relative_path": "archive/social/facebook-mission-post-oct-2025/index.html",
+      "content_type": "social_detail"
+    },
+    {
+      "route": "/archive/social/may-30-promo-reel/",
+      "relative_path": "archive/social/may-30-promo-reel/index.html",
+      "content_type": "social_detail"
+    },
+    {
+      "route": "/archive/social/whatsapp-community-invite/",
+      "relative_path": "archive/social/whatsapp-community-invite/index.html",
+      "content_type": "social_detail"
+    },
+    {
+      "route": "/archive/social/ramallah-ai-dialogue-post/",
+      "relative_path": "archive/social/ramallah-ai-dialogue-post/index.html",
+      "content_type": "social_detail"
+    },
+    {
+      "route": "/archive/social/facebook-launch-post-april-29/",
+      "relative_path": "archive/social/facebook-launch-post-april-29/index.html",
+      "content_type": "social_detail"
+    },
+    {
+      "route": "/archive/social/facebook-launch-post-april-28/",
+      "relative_path": "archive/social/facebook-launch-post-april-28/index.html",
+      "content_type": "social_detail"
+    },
+    {
+      "route": "/archive/social/facebook-launch-post-april-25/",
+      "relative_path": "archive/social/facebook-launch-post-april-25/index.html",
+      "content_type": "social_detail"
+    },
+    {
+      "route": "/archive/social/facebook-launch-post-april-20/",
+      "relative_path": "archive/social/facebook-launch-post-april-20/index.html",
+      "content_type": "social_detail"
+    },
+    {
+      "route": "/archive/social/facebook-launch-post-april-18/",
+      "relative_path": "archive/social/facebook-launch-post-april-18/index.html",
+      "content_type": "social_detail"
+    },
+    {
+      "route": "/archive/social/canaanite-kitchen-memory-post/",
+      "relative_path": "archive/social/canaanite-kitchen-memory-post/index.html",
+      "content_type": "social_detail"
+    },
+    {
+      "route": "/archive/social/canaanite-fact-launch-post/",
+      "relative_path": "archive/social/canaanite-fact-launch-post/index.html",
+      "content_type": "social_detail"
+    },
+    {
+      "route": "/archive/social/reel-april-13-2025/",
+      "relative_path": "archive/social/reel-april-13-2025/index.html",
+      "content_type": "social_detail"
+    },
+    {
+      "route": "/archive/social/facebook-launch-post-april-13/",
+      "relative_path": "archive/social/facebook-launch-post-april-13/index.html",
+      "content_type": "social_detail"
+    },
+    {
+      "route": "/archive/media/palestine-tv-interview/",
+      "relative_path": "archive/media/palestine-tv-interview/index.html",
+      "content_type": "media_detail"
+    },
+    {
+      "route": "/archive/media/ramallah-municipality-dialogue/",
+      "relative_path": "archive/media/ramallah-municipality-dialogue/index.html",
+      "content_type": "media_detail"
+    },
+    {
+      "route": "/community/",
+      "relative_path": "community/index.html",
+      "content_type": "community_index"
+    },
+    {
+      "route": "/community/social-launch-volunteer-call/",
+      "relative_path": "community/social-launch-volunteer-call/index.html",
+      "content_type": "community_detail"
+    },
+    {
+      "route": "/community/october-support-and-team-call/",
+      "relative_path": "community/october-support-and-team-call/index.html",
+      "content_type": "community_detail"
+    },
+    {
+      "route": "/community/whatsapp-community-invite/",
+      "relative_path": "community/whatsapp-community-invite/index.html",
+      "content_type": "community_detail"
+    },
+    {
+      "route": "/support/",
+      "relative_path": "support/index.html",
+      "content_type": "support_index"
+    },
+    {
+      "route": "/contact/",
+      "relative_path": "contact/index.html",
+      "content_type": "contact"
+    },
+    {
+      "route": "/media/",
+      "relative_path": "media/index.html",
+      "content_type": "bridge"
+    },
+    {
+      "route": "/social/",
+      "relative_path": "social/index.html",
+      "content_type": "bridge"
+    },
+    {
+      "route": "/updates/",
+      "relative_path": "updates/index.html",
+      "content_type": "bridge"
+    },
+    {
+      "route": "/ar/",
+      "relative_path": "ar/index.html",
+      "content_type": "home"
+    },
+    {
+      "route": "/ar/about/",
+      "relative_path": "ar/about/index.html",
+      "content_type": "about"
+    },
+    {
+      "route": "/ar/productions/",
+      "relative_path": "ar/productions/index.html",
+      "content_type": "productions_index"
+    },
+    {
+      "route": "/ar/productions/princes-of-ashes-trailer/",
+      "relative_path": "ar/productions/princes-of-ashes-trailer/index.html",
+      "content_type": "production_detail"
+    },
+    {
+      "route": "/ar/productions/visual-memory-teaser/",
+      "relative_path": "ar/productions/visual-memory-teaser/index.html",
+      "content_type": "production_detail"
+    },
+    {
+      "route": "/ar/productions/deep-history-evidence-stories-ar/",
+      "relative_path": "ar/productions/deep-history-evidence-stories-ar/index.html",
+      "content_type": "production_detail"
+    },
+    {
+      "route": "/ar/productions/deep-history-evidence-stories-en/",
+      "relative_path": "ar/productions/deep-history-evidence-stories-en/index.html",
+      "content_type": "production_detail"
+    },
+    {
+      "route": "/ar/productions/decision-announcement-short/",
+      "relative_path": "ar/productions/decision-announcement-short/index.html",
+      "content_type": "production_detail"
+    },
+    {
+      "route": "/ar/productions/crimson-cry-short/",
+      "relative_path": "ar/productions/crimson-cry-short/index.html",
+      "content_type": "production_detail"
+    },
+    {
+      "route": "/ar/productions/echoes-of-the-land-song/",
+      "relative_path": "ar/productions/echoes-of-the-land-song/index.html",
+      "content_type": "production_detail"
+    },
+    {
+      "route": "/ar/productions/canaanite-wedding-song/",
+      "relative_path": "ar/productions/canaanite-wedding-song/index.html",
+      "content_type": "production_detail"
+    },
+    {
+      "route": "/ar/productions/heartbeat-of-the-land/",
+      "relative_path": "ar/productions/heartbeat-of-the-land/index.html",
+      "content_type": "production_detail"
+    },
+    {
+      "route": "/ar/productions/echoes-of-the-first-hearth/",
+      "relative_path": "ar/productions/echoes-of-the-first-hearth/index.html",
+      "content_type": "production_detail"
+    },
+    {
+      "route": "/ar/productions/journey-to-canaan-short-a/",
+      "relative_path": "ar/productions/journey-to-canaan-short-a/index.html",
+      "content_type": "production_detail"
+    },
+    {
+      "route": "/ar/productions/journey-to-canaan-short-b/",
+      "relative_path": "ar/productions/journey-to-canaan-short-b/index.html",
+      "content_type": "production_detail"
+    },
+    {
+      "route": "/ar/research/",
+      "relative_path": "ar/research/index.html",
+      "content_type": "research_index"
+    },
+    {
+      "route": "/ar/research/notebooklm-public-lab/",
+      "relative_path": "ar/research/notebooklm-public-lab/index.html",
+      "content_type": "research_detail"
+    },
+    {
+      "route": "/ar/research/foundational-overview/",
+      "relative_path": "ar/research/foundational-overview/index.html",
+      "content_type": "research_detail"
+    },
+    {
+      "route": "/ar/research/evidence-first-palestine-deep-history/",
+      "relative_path": "ar/research/evidence-first-palestine-deep-history/index.html",
+      "content_type": "research_detail"
+    },
+    {
+      "route": "/ar/research/canaanite-kitchen-memory/",
+      "relative_path": "ar/research/canaanite-kitchen-memory/index.html",
+      "content_type": "research_detail"
+    },
+    {
+      "route": "/ar/research/canaanite-fact-series/",
+      "relative_path": "ar/research/canaanite-fact-series/index.html",
+      "content_type": "research_detail"
+    },
+    {
+      "route": "/ar/timeline/",
+      "relative_path": "ar/timeline/index.html",
+      "content_type": "timeline_index"
+    },
+    {
+      "route": "/ar/timeline/website-structured-foundation/",
+      "relative_path": "ar/timeline/website-structured-foundation/index.html",
+      "content_type": "timeline_detail"
+    },
+    {
+      "route": "/ar/timeline/palestine-tv-interview-and-volunteer-call/",
+      "relative_path": "ar/timeline/palestine-tv-interview-and-volunteer-call/index.html",
+      "content_type": "timeline_detail"
+    },
+    {
+      "route": "/ar/timeline/princes-of-ashes-trailer-release/",
+      "relative_path": "ar/timeline/princes-of-ashes-trailer-release/index.html",
+      "content_type": "timeline_detail"
+    },
+    {
+      "route": "/ar/timeline/visual-memory-teaser-release/",
+      "relative_path": "ar/timeline/visual-memory-teaser-release/index.html",
+      "content_type": "timeline_detail"
+    },
+    {
+      "route": "/ar/timeline/youtube-evidence-first-explainers/",
+      "relative_path": "ar/timeline/youtube-evidence-first-explainers/index.html",
+      "content_type": "timeline_detail"
+    },
+    {
+      "route": "/ar/timeline/october-mission-post/",
+      "relative_path": "ar/timeline/october-mission-post/index.html",
+      "content_type": "timeline_detail"
+    },
+    {
+      "route": "/ar/timeline/may-promo-reel/",
+      "relative_path": "ar/timeline/may-promo-reel/index.html",
+      "content_type": "timeline_detail"
+    },
+    {
+      "route": "/ar/timeline/whatsapp-community-launch/",
+      "relative_path": "ar/timeline/whatsapp-community-launch/index.html",
+      "content_type": "timeline_detail"
+    },
+    {
+      "route": "/ar/timeline/ramallah-dialogue-event/",
+      "relative_path": "ar/timeline/ramallah-dialogue-event/index.html",
+      "content_type": "timeline_detail"
+    },
+    {
+      "route": "/ar/timeline/youtube-first-release-day/",
+      "relative_path": "ar/timeline/youtube-first-release-day/index.html",
+      "content_type": "timeline_detail"
+    },
+    {
+      "route": "/ar/timeline/facebook-launch-window/",
+      "relative_path": "ar/timeline/facebook-launch-window/index.html",
+      "content_type": "timeline_detail"
+    },
+    {
+      "route": "/ar/timeline/canaanite-kitchen-memory-post/",
+      "relative_path": "ar/timeline/canaanite-kitchen-memory-post/index.html",
+      "content_type": "timeline_detail"
+    },
+    {
+      "route": "/ar/timeline/canaanite-fact-series-launch/",
+      "relative_path": "ar/timeline/canaanite-fact-series-launch/index.html",
+      "content_type": "timeline_detail"
+    },
+    {
+      "route": "/ar/timeline/facebook-first-reel/",
+      "relative_path": "ar/timeline/facebook-first-reel/index.html",
+      "content_type": "timeline_detail"
+    },
+    {
+      "route": "/ar/archive/",
+      "relative_path": "ar/archive/index.html",
+      "content_type": "archive_index"
+    },
+    {
+      "route": "/ar/archive/social/palestine-tv-volunteer-call/",
+      "relative_path": "ar/archive/social/palestine-tv-volunteer-call/index.html",
+      "content_type": "social_detail"
+    },
+    {
+      "route": "/ar/archive/social/facebook-mission-post-oct-2025/",
+      "relative_path": "ar/archive/social/facebook-mission-post-oct-2025/index.html",
+      "content_type": "social_detail"
+    },
+    {
+      "route": "/ar/archive/social/may-30-promo-reel/",
+      "relative_path": "ar/archive/social/may-30-promo-reel/index.html",
+      "content_type": "social_detail"
+    },
+    {
+      "route": "/ar/archive/social/whatsapp-community-invite/",
+      "relative_path": "ar/archive/social/whatsapp-community-invite/index.html",
+      "content_type": "social_detail"
+    },
+    {
+      "route": "/ar/archive/social/ramallah-ai-dialogue-post/",
+      "relative_path": "ar/archive/social/ramallah-ai-dialogue-post/index.html",
+      "content_type": "social_detail"
+    },
+    {
+      "route": "/ar/archive/social/facebook-launch-post-april-29/",
+      "relative_path": "ar/archive/social/facebook-launch-post-april-29/index.html",
+      "content_type": "social_detail"
+    },
+    {
+      "route": "/ar/archive/social/facebook-launch-post-april-28/",
+      "relative_path": "ar/archive/social/facebook-launch-post-april-28/index.html",
+      "content_type": "social_detail"
+    },
+    {
+      "route": "/ar/archive/social/facebook-launch-post-april-25/",
+      "relative_path": "ar/archive/social/facebook-launch-post-april-25/index.html",
+      "content_type": "social_detail"
+    },
+    {
+      "route": "/ar/archive/social/facebook-launch-post-april-20/",
+      "relative_path": "ar/archive/social/facebook-launch-post-april-20/index.html",
+      "content_type": "social_detail"
+    },
+    {
+      "route": "/ar/archive/social/facebook-launch-post-april-18/",
+      "relative_path": "ar/archive/social/facebook-launch-post-april-18/index.html",
+      "content_type": "social_detail"
+    },
+    {
+      "route": "/ar/archive/social/canaanite-kitchen-memory-post/",
+      "relative_path": "ar/archive/social/canaanite-kitchen-memory-post/index.html",
+      "content_type": "social_detail"
+    },
+    {
+      "route": "/ar/archive/social/canaanite-fact-launch-post/",
+      "relative_path": "ar/archive/social/canaanite-fact-launch-post/index.html",
+      "content_type": "social_detail"
+    },
+    {
+      "route": "/ar/archive/social/reel-april-13-2025/",
+      "relative_path": "ar/archive/social/reel-april-13-2025/index.html",
+      "content_type": "social_detail"
+    },
+    {
+      "route": "/ar/archive/social/facebook-launch-post-april-13/",
+      "relative_path": "ar/archive/social/facebook-launch-post-april-13/index.html",
+      "content_type": "social_detail"
+    },
+    {
+      "route": "/ar/archive/media/palestine-tv-interview/",
+      "relative_path": "ar/archive/media/palestine-tv-interview/index.html",
+      "content_type": "media_detail"
+    },
+    {
+      "route": "/ar/archive/media/ramallah-municipality-dialogue/",
+      "relative_path": "ar/archive/media/ramallah-municipality-dialogue/index.html",
+      "content_type": "media_detail"
+    },
+    {
+      "route": "/ar/community/",
+      "relative_path": "ar/community/index.html",
+      "content_type": "community_index"
+    },
+    {
+      "route": "/ar/community/social-launch-volunteer-call/",
+      "relative_path": "ar/community/social-launch-volunteer-call/index.html",
+      "content_type": "community_detail"
+    },
+    {
+      "route": "/ar/community/october-support-and-team-call/",
+      "relative_path": "ar/community/october-support-and-team-call/index.html",
+      "content_type": "community_detail"
+    },
+    {
+      "route": "/ar/community/whatsapp-community-invite/",
+      "relative_path": "ar/community/whatsapp-community-invite/index.html",
+      "content_type": "community_detail"
+    },
+    {
+      "route": "/ar/support/",
+      "relative_path": "ar/support/index.html",
+      "content_type": "support_index"
+    },
+    {
+      "route": "/ar/contact/",
+      "relative_path": "ar/contact/index.html",
+      "content_type": "contact"
+    },
+    {
+      "route": "/ar/media/",
+      "relative_path": "ar/media/index.html",
+      "content_type": "bridge"
+    },
+    {
+      "route": "/ar/social/",
+      "relative_path": "ar/social/index.html",
+      "content_type": "bridge"
+    },
+    {
+      "route": "/ar/updates/",
+      "relative_path": "ar/updates/index.html",
+      "content_type": "bridge"
+    }
+  ]
+}
