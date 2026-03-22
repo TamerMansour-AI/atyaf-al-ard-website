@@ -1,9 +1,9 @@
 {
   "slug": "home",
-  "title_en": "Atyaf Al Ard: Structured Archive Foundation",
-  "title_ar": "أطياف الأرض: منصة بحث وسرد فلسطينية",
-  "summary_en": "A long-term Palestinian research and storytelling platform that turns evidence, memory, and media into a living public archive.",
-  "summary_ar": "منصة فلسطينية طويلة المدى للبحث والسرد، تحوّل الأدلة والذاكرة والإنتاجات إلى أرشيف حي ومتاح.",
+  "title_en": "Atyaf Al Ard | A Public Archive of Palestinian Memory",
+  "title_ar": "أطياف الأرض | منصة حيّة لذاكرة فلسطين وسردها",
+  "summary_en": "A bilingual platform where Palestinian research, cinematic productions, recovered archive signals, and public evidence are brought into one living structure.",
+  "summary_ar": "منصة ثنائية اللغة تجمع بين البحث الفلسطيني، والإنتاجات البصرية، والإشارات الأرشيفية المستعادة، والمواد المرجعية في بنية عامة واحدة ومتنامية.",
   "hero_media": {
     "video_path": "assets/videos/hero-atyaf-al-ard-loop.mp4",
     "poster_path": "assets/images/home/hero-fallback.jpg",
