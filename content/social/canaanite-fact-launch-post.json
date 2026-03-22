@@ -1,0 +1,65 @@
+{
+  "id": "canaanite-fact-launch-post",
+  "slug": "canaanite-fact-launch-post",
+  "page_name": "Atyaf Al Ard",
+  "source_platform": "facebook",
+  "post_url": "https://www.facebook.com/permalink.php?id=61574424444648&story_fbid=pfbid02Ti7j41KVToUyS3nPg8Gsgwkzr1WDDiaF7HeCaZP7Mgwe4516xfapfhJvfx8AJXapl",
+  "post_id": "story_pfbid02Ti7j41KVToUyS3nPg8Gsgwkzr1WDDiaF7HeCaZP7Mgwe4516xfapfhJvfx8AJXapl",
+  "visible_date_text": "April 14, 2025",
+  "normalized_date": "2025-04-14",
+  "title_ar": "إطلاق سلسلة الحقيقة الكنعانية",
+  "title_en": "Launch of the Canaanite Fact Series",
+  "summary_ar": "منشور شارح ثنائي اللغة يقدّم سلسلة #الحقيقة_الكنعانية كمسار تعليمي بصري مبكر للمشروع.",
+  "summary_en": "A bilingual explainer post launching the #CanaaniteFact series as an early visual public-history track.",
+  "post_type": "image_gallery",
+  "post_category": "educational_or_public_explainer",
+  "source_caption": "?? ????? ?? ?????????? ???? ???? ?? ??????? ??? ????. ?????? ????? ????? ?????? #??????_???????: ????? ??????? ??? ????? ?????? ?????? ???????. ?? ?????? ??? ?????? ??? ????? ?????? ??????? ??? ????? ????? ???????? ??? ????? ????????? ?????? ?? ??????? ????????? ?? ???? ??? ???? ?????. Think the Canaanites are ancient history? Think again. We just launched a new series: #CanaaniteFact.",
+  "caption_ar": "",
+  "caption_en": "",
+  "tags": [
+    "bilingual",
+    "image_gallery",
+    "timeline_relevant"
+  ],
+  "media_count": 7,
+  "media_types": [
+    "image_gallery"
+  ],
+  "media_refs": [
+    {
+      "type": "image_gallery",
+      "url": "https://www.facebook.com/permalink.php?id=61574424444648&story_fbid=pfbid02Ti7j41KVToUyS3nPg8Gsgwkzr1WDDiaF7HeCaZP7Mgwe4516xfapfhJvfx8AJXapl"
+    }
+  ],
+  "thumbnail_url": "",
+  "outbound_links": [],
+  "engagement_text": "",
+  "timeline_relevance": true,
+  "needs_manual_review": false,
+  "related_production_ids": [
+    "A Journey to Canaan"
+  ],
+  "related_media_appearance_ids": [],
+  "related_support_call_ids": [],
+  "status": "published",
+  "public_visibility": "public",
+  "evidence_confidence": "high",
+  "source_refs": [
+    {
+      "platform": "facebook",
+      "label": "Recovered Facebook post",
+      "url": "https://www.facebook.com/permalink.php?id=61574424444648&story_fbid=pfbid02Ti7j41KVToUyS3nPg8Gsgwkzr1WDDiaF7HeCaZP7Mgwe4516xfapfhJvfx8AJXapl"
+    }
+  ],
+  "asset_refs": [
+    {
+      "type": "screenshot",
+      "path": "02_raw_data/facebook/screenshots/mini_apr14_explainer.png"
+    },
+    {
+      "type": "raw_html",
+      "path": "02_raw_data/facebook/post_pages/mini_apr14_explainer.html"
+    }
+  ],
+  "notes_internal": "Mini pass recovered full bilingual explainer text from the direct April 14 post page."
+}

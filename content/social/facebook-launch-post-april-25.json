@@ -1,0 +1,62 @@
+{
+  "id": "facebook-launch-post-april-25",
+  "slug": "facebook-launch-post-april-25",
+  "page_name": "Atyaf Al Ard",
+  "source_platform": "facebook",
+  "post_url": "https://www.facebook.com/permalink.php?id=61574424444648&story_fbid=pfbid0WGKGzFPph7TggKv2ZS59LQhkj1t49FGahXAtXQR3Eza3SbABLenxVKCrpjescW3gl",
+  "post_id": "story_pfbid0WGKGzFPph7TggKv2ZS59LQhkj1t49FGahXAtXQR3Eza3SbABLenxVKCrpjescW3gl",
+  "visible_date_text": "April 25, 2025",
+  "normalized_date": "2025-04-25",
+  "title_ar": "منشور إطلاق مبكر - 25 أبريل",
+  "title_en": "Early Launch Post - April 25",
+  "summary_ar": "One of several late-April public posts.",
+  "summary_en": "One of several late-April public posts.",
+  "post_type": "image",
+  "post_category": "update_or_progress",
+  "source_caption": "Post published by Tamer Mansour on April 25, 2025. The authenticated feed confirms continuing project activity during the April launch window.",
+  "caption_ar": "Post published by Tamer Mansour on April 25, 2025. The authenticated feed confirms continuing project activity during the April launch window.",
+  "caption_en": "",
+  "tags": [
+    "needs_manual_review",
+    "timeline_relevant"
+  ],
+  "media_count": 1,
+  "media_types": [
+    "image"
+  ],
+  "media_refs": [
+    {
+      "type": "image",
+      "url": "https://www.facebook.com/permalink.php?id=61574424444648&story_fbid=pfbid0WGKGzFPph7TggKv2ZS59LQhkj1t49FGahXAtXQR3Eza3SbABLenxVKCrpjescW3gl"
+    }
+  ],
+  "thumbnail_url": "",
+  "outbound_links": [],
+  "engagement_text": "",
+  "timeline_relevance": true,
+  "needs_manual_review": true,
+  "related_production_ids": [],
+  "related_media_appearance_ids": [],
+  "related_support_call_ids": [],
+  "status": "needs_review",
+  "public_visibility": "public",
+  "evidence_confidence": "medium",
+  "source_refs": [
+    {
+      "platform": "facebook",
+      "label": "Recovered Facebook post",
+      "url": "https://www.facebook.com/permalink.php?id=61574424444648&story_fbid=pfbid0WGKGzFPph7TggKv2ZS59LQhkj1t49FGahXAtXQR3Eza3SbABLenxVKCrpjescW3gl"
+    }
+  ],
+  "asset_refs": [
+    {
+      "type": "screenshot",
+      "path": ""
+    },
+    {
+      "type": "raw_html",
+      "path": "02_raw_data/facebook/html/combined_tab_anchor_candidates.json"
+    }
+  ],
+  "notes_internal": "One of several late-April public posts."
+}

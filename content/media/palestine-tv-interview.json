@@ -1,0 +1,38 @@
+{
+  "id": "media::palestine-tv-interview",
+  "slug": "palestine-tv-interview",
+  "title_ar": "مقابلة تلفزيون فلسطين",
+  "title_en": "Palestine TV Interview",
+  "outlet_name": "Palestine TV",
+  "appearance_type": "tv_interview",
+  "date": "2026-03-21",
+  "participants": [
+    "Atyaf Al Ard team"
+  ],
+  "summary_ar": "ظهور إعلامي تلفزيوني تزامن مع دعوة علنية للمتطوعين لإطلاق المنصات الرسمية للمشروع.",
+  "summary_en": "A television appearance that coincided with a public volunteer call to launch the project's official channels.",
+  "media_url": "https://www.facebook.com/reel/26921548534096848/",
+  "related_theme_terms": [
+    "media_outreach",
+    "community_building"
+  ],
+  "status": "published",
+  "public_visibility": "public",
+  "evidence_confidence": "high",
+  "source_refs": [
+    {
+      "platform": "facebook",
+      "label": "Recovered March 21 reel",
+      "url": "https://www.facebook.com/reel/26921548534096848/"
+    }
+  ],
+  "related_timeline_event_ids": [
+    "palestine-tv-interview-and-volunteer-call"
+  ],
+  "related_social_post_ids": [
+    "palestine-tv-volunteer-call"
+  ],
+  "related_production_ids": [
+    "princes-of-ashes-trailer"
+  ]
+}

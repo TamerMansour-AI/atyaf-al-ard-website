@@ -1,0 +1,38 @@
+{
+  "id": "support::october-support-and-team-call",
+  "slug": "october-support-and-team-call",
+  "call_type": "funding_support",
+  "date": "2025-10-04",
+  "title_ar": "دعوة للدعم وبناء الفريق",
+  "title_en": "Support and Team-Building Call",
+  "summary_ar": "منشور يطلب باحثين ومترجمين ومصممين ومحررين ودعمًا ماليًا وتقنيًا لتوسيع المشروع.",
+  "summary_en": "A mission post calling for researchers, translators, designers, editors, GIS help, and financial support.",
+  "target_audience": [
+    "researchers",
+    "translators",
+    "designers",
+    "editors",
+    "supporters"
+  ],
+  "source_platform": "facebook",
+  "source_url": "https://www.facebook.com/61574424444648/videos/1338309874313048/",
+  "cta_url": "",
+  "active_state": "historical",
+  "related_project_phase": "platform_definition",
+  "status": "published",
+  "public_visibility": "public",
+  "evidence_confidence": "high",
+  "source_refs": [
+    {
+      "platform": "facebook",
+      "label": "Recovered October 4 mission post",
+      "url": "https://www.facebook.com/61574424444648/videos/1338309874313048/"
+    }
+  ],
+  "related_social_post_ids": [
+    "facebook-mission-post-oct-2025"
+  ],
+  "related_timeline_event_ids": [
+    "october-mission-post"
+  ]
+}

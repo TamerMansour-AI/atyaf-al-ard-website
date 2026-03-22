@@ -1,0 +1,60 @@
+{
+  "id": "youtube::THTP0VDLND4",
+  "slug": "heartbeat-of-the-land",
+  "title_ar": "نبض الأرض",
+  "title_en": "Heartbeat of the Land",
+  "source_title_original": "«نبض الأرض – مقدّمة شعرية لأطياف الأرض» “Heartbeat of the Land – A Poetic Prelude”",
+  "production_type": "poetic_historical_piece",
+  "content_format": "video",
+  "release_date": "2025-05-11",
+  "summary_ar": "مقدمة شعرية تمهّد لعالم أطياف الأرض وتجمع بين التاريخ والوجدان واللغة البصرية.",
+  "summary_en": "A poetic prelude that introduces the emotional and visual register of the Atyaf Al Ard project.",
+  "source_language": "bilingual",
+  "translation_status": "bilingual_complete",
+  "platforms": [
+    "youtube"
+  ],
+  "youtube_url": "https://www.youtube.com/watch?v=THTP0VDLND4",
+  "facebook_url": "",
+  "thumbnail_ref": "https://i.ytimg.com/vi/THTP0VDLND4/maxresdefault.jpg",
+  "runtime_seconds": 140,
+  "transcript_status": "available",
+  "transcript_original_path": "assets/data/transcripts/THTP0VDLND4-نبض-الأرض-مقدمة-شعرية-لأطياف-الأرض-heartbeat-of-the-land-a-poetic-prelude.txt",
+  "transcript_source_path": "03_processed_data/transcripts/THTP0VDLND4-نبض-الأرض-مقدمة-شعرية-لأطياف-الأرض-heartbeat-of-the-land-a-poetic-prelude.txt",
+  "theme_terms": [
+    "palestinian_identity",
+    "deep_history",
+    "canaanite_continuity",
+    "music_and_poetry",
+    "memory_and_heritage"
+  ],
+  "historical_period_terms": [
+    "cross_period"
+  ],
+  "flagship": false,
+  "featured": false,
+  "status": "published",
+  "public_visibility": "public",
+  "evidence_confidence": "high",
+  "source_refs": [
+    {
+      "platform": "youtube",
+      "label": "YouTube video",
+      "url": "https://www.youtube.com/watch?v=THTP0VDLND4"
+    }
+  ],
+  "asset_refs": [
+    {
+      "type": "thumbnail",
+      "url": "https://i.ytimg.com/vi/THTP0VDLND4/maxresdefault.jpg"
+    }
+  ],
+  "related_timeline_event_ids": [
+    "youtube-first-release-day"
+  ],
+  "related_social_post_ids": [],
+  "related_research_entry_ids": [
+    "foundational-overview"
+  ],
+  "notes_internal": "Palestinian identity, deep history, Canaanite continuity, music and poetry, memory and heritage"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "media::ramallah-municipality-dialogue",
+  "slug": "ramallah-municipality-dialogue",
+  "title_ar": "حوار بلدية رام الله",
+  "title_en": "Ramallah Municipality Dialogue",
+  "outlet_name": "Ramallah Municipality / Artist Residency Program",
+  "appearance_type": "public_dialogue",
+  "date": "2025-05-21",
+  "participants": [
+    "Tamer Mansour",
+    "Mohamed Abu Muiliq"
+  ],
+  "summary_ar": "حوار عام حول توثيق التاريخ الفلسطيني بأدوات الذكاء الاصطناعي ضمن سياق إقامة فنية/ثقافية.",
+  "summary_en": "A public dialogue on documenting Palestinian history with AI tools within an artist-residency and cultural-program context.",
+  "media_url": "https://www.facebook.com/permalink.php?id=61574424444648&story_fbid=pfbid031XYoggq942Eo4Upw68sANBKbafZsisrftBV6h2NuiVA2kwQ8k6tAZFHo5dhseJzQl",
+  "related_theme_terms": [
+    "media_outreach",
+    "education",
+    "research_storytelling"
+  ],
+  "status": "published",
+  "public_visibility": "public",
+  "evidence_confidence": "high",
+  "source_refs": [
+    {
+      "platform": "facebook",
+      "label": "Recovered May 21 event post",
+      "url": "https://www.facebook.com/permalink.php?id=61574424444648&story_fbid=pfbid031XYoggq942Eo4Upw68sANBKbafZsisrftBV6h2NuiVA2kwQ8k6tAZFHo5dhseJzQl"
+    }
+  ],
+  "related_timeline_event_ids": [
+    "ramallah-dialogue-event"
+  ],
+  "related_social_post_ids": [
+    "ramallah-ai-dialogue-post"
+  ],
+  "related_production_ids": []
+}

@@ -1,0 +1,45 @@
+{
+  "id": "research::evidence-first-palestine-deep-history",
+  "slug": "evidence-first-palestine-deep-history",
+  "title_ar": "فلسطين العميقة بالدليل",
+  "title_en": "Evidence-First Palestine Deep History",
+  "research_type": "historical_topic",
+  "summary_ar": "الإطار التفسيري الذي يعرّف المشروع كسردية عن تاريخ فلسطين العميق مبنية على البحث والآثار والاستمرارية البشرية.",
+  "summary_en": "The core interpretive frame that presents the project as an evidence-first story world about Palestine's deep history, continuity, and lived civilization.",
+  "period_terms": [
+    "cross_period"
+  ],
+  "keyword_terms": [
+    "evidence_first",
+    "palestinian_history",
+    "civilizational_development"
+  ],
+  "public_access_level": "public",
+  "status": "published",
+  "public_visibility": "public",
+  "evidence_confidence": "high",
+  "source_refs": [
+    {
+      "platform": "youtube",
+      "label": "Arabic explainer",
+      "url": "https://www.youtube.com/watch?v=Kff3IFZURZo"
+    },
+    {
+      "platform": "youtube",
+      "label": "Bilingual explainer",
+      "url": "https://www.youtube.com/watch?v=0ZNiH0KjiPo"
+    }
+  ],
+  "related_production_ids": [
+    "deep-history-evidence-stories-ar",
+    "deep-history-evidence-stories-en",
+    "princes-of-ashes-trailer"
+  ],
+  "related_social_post_ids": [
+    "facebook-mission-post-oct-2025"
+  ],
+  "related_timeline_event_ids": [
+    "youtube-evidence-first-explainers",
+    "october-mission-post"
+  ]
+}

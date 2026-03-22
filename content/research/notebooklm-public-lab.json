@@ -1,0 +1,43 @@
+{
+  "id": "research::notebooklm-public-lab",
+  "slug": "notebooklm-public-lab",
+  "title_ar": "مختبر NotebookLM العام",
+  "title_en": "NotebookLM Public Lab",
+  "research_type": "notebook_or_encyclopedia_seed",
+  "summary_ar": "طبقة بحثية/تعليمية ناشئة يظهر فيها المشروع كمساحة مفتوحة لتجميع المعرفة وتقديمها للجمهور.",
+  "summary_en": "An emerging research-learning layer in which the project frames itself as a public knowledge and evidence space.",
+  "period_terms": [
+    "cross_period"
+  ],
+  "keyword_terms": [
+    "education",
+    "research_storytelling",
+    "evidence_first"
+  ],
+  "public_access_level": "public",
+  "status": "published",
+  "public_visibility": "public",
+  "evidence_confidence": "medium",
+  "source_refs": [
+    {
+      "platform": "facebook",
+      "label": "October 4 mission post",
+      "url": "https://www.facebook.com/61574424444648/videos/1338309874313048/"
+    },
+    {
+      "platform": "notebooklm",
+      "label": "NotebookLM workspace",
+      "url": "https://notebooklm.google.com/notebook/897d6cfa-8b8f-470e-aacd-a749293eaef7"
+    }
+  ],
+  "related_production_ids": [
+    "deep-history-evidence-stories-ar",
+    "deep-history-evidence-stories-en"
+  ],
+  "related_social_post_ids": [
+    "facebook-mission-post-oct-2025"
+  ],
+  "related_timeline_event_ids": [
+    "october-mission-post"
+  ]
+}

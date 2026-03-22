@@ -1,0 +1,29 @@
+{
+  "id": "timeline::facebook-launch-window",
+  "slug": "facebook-launch-window",
+  "date": "2025-04-18",
+  "date_precision": "approximate",
+  "event_type": "project_launch_signal",
+  "title_ar": "نافذة الإطلاق المكثفة على فيسبوك",
+  "title_en": "Dense Facebook Launch Window",
+  "summary_ar": "سلسلة منشورات مؤكدة بين 18 و29 أبريل تشير إلى نشاط تأسيسي متواصل وليس إعلانًا معزولًا.",
+  "summary_en": "A dense sequence of recovered posts between April 18 and April 29, confirming sustained launch-period activity.",
+  "visibility_recommendation": "public",
+  "public_visibility": "public",
+  "evidence_confidence": "medium",
+  "source_refs": [
+    {
+      "platform": "facebook",
+      "label": "Authenticated feed sequence",
+      "url": "https://www.facebook.com/profile.php?id=61574424444648"
+    }
+  ],
+  "related_production_ids": [],
+  "related_social_post_ids": [
+    "facebook-launch-post-april-18",
+    "facebook-launch-post-april-20",
+    "facebook-launch-post-april-25",
+    "facebook-launch-post-april-28",
+    "facebook-launch-post-april-29"
+  ]
+}

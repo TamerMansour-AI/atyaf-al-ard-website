@@ -1,0 +1,25 @@
+{
+  "id": "timeline::facebook-first-reel",
+  "slug": "facebook-first-reel",
+  "date": "2025-04-13",
+  "date_precision": "day",
+  "event_type": "project_launch_signal",
+  "title_ar": "أول ريل مؤكد على فيسبوك",
+  "title_en": "First Confirmed Facebook Reel",
+  "summary_ar": "أقدم إشارة عامة مؤكدة حاليًا إلى نشاط المشروع على فيسبوك خلال نافذة الإطلاق المبكرة.",
+  "summary_en": "The earliest currently confirmed public Facebook reel in the project's launch window.",
+  "visibility_recommendation": "public",
+  "public_visibility": "public",
+  "evidence_confidence": "medium",
+  "source_refs": [
+    {
+      "platform": "facebook",
+      "label": "April 13 recovered reel",
+      "url": "https://www.facebook.com/reel/1788158622118294/"
+    }
+  ],
+  "related_production_ids": [],
+  "related_social_post_ids": [
+    "reel-april-13-2025"
+  ]
+}

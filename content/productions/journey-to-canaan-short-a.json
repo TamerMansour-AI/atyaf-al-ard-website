@@ -1,0 +1,59 @@
+{
+  "id": "youtube::TSo4Bc8fVyg",
+  "slug": "journey-to-canaan-short-a",
+  "title_ar": "رحلة إلى أرض كنعان",
+  "title_en": "A Journey to Canaan",
+  "source_title_original": "رحلة إلى أرض كنعان A Journey to Canaan",
+  "production_type": "short_social_fragment",
+  "content_format": "short",
+  "release_date": "2025-05-11",
+  "summary_ar": "نسخة قصيرة من المسار البصري الذي يربط المشروع بسلسلة الحقائق الكنعانية والهوية العميقة.",
+  "summary_en": "A short-form visual journey that connects the project to the Canaanite continuity thread.",
+  "source_language": "bilingual",
+  "translation_status": "bilingual_complete",
+  "platforms": [
+    "youtube"
+  ],
+  "youtube_url": "https://www.youtube.com/watch?v=TSo4Bc8fVyg",
+  "facebook_url": "",
+  "thumbnail_ref": "https://i.ytimg.com/vi/TSo4Bc8fVyg/maxresdefault.jpg",
+  "runtime_seconds": 87,
+  "transcript_status": "available",
+  "transcript_original_path": "assets/data/transcripts/TSo4Bc8fVyg-رحلة-إلى-أرض-كنعان-a-journey-to-canaan.txt",
+  "transcript_source_path": "03_processed_data/transcripts/TSo4Bc8fVyg-رحلة-إلى-أرض-كنعان-a-journey-to-canaan.txt",
+  "theme_terms": [
+    "palestinian_identity",
+    "canaanite_continuity",
+    "ai_assisted_media"
+  ],
+  "historical_period_terms": [
+    "cross_period"
+  ],
+  "flagship": false,
+  "featured": false,
+  "status": "published",
+  "public_visibility": "public",
+  "evidence_confidence": "high",
+  "source_refs": [
+    {
+      "platform": "youtube",
+      "label": "YouTube video",
+      "url": "https://www.youtube.com/watch?v=TSo4Bc8fVyg"
+    }
+  ],
+  "asset_refs": [
+    {
+      "type": "thumbnail",
+      "url": "https://i.ytimg.com/vi/TSo4Bc8fVyg/maxresdefault.jpg"
+    }
+  ],
+  "related_timeline_event_ids": [
+    "canaanite-fact-series-launch",
+    "youtube-first-release-day"
+  ],
+  "related_social_post_ids": [],
+  "related_research_entry_ids": [
+    "canaanite-fact-series"
+  ],
+  "notes_internal": "Palestinian identity, Canaanite continuity, AI-assisted media"
+}

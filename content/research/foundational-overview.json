@@ -1,0 +1,41 @@
+{
+  "id": "research::foundational-overview",
+  "slug": "foundational-overview",
+  "title_ar": "الخريطة التأسيسية للمشروع",
+  "title_en": "Foundational Overview",
+  "research_type": "theme_brief",
+  "summary_ar": "مدخل تأسيسي يشرح كيف يربط المشروع بين البحث والسرد والإنتاجات البصرية والهوية الفلسطينية.",
+  "summary_en": "A foundational overview explaining how the project connects research, storytelling, media production, and Palestinian identity.",
+  "period_terms": [
+    "cross_period"
+  ],
+  "keyword_terms": [
+    "palestinian_history",
+    "evidence_first",
+    "research_storytelling"
+  ],
+  "public_access_level": "public",
+  "status": "published",
+  "public_visibility": "public",
+  "evidence_confidence": "high",
+  "source_refs": [
+    {
+      "platform": "website",
+      "label": "Foundational overview PDF",
+      "url": "/atyaf-al-ard-website/assets/docs/research/foundational-overview-en.pdf/"
+    },
+    {
+      "platform": "website",
+      "label": "Arabic foundational overview PDF",
+      "url": "/atyaf-al-ard-website/assets/docs/research/foundational-overview-ar.pdf/"
+    }
+  ],
+  "related_production_ids": [
+    "deep-history-evidence-stories-en",
+    "deep-history-evidence-stories-ar"
+  ],
+  "related_social_post_ids": [],
+  "related_timeline_event_ids": [
+    "youtube-evidence-first-explainers"
+  ]
+}

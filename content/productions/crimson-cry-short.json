@@ -1,0 +1,57 @@
+{
+  "id": "youtube::_AtPKhAOHfY",
+  "slug": "crimson-cry-short",
+  "title_ar": "صيحة الأرجوان",
+  "title_en": "Crimson Cry",
+  "source_title_original": "صيحة الأرجوان",
+  "production_type": "short_social_fragment",
+  "content_format": "short",
+  "release_date": "2025-05-13",
+  "summary_ar": "قطعة قصيرة تستدعي اللون والرمز والذاكرة التاريخية ضمن صيغة بصرية مركزة.",
+  "summary_en": "A short symbolic piece that channels color, memory, and historical mood into a concentrated visual fragment.",
+  "source_language": "arabic",
+  "translation_status": "source_only",
+  "platforms": [
+    "youtube"
+  ],
+  "youtube_url": "https://www.youtube.com/watch?v=_AtPKhAOHfY",
+  "facebook_url": "",
+  "thumbnail_ref": "https://i.ytimg.com/vi/_AtPKhAOHfY/maxresdefault.jpg",
+  "runtime_seconds": 112,
+  "transcript_status": "unavailable: TranscriptsDisabled",
+  "transcript_original_path": "",
+  "transcript_source_path": "",
+  "theme_terms": [
+    "palestinian_identity",
+    "canaanite_continuity"
+  ],
+  "historical_period_terms": [
+    "cross_period"
+  ],
+  "flagship": false,
+  "featured": false,
+  "status": "published",
+  "public_visibility": "public",
+  "evidence_confidence": "high",
+  "source_refs": [
+    {
+      "platform": "youtube",
+      "label": "YouTube video",
+      "url": "https://www.youtube.com/watch?v=_AtPKhAOHfY"
+    }
+  ],
+  "asset_refs": [
+    {
+      "type": "thumbnail",
+      "url": "https://i.ytimg.com/vi/_AtPKhAOHfY/maxresdefault.jpg"
+    }
+  ],
+  "related_timeline_event_ids": [
+    "canaanite-fact-series-launch"
+  ],
+  "related_social_post_ids": [],
+  "related_research_entry_ids": [
+    "canaanite-fact-series"
+  ],
+  "notes_internal": "Palestinian identity, Canaanite continuity"
+}

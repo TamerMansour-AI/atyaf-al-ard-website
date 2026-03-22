@@ -1,0 +1,57 @@
+{
+  "id": "youtube::9MBgF9-rgvo",
+  "slug": "journey-to-canaan-short-b",
+  "title_ar": "رحلة إلى أرض كنعان",
+  "title_en": "A Journey to Canaan",
+  "source_title_original": "رحلة إلى أرض كنعان A Journey to Canaan",
+  "production_type": "short_social_fragment",
+  "content_format": "short",
+  "release_date": "2025-05-11",
+  "summary_ar": "نسخة إضافية من رحلة كنعان ضمن طبقة الفيديوهات القصيرة للمشروع.",
+  "summary_en": "A second short-form cut of A Journey to Canaan in the project's early short-video layer.",
+  "source_language": "bilingual",
+  "translation_status": "bilingual_complete",
+  "platforms": [
+    "youtube"
+  ],
+  "youtube_url": "https://www.youtube.com/watch?v=9MBgF9-rgvo",
+  "facebook_url": "",
+  "thumbnail_ref": "https://i.ytimg.com/vi/9MBgF9-rgvo/maxresdefault.jpg",
+  "runtime_seconds": 87,
+  "transcript_status": "available",
+  "transcript_original_path": "assets/data/transcripts/9MBgF9-rgvo-رحلة-إلى-أرض-كنعان-a-journey-to-canaan.txt",
+  "transcript_source_path": "03_processed_data/transcripts/9MBgF9-rgvo-رحلة-إلى-أرض-كنعان-a-journey-to-canaan.txt",
+  "theme_terms": [
+    "canaanite_continuity"
+  ],
+  "historical_period_terms": [
+    "cross_period"
+  ],
+  "flagship": false,
+  "featured": false,
+  "status": "published",
+  "public_visibility": "public",
+  "evidence_confidence": "high",
+  "source_refs": [
+    {
+      "platform": "youtube",
+      "label": "YouTube video",
+      "url": "https://www.youtube.com/watch?v=9MBgF9-rgvo"
+    }
+  ],
+  "asset_refs": [
+    {
+      "type": "thumbnail",
+      "url": "https://i.ytimg.com/vi/9MBgF9-rgvo/maxresdefault.jpg"
+    }
+  ],
+  "related_timeline_event_ids": [
+    "canaanite-fact-series-launch",
+    "youtube-first-release-day"
+  ],
+  "related_social_post_ids": [],
+  "related_research_entry_ids": [
+    "canaanite-fact-series"
+  ],
+  "notes_internal": "Canaanite continuity"
+}

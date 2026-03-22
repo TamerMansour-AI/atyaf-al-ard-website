@@ -1,0 +1,24 @@
+{
+  "id": "timeline::princes-of-ashes-trailer-release",
+  "slug": "princes-of-ashes-trailer-release",
+  "date": "2026-03-21",
+  "date_precision": "day",
+  "event_type": "production_release",
+  "title_ar": "إطلاق تريلر أمراء الرماد",
+  "title_en": "Release of the Princes of Ashes Trailer",
+  "summary_ar": "طرح التريلر الرسمي للفصل الأبرز حتى الآن داخل عالم أطياف الأرض.",
+  "summary_en": "Release of the official trailer for the project's clearest flagship chapter to date.",
+  "visibility_recommendation": "public",
+  "public_visibility": "public",
+  "evidence_confidence": "high",
+  "source_refs": [
+    {
+      "platform": "youtube",
+      "label": "Princes of Ashes trailer",
+      "url": "https://www.youtube.com/watch?v=clauVC5cA48"
+    }
+  ],
+  "related_production_ids": [
+    "princes-of-ashes-trailer"
+  ]
+}

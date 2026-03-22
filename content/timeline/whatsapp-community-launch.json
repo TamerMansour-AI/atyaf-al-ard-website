@@ -1,0 +1,24 @@
+{
+  "id": "timeline::whatsapp-community-launch",
+  "slug": "whatsapp-community-launch",
+  "date": "2025-05-21",
+  "date_precision": "day",
+  "event_type": "community_call",
+  "title_ar": "إطلاق دعوة مجتمع واتساب",
+  "title_en": "WhatsApp Community Invite",
+  "summary_ar": "إطلاق قناة متابعة مجتمعية عبر واتساب لمرافقة الإصدارات والنقاشات والفعاليات.",
+  "summary_en": "Launch of a WhatsApp-based community channel for releases, events, and discussion.",
+  "visibility_recommendation": "public",
+  "public_visibility": "public",
+  "evidence_confidence": "high",
+  "source_refs": [
+    {
+      "platform": "facebook",
+      "label": "May 21 WhatsApp post",
+      "url": "https://www.facebook.com/permalink.php?id=61574424444648&story_fbid=pfbid0JfoP7TNmdcf62M4d126rV4apSXargCLiNHDU8jNQAe8usq6AzdVCmTyBBNWErBiAl"
+    }
+  ],
+  "related_social_post_ids": [
+    "whatsapp-community-invite"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "support::social-launch-volunteer-call",
+  "slug": "social-launch-volunteer-call",
+  "call_type": "volunteer_recruitment",
+  "date": "2026-03-21",
+  "title_ar": "دعوة متطوعين لإطلاق المنصات",
+  "title_en": "Volunteer Call for Platform Launch",
+  "summary_ar": "دعوة للمساعدة في إطلاق وإدارة القنوات الرسمية للمشروع تزامنًا مع الظهور الإعلامي.",
+  "summary_en": "A volunteer call to help launch and manage the project's official channels during its current media-visibility phase.",
+  "target_audience": [
+    "volunteers",
+    "social_media_support"
+  ],
+  "source_platform": "facebook",
+  "source_url": "https://www.facebook.com/reel/26921548534096848/",
+  "cta_url": "",
+  "active_state": "historical",
+  "related_project_phase": "channel_launch",
+  "status": "published",
+  "public_visibility": "public",
+  "evidence_confidence": "high",
+  "source_refs": [
+    {
+      "platform": "facebook",
+      "label": "Recovered March 21 interview/volunteer reel",
+      "url": "https://www.facebook.com/reel/26921548534096848/"
+    }
+  ],
+  "related_social_post_ids": [
+    "palestine-tv-volunteer-call"
+  ],
+  "related_timeline_event_ids": [
+    "palestine-tv-interview-and-volunteer-call"
+  ]
+}

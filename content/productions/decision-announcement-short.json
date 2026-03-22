@@ -1,0 +1,56 @@
+{
+  "id": "youtube::xgqFudQ0r2M",
+  "slug": "decision-announcement-short",
+  "title_ar": "إشهار القرار",
+  "title_en": "Declaration of the Decision",
+  "source_title_original": "اشهار القرار #weddingplaylist #اكسبلور #أطياف_الأرض",
+  "production_type": "short_social_fragment",
+  "content_format": "short",
+  "release_date": "2025-05-22",
+  "summary_ar": "مقطع قصير يوسّع عالم المشروع في صيغة اجتماعية سريعة وقابلة للتداول.",
+  "summary_en": "A short-form social fragment that extends the project's world in a fast, shareable format.",
+  "source_language": "bilingual",
+  "translation_status": "bilingual_complete",
+  "platforms": [
+    "youtube"
+  ],
+  "youtube_url": "https://www.youtube.com/watch?v=xgqFudQ0r2M",
+  "facebook_url": "",
+  "thumbnail_ref": "https://i.ytimg.com/vi/xgqFudQ0r2M/maxres2.jpg?sqp=-oaymwEoCIAKENAF8quKqQMcGADwAQH4Ac4FgAKACooCDAgAEAEYXiBlKFowDw==&rs=AOn4CLB75u-Wd6TVSfW3WzQmvLKSo3yNmw",
+  "runtime_seconds": 59,
+  "transcript_status": "available",
+  "transcript_original_path": "assets/data/transcripts/xgqFudQ0r2M-اشهار-القرار-weddingplaylist-اكسبلور-أطياف_الأرض.txt",
+  "transcript_source_path": "03_processed_data/transcripts/xgqFudQ0r2M-اشهار-القرار-weddingplaylist-اكسبلور-أطياف_الأرض.txt",
+  "theme_terms": [
+    "palestinian_identity"
+  ],
+  "historical_period_terms": [
+    "cross_period"
+  ],
+  "flagship": false,
+  "featured": false,
+  "status": "published",
+  "public_visibility": "public",
+  "evidence_confidence": "high",
+  "source_refs": [
+    {
+      "platform": "youtube",
+      "label": "YouTube video",
+      "url": "https://www.youtube.com/watch?v=xgqFudQ0r2M"
+    }
+  ],
+  "asset_refs": [
+    {
+      "type": "thumbnail",
+      "url": "https://i.ytimg.com/vi/xgqFudQ0r2M/maxres2.jpg?sqp=-oaymwEoCIAKENAF8quKqQMcGADwAQH4Ac4FgAKACooCDAgAEAEYXiBlKFowDw==&rs=AOn4CLB75u-Wd6TVSfW3WzQmvLKSo3yNmw"
+    }
+  ],
+  "related_timeline_event_ids": [
+    "youtube-first-release-day"
+  ],
+  "related_social_post_ids": [],
+  "related_research_entry_ids": [
+    "canaanite-fact-series"
+  ],
+  "notes_internal": "Palestinian identity"
+}

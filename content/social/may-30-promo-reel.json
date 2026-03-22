@@ -1,0 +1,63 @@
+{
+  "id": "may-30-promo-reel",
+  "slug": "may-30-promo-reel",
+  "page_name": "Atyaf Al Ard",
+  "source_platform": "facebook",
+  "post_url": "https://www.facebook.com/reel/1332805384457596/",
+  "post_id": "reel_1332805384457596",
+  "visible_date_text": "May 30, 2025",
+  "normalized_date": "2025-05-30",
+  "title_ar": "ريل ترويجي في نهاية مايو",
+  "title_en": "Late-May Promo Reel",
+  "summary_ar": "Mini pass improved media evidence and recovered a caption fragment, but the full reel body still needs manual follow-up.",
+  "summary_en": "Mini pass improved media evidence and recovered a caption fragment, but the full reel body still needs manual follow-up.",
+  "post_type": "reel",
+  "post_category": "teaser_or_promo",
+  "source_caption": "?? ???? ????? ??? ????? ?????. Direct reel check recovered a caption fragment from the May 30 reel page, confirming it was a real content item rather than a date-only shell.",
+  "caption_ar": "",
+  "caption_en": "",
+  "tags": [
+    "needs_manual_review",
+    "reel",
+    "timeline_relevant"
+  ],
+  "media_count": 1,
+  "media_types": [
+    "reel"
+  ],
+  "media_refs": [
+    {
+      "type": "reel",
+      "url": "https://www.facebook.com/reel/1332805384457596/"
+    }
+  ],
+  "thumbnail_url": "",
+  "outbound_links": [],
+  "engagement_text": "Direct reel page metrics visible during mini pass: 2, 1, 577, 6, 19.",
+  "timeline_relevance": true,
+  "needs_manual_review": true,
+  "related_production_ids": [],
+  "related_media_appearance_ids": [],
+  "related_support_call_ids": [],
+  "status": "needs_review",
+  "public_visibility": "public",
+  "evidence_confidence": "medium",
+  "source_refs": [
+    {
+      "platform": "facebook",
+      "label": "Recovered Facebook post",
+      "url": "https://www.facebook.com/reel/1332805384457596/"
+    }
+  ],
+  "asset_refs": [
+    {
+      "type": "screenshot",
+      "path": "02_raw_data/facebook/screenshots/mini_may30_reel.png"
+    },
+    {
+      "type": "raw_html",
+      "path": "02_raw_data/facebook/post_pages/mini_may30_reel.html"
+    }
+  ],
+  "notes_internal": "Mini pass improved media evidence and recovered a caption fragment, but the full reel body still needs manual follow-up."
+}

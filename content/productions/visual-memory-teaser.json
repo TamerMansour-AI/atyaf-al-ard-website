@@ -1,0 +1,59 @@
+{
+  "id": "youtube::_kouCLtK_Xs",
+  "slug": "visual-memory-teaser",
+  "title_ar": "أطياف الأرض: تيزر بصري من الذاكرة الفلسطينية",
+  "title_en": "Atyaf Al Ard: A Visual Teaser from Palestinian Memory",
+  "source_title_original": "أطياف الأرض | تيزر بصري من الذاكرة الفلسطينية",
+  "production_type": "teaser",
+  "content_format": "video",
+  "release_date": "2025-12-16",
+  "summary_ar": "تيزر بصري يقدّم النبرة الجمالية والذاكرية للمشروع من خلال مشاهد قصيرة ومكثفة.",
+  "summary_en": "A visual teaser that introduces the project's aesthetic tone and memory-driven atmosphere through short cinematic fragments.",
+  "source_language": "arabic",
+  "translation_status": "source_only",
+  "platforms": [
+    "youtube"
+  ],
+  "youtube_url": "https://www.youtube.com/watch?v=_kouCLtK_Xs",
+  "facebook_url": "",
+  "thumbnail_ref": "https://i.ytimg.com/vi/_kouCLtK_Xs/maxresdefault.jpg",
+  "runtime_seconds": 32,
+  "transcript_status": "available",
+  "transcript_original_path": "assets/data/transcripts/_kouCLtK_Xs-أطياف-الأرض-تيزر-بصري-من-الذاكرة-الفلسطينية.txt",
+  "transcript_source_path": "03_processed_data/transcripts/_kouCLtK_Xs-أطياف-الأرض-تيزر-بصري-من-الذاكرة-الفلسطينية.txt",
+  "theme_terms": [
+    "palestinian_identity",
+    "ai_assisted_media",
+    "memory_and_heritage"
+  ],
+  "historical_period_terms": [
+    "cross_period"
+  ],
+  "flagship": false,
+  "featured": false,
+  "status": "published",
+  "public_visibility": "public",
+  "evidence_confidence": "high",
+  "source_refs": [
+    {
+      "platform": "youtube",
+      "label": "YouTube video",
+      "url": "https://www.youtube.com/watch?v=_kouCLtK_Xs"
+    }
+  ],
+  "asset_refs": [
+    {
+      "type": "thumbnail",
+      "url": "https://i.ytimg.com/vi/_kouCLtK_Xs/maxresdefault.jpg"
+    }
+  ],
+  "related_timeline_event_ids": [
+    "visual-memory-teaser-release"
+  ],
+  "related_social_post_ids": [],
+  "related_research_entry_ids": [
+    "foundational-overview",
+    "evidence-first-palestine-deep-history"
+  ],
+  "notes_internal": "Palestinian identity, AI-assisted media, memory and heritage"
+}

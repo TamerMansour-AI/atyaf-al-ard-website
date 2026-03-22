@@ -1,0 +1,24 @@
+{
+  "id": "timeline::visual-memory-teaser-release",
+  "slug": "visual-memory-teaser-release",
+  "date": "2025-12-16",
+  "date_precision": "day",
+  "event_type": "production_release",
+  "title_ar": "إطلاق التيزر البصري",
+  "title_en": "Release of the Visual Teaser",
+  "summary_ar": "نشر تيزر بصري يركّز على الذاكرة الفلسطينية ويقدّم النبرة الجمالية للمشروع.",
+  "summary_en": "Release of a visual teaser centered on Palestinian memory and the project's aesthetic register.",
+  "visibility_recommendation": "public",
+  "public_visibility": "public",
+  "evidence_confidence": "high",
+  "source_refs": [
+    {
+      "platform": "youtube",
+      "label": "Visual teaser on YouTube",
+      "url": "https://www.youtube.com/watch?v=_kouCLtK_Xs"
+    }
+  ],
+  "related_production_ids": [
+    "visual-memory-teaser"
+  ]
+}
