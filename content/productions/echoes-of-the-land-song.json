@@ -1,0 +1,61 @@
+{
+  "id": "youtube::SUtAFgM7tS0",
+  "slug": "echoes-of-the-land-song",
+  "title_ar": "أصداء الأرض",
+  "title_en": "The Echoes of the Land",
+  "source_title_original": "\"أصداء الأرض\" أغنية تحاكي حضارات فلسطين | The Echoes of the Land from the Heart of Civilizations",
+  "production_type": "song",
+  "content_format": "video",
+  "release_date": "2025-05-11",
+  "summary_ar": "أغنية تستحضر حضارات فلسطين وتربط بينها وبين النبرة الشعورية العامة للمشروع.",
+  "summary_en": "A song that invokes the civilizations of Palestine and extends the project's emotional and historical atmosphere.",
+  "source_language": "bilingual",
+  "translation_status": "bilingual_complete",
+  "platforms": [
+    "youtube"
+  ],
+  "youtube_url": "https://www.youtube.com/watch?v=SUtAFgM7tS0",
+  "facebook_url": "",
+  "thumbnail_ref": "https://i.ytimg.com/vi/SUtAFgM7tS0/maxresdefault.jpg",
+  "runtime_seconds": 237,
+  "transcript_status": "available",
+  "transcript_original_path": "assets/data/transcripts/SUtAFgM7tS0-أصداء-الأرض-أغنية-تحاكي-حضارات-فلسطين-the-echoes-of-the-land-from-the-heart-of-civilizations.txt",
+  "transcript_source_path": "03_processed_data/transcripts/SUtAFgM7tS0-أصداء-الأرض-أغنية-تحاكي-حضارات-فلسطين-the-echoes-of-the-land-from-the-heart-of-civilizations.txt",
+  "theme_terms": [
+    "palestinian_identity",
+    "deep_history",
+    "canaanite_continuity",
+    "music_and_poetry",
+    "ai_assisted_media",
+    "memory_and_heritage"
+  ],
+  "historical_period_terms": [
+    "cross_period"
+  ],
+  "flagship": false,
+  "featured": false,
+  "status": "published",
+  "public_visibility": "public",
+  "evidence_confidence": "high",
+  "source_refs": [
+    {
+      "platform": "youtube",
+      "label": "YouTube video",
+      "url": "https://www.youtube.com/watch?v=SUtAFgM7tS0"
+    }
+  ],
+  "asset_refs": [
+    {
+      "type": "thumbnail",
+      "url": "https://i.ytimg.com/vi/SUtAFgM7tS0/maxresdefault.jpg"
+    }
+  ],
+  "related_timeline_event_ids": [
+    "youtube-first-release-day"
+  ],
+  "related_social_post_ids": [],
+  "related_research_entry_ids": [
+    "foundational-overview"
+  ],
+  "notes_internal": "Palestinian identity, deep history, Canaanite continuity, music and poetry, AI-assisted media, memory and heritage"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "timeline::may-promo-reel",
+  "slug": "may-promo-reel",
+  "date": "2025-05-30",
+  "date_precision": "day",
+  "event_type": "production_release",
+  "title_ar": "ريل ترويجي في نهاية مايو",
+  "title_en": "Late-May Promo Reel",
+  "summary_ar": "ريل ترويجي قصير تحسنت أدلته خلال الاسترداد، لكنه ما يزال جزئيًا ويحتاج إلى متابعة لاحقة.",
+  "summary_en": "A late-May promo reel whose evidence improved during recovery, though the full caption remains partial.",
+  "visibility_recommendation": "public",
+  "public_visibility": "public",
+  "evidence_confidence": "medium",
+  "source_refs": [
+    {
+      "platform": "facebook",
+      "label": "May 30 recovered reel",
+      "url": "https://www.facebook.com/reel/1332805384457596/"
+    }
+  ],
+  "related_social_post_ids": [
+    "may-30-promo-reel"
+  ]
+}

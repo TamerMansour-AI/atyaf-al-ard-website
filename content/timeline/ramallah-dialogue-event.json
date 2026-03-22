@@ -1,0 +1,27 @@
+{
+  "id": "timeline::ramallah-dialogue-event",
+  "slug": "ramallah-dialogue-event",
+  "date": "2025-05-21",
+  "date_precision": "day",
+  "event_type": "partnership_or_dialogue",
+  "title_ar": "حوار رام الله حول توثيق التاريخ الفلسطيني",
+  "title_en": "Ramallah Dialogue on Documenting Palestinian History",
+  "summary_ar": "ظهور ثقافي/مدني مبكر يربط المشروع ببلدية رام الله وبرنامج إقامة فنية.",
+  "summary_en": "An early civic-cultural appearance linking the project to Ramallah Municipality and an artist-residency context.",
+  "visibility_recommendation": "public",
+  "public_visibility": "public",
+  "evidence_confidence": "high",
+  "source_refs": [
+    {
+      "platform": "facebook",
+      "label": "May 21 Ramallah event post",
+      "url": "https://www.facebook.com/permalink.php?id=61574424444648&story_fbid=pfbid031XYoggq942Eo4Upw68sANBKbafZsisrftBV6h2NuiVA2kwQ8k6tAZFHo5dhseJzQl"
+    }
+  ],
+  "related_social_post_ids": [
+    "ramallah-ai-dialogue-post"
+  ],
+  "related_media_appearance_ids": [
+    "ramallah-municipality-dialogue"
+  ]
+}

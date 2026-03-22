@@ -1,0 +1,63 @@
+{
+  "id": "youtube::zqCpbCjDbms",
+  "slug": "canaanite-wedding-song",
+  "title_ar": "العرس الكنعاني: أغنية الوداع الأخير",
+  "title_en": "The Canaanite Wedding: Song of the Final Farewell",
+  "source_title_original": "العرس الكنعاني – أغنية الوداع الأخير The Canaanite Wedding – Song of the Final Farewell",
+  "production_type": "song",
+  "content_format": "video",
+  "release_date": "2025-05-11",
+  "summary_ar": "عمل غنائي يصوغ الذاكرة الكنعانية والطقس والمشهد الفلسطيني في قالب موسيقي بصري.",
+  "summary_en": "A musical-historical piece that turns Canaanite memory, ritual, and atmosphere into a cinematic song work.",
+  "source_language": "bilingual",
+  "translation_status": "bilingual_complete",
+  "platforms": [
+    "youtube"
+  ],
+  "youtube_url": "https://www.youtube.com/watch?v=zqCpbCjDbms",
+  "facebook_url": "",
+  "thumbnail_ref": "https://i.ytimg.com/vi/zqCpbCjDbms/maxresdefault.jpg",
+  "runtime_seconds": 195,
+  "transcript_status": "available",
+  "transcript_original_path": "assets/data/transcripts/zqCpbCjDbms-العرس-الكنعاني-أغنية-الوداع-الأخير-the-canaanite-wedding-song-of-the-final-farewell.txt",
+  "transcript_source_path": "03_processed_data/transcripts/zqCpbCjDbms-العرس-الكنعاني-أغنية-الوداع-الأخير-the-canaanite-wedding-song-of-the-final-farewell.txt",
+  "theme_terms": [
+    "palestinian_identity",
+    "deep_history",
+    "canaanite_continuity",
+    "music_and_poetry",
+    "ai_assisted_media",
+    "memory_and_heritage",
+    "community_and_youth"
+  ],
+  "historical_period_terms": [
+    "cross_period"
+  ],
+  "flagship": false,
+  "featured": false,
+  "status": "published",
+  "public_visibility": "public",
+  "evidence_confidence": "high",
+  "source_refs": [
+    {
+      "platform": "youtube",
+      "label": "YouTube video",
+      "url": "https://www.youtube.com/watch?v=zqCpbCjDbms"
+    }
+  ],
+  "asset_refs": [
+    {
+      "type": "thumbnail",
+      "url": "https://i.ytimg.com/vi/zqCpbCjDbms/maxresdefault.jpg"
+    }
+  ],
+  "related_timeline_event_ids": [
+    "youtube-first-release-day"
+  ],
+  "related_social_post_ids": [],
+  "related_research_entry_ids": [
+    "canaanite-fact-series",
+    "canaanite-kitchen-memory"
+  ],
+  "notes_internal": "Palestinian identity, deep history, Canaanite continuity, music and poetry, AI-assisted media, memory and heritage, community and youth"
+}

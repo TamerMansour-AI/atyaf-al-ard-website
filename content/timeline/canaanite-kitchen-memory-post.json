@@ -1,0 +1,31 @@
+{
+  "id": "timeline::canaanite-kitchen-memory-post",
+  "slug": "canaanite-kitchen-memory-post",
+  "date": "2025-04-15",
+  "date_precision": "day",
+  "event_type": "research_publication",
+  "title_ar": "بوست المطبخ الكنعاني والذاكرة",
+  "title_en": "Canaanite Kitchen and Memory Post",
+  "summary_ar": "منشور يربط الطعام والذاكرة والمقاومة اليومية، مع إشارة مبكرة إلى موسوعة/طبقة معرفية قادمة.",
+  "summary_en": "A post connecting food, memory, and everyday resistance, with an early signal toward an encyclopedia-style knowledge layer.",
+  "visibility_recommendation": "public",
+  "public_visibility": "public",
+  "evidence_confidence": "high",
+  "source_refs": [
+    {
+      "platform": "facebook",
+      "label": "April 15 recovered post",
+      "url": "https://www.facebook.com/permalink.php?id=61574424444648&story_fbid=pfbid0mHhkPLRa9tHuAcXv41yALAbRY938gb31KQMcUCAAx16jgJXSxbDKWVjrL4JWXZHRl"
+    }
+  ],
+  "related_production_ids": [
+    "echoes-of-the-first-hearth",
+    "canaanite-wedding-song"
+  ],
+  "related_social_post_ids": [
+    "canaanite-kitchen-memory-post"
+  ],
+  "related_research_entry_ids": [
+    "canaanite-kitchen-memory"
+  ]
+}

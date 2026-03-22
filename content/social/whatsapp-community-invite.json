@@ -1,0 +1,65 @@
+{
+  "id": "whatsapp-community-invite",
+  "slug": "whatsapp-community-invite",
+  "page_name": "Atyaf Al Ard",
+  "source_platform": "facebook",
+  "post_url": "https://www.facebook.com/permalink.php?id=61574424444648&story_fbid=pfbid0JfoP7TNmdcf62M4d126rV4apSXargCLiNHDU8jNQAe8usq6AzdVCmTyBBNWErBiAl",
+  "post_id": "story_pfbid0JfoP7TNmdcf62M4d126rV4apSXargCLiNHDU8jNQAe8usq6AzdVCmTyBBNWErBiAl",
+  "visible_date_text": "May 21, 2025",
+  "normalized_date": "2025-05-21",
+  "title_ar": "دعوة إلى مجموعة واتساب المجتمعية",
+  "title_en": "WhatsApp Community Invite",
+  "summary_ar": "دعوة للانضمام إلى مجموعة واتساب لمتابعة الإصدارات والفيديوهات والفعاليات والنقاشات المفتوحة.",
+  "summary_en": "An invitation to join the project's WhatsApp group for releases, videos, events, and open discussion.",
+  "post_type": "image",
+  "post_category": "volunteer_or_community_call",
+  "source_caption": "?????? ????? ?? ?????? ?????? ?????? ?????? ????? ????? ??????? ??? ?????????? ?????? ???????? ???????? ????????? ????????? ???????? ??? ??????? ????????? ?????? ??????? ??? ??????: https://chat.whatsapp.com/JZRtLy0eR76C3Mwr2uOnN3. ????? ??? ?? ??? ?? ??????? ???????? ????? ????? ?? ????? ?? ????. ? ???? ????? ?????",
+  "caption_ar": "",
+  "caption_en": "",
+  "tags": [
+    "timeline_relevant"
+  ],
+  "media_count": 1,
+  "media_types": [
+    "image"
+  ],
+  "media_refs": [
+    {
+      "type": "image",
+      "url": "https://www.facebook.com/permalink.php?id=61574424444648&story_fbid=pfbid0JfoP7TNmdcf62M4d126rV4apSXargCLiNHDU8jNQAe8usq6AzdVCmTyBBNWErBiAl"
+    }
+  ],
+  "thumbnail_url": "",
+  "outbound_links": [
+    "https://chat.whatsapp.com/JZRtLy0eR76C3Mwr2uOnN3"
+  ],
+  "engagement_text": "All reactions: 1",
+  "timeline_relevance": true,
+  "needs_manual_review": false,
+  "related_production_ids": [],
+  "related_media_appearance_ids": [],
+  "related_support_call_ids": [
+    "whatsapp-community-invite"
+  ],
+  "status": "published",
+  "public_visibility": "public",
+  "evidence_confidence": "high",
+  "source_refs": [
+    {
+      "platform": "facebook",
+      "label": "Recovered Facebook post",
+      "url": "https://www.facebook.com/permalink.php?id=61574424444648&story_fbid=pfbid0JfoP7TNmdcf62M4d126rV4apSXargCLiNHDU8jNQAe8usq6AzdVCmTyBBNWErBiAl"
+    }
+  ],
+  "asset_refs": [
+    {
+      "type": "screenshot",
+      "path": "02_raw_data/facebook/screenshots/mini_may21_whatsapp.png"
+    },
+    {
+      "type": "raw_html",
+      "path": "02_raw_data/facebook/post_pages/mini_may21_whatsapp.html"
+    }
+  ],
+  "notes_internal": "Mini pass recovered full May 21 community-onboarding caption and WhatsApp invite link."
+}

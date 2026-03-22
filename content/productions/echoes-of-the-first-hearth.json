@@ -1,0 +1,59 @@
+{
+  "id": "youtube::wiQi4UpAWjk",
+  "slug": "echoes-of-the-first-hearth",
+  "title_ar": "أصداء الموقد الأول",
+  "title_en": "Echoes of the First Hearth",
+  "source_title_original": "أصداء الموقد الأول Echoes of the First Hearth",
+  "production_type": "poetic_historical_piece",
+  "content_format": "video",
+  "release_date": "2025-05-11",
+  "summary_ar": "قطعة شعرية بصرية تستدعي الحياة الأولى والدفء المنزلي كمدخل لذاكرة المكان.",
+  "summary_en": "A poetic visual piece that uses the image of the first hearth to evoke memory, continuity, and daily life.",
+  "source_language": "bilingual",
+  "translation_status": "bilingual_complete",
+  "platforms": [
+    "youtube"
+  ],
+  "youtube_url": "https://www.youtube.com/watch?v=wiQi4UpAWjk",
+  "facebook_url": "",
+  "thumbnail_ref": "https://i.ytimg.com/vi/wiQi4UpAWjk/maxresdefault.jpg",
+  "runtime_seconds": 445,
+  "transcript_status": "available",
+  "transcript_original_path": "assets/data/transcripts/wiQi4UpAWjk-أصداء-الموقد-الأول-echoes-of-the-first-hearth.txt",
+  "transcript_source_path": "03_processed_data/transcripts/wiQi4UpAWjk-أصداء-الموقد-الأول-echoes-of-the-first-hearth.txt",
+  "theme_terms": [
+    "palestinian_identity",
+    "deep_history",
+    "ai_assisted_media"
+  ],
+  "historical_period_terms": [
+    "cross_period"
+  ],
+  "flagship": false,
+  "featured": false,
+  "status": "published",
+  "public_visibility": "public",
+  "evidence_confidence": "high",
+  "source_refs": [
+    {
+      "platform": "youtube",
+      "label": "YouTube video",
+      "url": "https://www.youtube.com/watch?v=wiQi4UpAWjk"
+    }
+  ],
+  "asset_refs": [
+    {
+      "type": "thumbnail",
+      "url": "https://i.ytimg.com/vi/wiQi4UpAWjk/maxresdefault.jpg"
+    }
+  ],
+  "related_timeline_event_ids": [
+    "youtube-first-release-day",
+    "canaanite-kitchen-memory-post"
+  ],
+  "related_social_post_ids": [],
+  "related_research_entry_ids": [
+    "canaanite-kitchen-memory"
+  ],
+  "notes_internal": "Palestinian identity, deep history, AI-assisted media"
+}

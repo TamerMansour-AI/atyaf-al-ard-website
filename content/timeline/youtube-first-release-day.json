@@ -1,0 +1,30 @@
+{
+  "id": "timeline::youtube-first-release-day",
+  "slug": "youtube-first-release-day",
+  "date": "2025-05-11",
+  "date_precision": "day",
+  "event_type": "production_release",
+  "title_ar": "أول يوم إطلاق على يوتيوب",
+  "title_en": "First YouTube Release Day",
+  "summary_ar": "نشر أول مجموعة مرئية/غنائية معروفة على يوتيوب، ما يحوّل المشروع من تعريف نظري إلى إنتاجات قابلة للمشاهدة.",
+  "summary_en": "The first known cluster of YouTube releases, turning the project into a visible production stream rather than a concept only.",
+  "visibility_recommendation": "public",
+  "public_visibility": "public",
+  "evidence_confidence": "high",
+  "source_refs": [
+    {
+      "platform": "youtube",
+      "label": "YouTube inventory",
+      "url": "https://www.youtube.com/@AtyafAlArd/videos"
+    }
+  ],
+  "related_production_ids": [
+    "canaanite-wedding-song",
+    "echoes-of-the-land-song",
+    "echoes-of-the-first-hearth",
+    "heartbeat-of-the-land",
+    "journey-to-canaan-short-a",
+    "journey-to-canaan-short-b"
+  ],
+  "related_social_post_ids": []
+}

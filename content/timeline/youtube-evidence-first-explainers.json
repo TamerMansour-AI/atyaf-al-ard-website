@@ -1,0 +1,29 @@
+{
+  "id": "timeline::youtube-evidence-first-explainers",
+  "slug": "youtube-evidence-first-explainers",
+  "date": "2025-12-13",
+  "date_precision": "day",
+  "event_type": "research_publication",
+  "title_ar": "إطلاق فيديوهات الشرح التأسيسية على يوتيوب",
+  "title_en": "Release of the Core YouTube Explainers",
+  "summary_ar": "إطلاق الفيديوهين التأسيسيين اللذين يشرحان منهج المشروع وهويته المعرفية والسردية.",
+  "summary_en": "Release of the two core explainers that define the project's method and evidence-first identity.",
+  "visibility_recommendation": "public",
+  "public_visibility": "public",
+  "evidence_confidence": "high",
+  "source_refs": [
+    {
+      "platform": "youtube",
+      "label": "YouTube video inventory",
+      "url": "https://www.youtube.com/@AtyafAlArd/videos"
+    }
+  ],
+  "related_production_ids": [
+    "deep-history-evidence-stories-ar",
+    "deep-history-evidence-stories-en"
+  ],
+  "related_research_entry_ids": [
+    "evidence-first-palestine-deep-history",
+    "foundational-overview"
+  ]
+}

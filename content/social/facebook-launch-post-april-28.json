@@ -1,0 +1,62 @@
+{
+  "id": "facebook-launch-post-april-28",
+  "slug": "facebook-launch-post-april-28",
+  "page_name": "Atyaf Al Ard",
+  "source_platform": "facebook",
+  "post_url": "https://www.facebook.com/permalink.php?id=61574424444648&story_fbid=pfbid035vSpax2DhukXvfpMkqHeLQnQtLQSw7uUPfpvYYAxXFnACQuAyGorenpctMCxwP9Ml",
+  "post_id": "story_pfbid035vSpax2DhukXvfpMkqHeLQnQtLQSw7uUPfpvYYAxXFnACQuAyGorenpctMCxwP9Ml",
+  "visible_date_text": "April 28, 2025",
+  "normalized_date": "2025-04-28",
+  "title_ar": "منشور إطلاق مبكر - 28 أبريل",
+  "title_en": "Early Launch Post - April 28",
+  "summary_ar": "Launch-period project activity confirmed.",
+  "summary_en": "Launch-period project activity confirmed.",
+  "post_type": "image",
+  "post_category": "update_or_progress",
+  "source_caption": "Post published by Mohamed Abumaliq on April 28, 2025. Visible in the authenticated Facebook feed with a preserved permalink and date.",
+  "caption_ar": "Post published by Mohamed Abumaliq on April 28, 2025. Visible in the authenticated Facebook feed with a preserved permalink and date.",
+  "caption_en": "",
+  "tags": [
+    "needs_manual_review",
+    "timeline_relevant"
+  ],
+  "media_count": 1,
+  "media_types": [
+    "image"
+  ],
+  "media_refs": [
+    {
+      "type": "image",
+      "url": "https://www.facebook.com/permalink.php?id=61574424444648&story_fbid=pfbid035vSpax2DhukXvfpMkqHeLQnQtLQSw7uUPfpvYYAxXFnACQuAyGorenpctMCxwP9Ml"
+    }
+  ],
+  "thumbnail_url": "",
+  "outbound_links": [],
+  "engagement_text": "",
+  "timeline_relevance": true,
+  "needs_manual_review": true,
+  "related_production_ids": [],
+  "related_media_appearance_ids": [],
+  "related_support_call_ids": [],
+  "status": "needs_review",
+  "public_visibility": "public",
+  "evidence_confidence": "medium",
+  "source_refs": [
+    {
+      "platform": "facebook",
+      "label": "Recovered Facebook post",
+      "url": "https://www.facebook.com/permalink.php?id=61574424444648&story_fbid=pfbid035vSpax2DhukXvfpMkqHeLQnQtLQSw7uUPfpvYYAxXFnACQuAyGorenpctMCxwP9Ml"
+    }
+  ],
+  "asset_refs": [
+    {
+      "type": "screenshot",
+      "path": ""
+    },
+    {
+      "type": "raw_html",
+      "path": "02_raw_data/facebook/html/combined_tab_anchor_candidates.json"
+    }
+  ],
+  "notes_internal": "Launch-period project activity confirmed."
+}

@@ -1,0 +1,62 @@
+{
+  "id": "facebook-launch-post-april-20",
+  "slug": "facebook-launch-post-april-20",
+  "page_name": "Atyaf Al Ard",
+  "source_platform": "facebook",
+  "post_url": "https://www.facebook.com/permalink.php?id=61574424444648&story_fbid=pfbid02uBjHqLXJ9BR8R5dFFnKfYZUXEwAbEFoyTyAqnNXprEHSasRyoeSMfmzm9Btrs7dNl",
+  "post_id": "story_pfbid02uBjHqLXJ9BR8R5dFFnKfYZUXEwAbEFoyTyAqnNXprEHSasRyoeSMfmzm9Btrs7dNl",
+  "visible_date_text": "April 20, 2025",
+  "normalized_date": "2025-04-20",
+  "title_ar": "منشور إطلاق مبكر - 20 أبريل",
+  "title_en": "Early Launch Post - April 20",
+  "summary_ar": "Early-April project activity.",
+  "summary_en": "Early-April project activity.",
+  "post_type": "image",
+  "post_category": "update_or_progress",
+  "source_caption": "Post published by Mohamed Abumaliq on April 20, 2025. Authenticated feed evidence confirms dated project activity before the later May posts.",
+  "caption_ar": "Post published by Mohamed Abumaliq on April 20, 2025. Authenticated feed evidence confirms dated project activity before the later May posts.",
+  "caption_en": "",
+  "tags": [
+    "needs_manual_review",
+    "timeline_relevant"
+  ],
+  "media_count": 1,
+  "media_types": [
+    "image"
+  ],
+  "media_refs": [
+    {
+      "type": "image",
+      "url": "https://www.facebook.com/permalink.php?id=61574424444648&story_fbid=pfbid02uBjHqLXJ9BR8R5dFFnKfYZUXEwAbEFoyTyAqnNXprEHSasRyoeSMfmzm9Btrs7dNl"
+    }
+  ],
+  "thumbnail_url": "",
+  "outbound_links": [],
+  "engagement_text": "",
+  "timeline_relevance": true,
+  "needs_manual_review": true,
+  "related_production_ids": [],
+  "related_media_appearance_ids": [],
+  "related_support_call_ids": [],
+  "status": "needs_review",
+  "public_visibility": "public",
+  "evidence_confidence": "medium",
+  "source_refs": [
+    {
+      "platform": "facebook",
+      "label": "Recovered Facebook post",
+      "url": "https://www.facebook.com/permalink.php?id=61574424444648&story_fbid=pfbid02uBjHqLXJ9BR8R5dFFnKfYZUXEwAbEFoyTyAqnNXprEHSasRyoeSMfmzm9Btrs7dNl"
+    }
+  ],
+  "asset_refs": [
+    {
+      "type": "screenshot",
+      "path": ""
+    },
+    {
+      "type": "raw_html",
+      "path": "02_raw_data/facebook/html/combined_tab_anchor_candidates.json"
+    }
+  ],
+  "notes_internal": "Early-April project activity."
+}

@@ -1,0 +1,63 @@
+{
+  "id": "youtube::0ZNiH0KjiPo",
+  "slug": "deep-history-evidence-stories-en",
+  "title_ar": "أطياف الأرض: حكايات فلسطين العميقة بالدليل",
+  "title_en": "Atyaf Al Ard: Evidence-First Stories of Palestine's Deep History",
+  "source_title_original": "Atyaf Al Ard (Echoes of the Land) — Evidence-First Stories of Palestine’s Deep History",
+  "production_type": "explainer",
+  "content_format": "video",
+  "release_date": "2025-12-13",
+  "summary_ar": "النسخة الثنائية اللغة التي تشرح مشروع أطياف الأرض كمنصة بحث وسرد بصري عن تاريخ فلسطين العميق.",
+  "summary_en": "A bilingual explainer presenting Atyaf Al Ard as a research-and-storytelling platform about Palestine's deep history.",
+  "source_language": "bilingual",
+  "translation_status": "bilingual_complete",
+  "platforms": [
+    "youtube"
+  ],
+  "youtube_url": "https://www.youtube.com/watch?v=0ZNiH0KjiPo",
+  "facebook_url": "",
+  "thumbnail_ref": "https://i.ytimg.com/vi/0ZNiH0KjiPo/maxresdefault.jpg",
+  "runtime_seconds": 390,
+  "transcript_status": "available",
+  "transcript_original_path": "assets/data/transcripts/0ZNiH0KjiPo-atyaf-al-ard-echoes-of-the-land-evidence-first-stories-of-palestines-deep-history.txt",
+  "transcript_source_path": "03_processed_data/transcripts/0ZNiH0KjiPo-atyaf-al-ard-echoes-of-the-land-evidence-first-stories-of-palestines-deep-history.txt",
+  "theme_terms": [
+    "palestinian_identity",
+    "deep_history",
+    "evidence_based_storytelling",
+    "ai_assisted_media",
+    "memory_and_heritage",
+    "community_and_youth"
+  ],
+  "historical_period_terms": [
+    "cross_period"
+  ],
+  "flagship": false,
+  "featured": true,
+  "status": "published",
+  "public_visibility": "public",
+  "evidence_confidence": "high",
+  "source_refs": [
+    {
+      "platform": "youtube",
+      "label": "YouTube video",
+      "url": "https://www.youtube.com/watch?v=0ZNiH0KjiPo"
+    }
+  ],
+  "asset_refs": [
+    {
+      "type": "thumbnail",
+      "url": "https://i.ytimg.com/vi/0ZNiH0KjiPo/maxresdefault.jpg"
+    }
+  ],
+  "related_timeline_event_ids": [
+    "youtube-evidence-first-explainers",
+    "october-mission-post"
+  ],
+  "related_social_post_ids": [],
+  "related_research_entry_ids": [
+    "evidence-first-palestine-deep-history",
+    "foundational-overview"
+  ],
+  "notes_internal": "Palestinian identity, deep history, evidence-based storytelling, AI-assisted media, memory and heritage, community and youth"
+}

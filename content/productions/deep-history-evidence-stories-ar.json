@@ -1,0 +1,60 @@
+{
+  "id": "youtube::Kff3IFZURZo",
+  "slug": "deep-history-evidence-stories-ar",
+  "title_ar": "أطياف الأرض: حكايات فلسطين العميقة بالدليل",
+  "title_en": "Atyaf Al Ard: Evidence-First Stories of Palestine's Deep History",
+  "source_title_original": "أطياف الأرض — حكايات فلسطين العميقة بالدليل (مش روايات جاهزة)",
+  "production_type": "explainer",
+  "content_format": "video",
+  "release_date": "2025-12-13",
+  "summary_ar": "فيديو تعريفي بالعربية يشرح منهج المشروع في السرد المبني على الأدلة بدل الروايات الجاهزة.",
+  "summary_en": "An Arabic explainer that introduces the project's evidence-first method for telling Palestine's deep history.",
+  "source_language": "arabic",
+  "translation_status": "source_only",
+  "platforms": [
+    "youtube"
+  ],
+  "youtube_url": "https://www.youtube.com/watch?v=Kff3IFZURZo",
+  "facebook_url": "",
+  "thumbnail_ref": "https://i.ytimg.com/vi/Kff3IFZURZo/maxresdefault.jpg",
+  "runtime_seconds": 392,
+  "transcript_status": "available",
+  "transcript_original_path": "assets/data/transcripts/Kff3IFZURZo-أطياف-الأرض-حكايات-فلسطين-العميقة-بالدليل-مش-روايات-جاهزة.txt",
+  "transcript_source_path": "03_processed_data/transcripts/Kff3IFZURZo-أطياف-الأرض-حكايات-فلسطين-العميقة-بالدليل-مش-روايات-جاهزة.txt",
+  "theme_terms": [
+    "palestinian_identity",
+    "evidence_based_storytelling",
+    "ai_assisted_media"
+  ],
+  "historical_period_terms": [
+    "cross_period"
+  ],
+  "flagship": false,
+  "featured": true,
+  "status": "published",
+  "public_visibility": "public",
+  "evidence_confidence": "high",
+  "source_refs": [
+    {
+      "platform": "youtube",
+      "label": "YouTube video",
+      "url": "https://www.youtube.com/watch?v=Kff3IFZURZo"
+    }
+  ],
+  "asset_refs": [
+    {
+      "type": "thumbnail",
+      "url": "https://i.ytimg.com/vi/Kff3IFZURZo/maxresdefault.jpg"
+    }
+  ],
+  "related_timeline_event_ids": [
+    "youtube-evidence-first-explainers",
+    "october-mission-post"
+  ],
+  "related_social_post_ids": [],
+  "related_research_entry_ids": [
+    "evidence-first-palestine-deep-history",
+    "notebooklm-public-lab"
+  ],
+  "notes_internal": "Palestinian identity, evidence-based storytelling, AI-assisted media"
+}

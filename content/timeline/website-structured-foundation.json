@@ -1,0 +1,22 @@
+{
+  "id": "timeline::website-structured-foundation",
+  "slug": "website-structured-foundation",
+  "date": "2026-03-22",
+  "date_precision": "day",
+  "event_type": "website_milestone",
+  "title_ar": "بداية النسخة المنظمة من الموقع",
+  "title_en": "Structured Website Foundation",
+  "summary_ar": "تحويل الموقع من بروشور ثابت إلى بنية محتوى منظمة بالبيانات والقوالب القابلة للتوسّع.",
+  "summary_en": "Conversion of the site from a brochure-style static presence into a structured, data-driven platform foundation.",
+  "visibility_recommendation": "public",
+  "public_visibility": "public",
+  "evidence_confidence": "high",
+  "source_refs": [
+    {
+      "platform": "github",
+      "label": "Phase 4 implementation",
+      "url": "https://github.com/TamerMansour-AI/atyaf-al-ard-website"
+    }
+  ],
+  "related_production_ids": []
+}

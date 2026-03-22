@@ -1,0 +1,62 @@
+{
+  "id": "facebook-launch-post-april-29",
+  "slug": "facebook-launch-post-april-29",
+  "page_name": "Atyaf Al Ard",
+  "source_platform": "facebook",
+  "post_url": "https://www.facebook.com/permalink.php?id=61574424444648&story_fbid=pfbid02pWZWL7Wu1B1y6pY7SYdjtfRk7M6nQ2zDRKKqQLFbtwa7SbN9tX15oLUnmUGkjvrbl",
+  "post_id": "story_pfbid02pWZWL7Wu1B1y6pY7SYdjtfRk7M6nQ2zDRKKqQLFbtwa7SbN9tX15oLUnmUGkjvrbl",
+  "visible_date_text": "April 29, 2025",
+  "normalized_date": "2025-04-29",
+  "title_ar": "منشور إطلاق مبكر - 29 أبريل",
+  "title_en": "Early Launch Post - April 29",
+  "summary_ar": "Launch-period Facebook post; caption still partial.",
+  "summary_en": "Launch-period Facebook post; caption still partial.",
+  "post_type": "image",
+  "post_category": "update_or_progress",
+  "source_caption": "Post published by Mohamed Abumaliq on April 29, 2025. Date, URL, and page association are confirmed from the authenticated feed bundle.",
+  "caption_ar": "Post published by Mohamed Abumaliq on April 29, 2025. Date, URL, and page association are confirmed from the authenticated feed bundle.",
+  "caption_en": "",
+  "tags": [
+    "needs_manual_review",
+    "timeline_relevant"
+  ],
+  "media_count": 1,
+  "media_types": [
+    "image"
+  ],
+  "media_refs": [
+    {
+      "type": "image",
+      "url": "https://www.facebook.com/permalink.php?id=61574424444648&story_fbid=pfbid02pWZWL7Wu1B1y6pY7SYdjtfRk7M6nQ2zDRKKqQLFbtwa7SbN9tX15oLUnmUGkjvrbl"
+    }
+  ],
+  "thumbnail_url": "",
+  "outbound_links": [],
+  "engagement_text": "",
+  "timeline_relevance": true,
+  "needs_manual_review": true,
+  "related_production_ids": [],
+  "related_media_appearance_ids": [],
+  "related_support_call_ids": [],
+  "status": "needs_review",
+  "public_visibility": "public",
+  "evidence_confidence": "medium",
+  "source_refs": [
+    {
+      "platform": "facebook",
+      "label": "Recovered Facebook post",
+      "url": "https://www.facebook.com/permalink.php?id=61574424444648&story_fbid=pfbid02pWZWL7Wu1B1y6pY7SYdjtfRk7M6nQ2zDRKKqQLFbtwa7SbN9tX15oLUnmUGkjvrbl"
+    }
+  ],
+  "asset_refs": [
+    {
+      "type": "screenshot",
+      "path": ""
+    },
+    {
+      "type": "raw_html",
+      "path": "02_raw_data/facebook/html/combined_tab_anchor_candidates.json"
+    }
+  ],
+  "notes_internal": "Launch-period Facebook post; caption still partial."
+}

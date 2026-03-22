@@ -1,0 +1,73 @@
+{
+  "id": "facebook-mission-post-oct-2025",
+  "slug": "facebook-mission-post-oct-2025",
+  "page_name": "Atyaf Al Ard",
+  "source_platform": "facebook",
+  "post_url": "https://www.facebook.com/61574424444648/videos/1338309874313048/",
+  "post_id": "video_1338309874313048",
+  "visible_date_text": "October 4, 2025",
+  "normalized_date": "2025-10-04",
+  "title_ar": "بوست المهمة والتعريف بالمشروع",
+  "title_en": "Mission Post and Project Introduction",
+  "summary_ar": "أحد أوضح التعريفات الفيسبوكية بالمشروع، يربط بين NotebookLM ويوتيوب واحتياجات الفريق والدعم.",
+  "summary_en": "One of the clearest Facebook-native identity posts, linking the project to NotebookLM, YouTube, team roles, and support needs.",
+  "post_type": "video",
+  "post_category": "project_identity_or_mission",
+  "source_caption": "????? ????? | ?? ?????? ??????? ??? ?????? ?????. ?????/????? ?????? ???? ?????? ??????? ???? ?????? ????? ????????? ????? ??????? ??? NotebookLM ????? ??????. ????? ????? ??????? ???????? ????????? ????????? ?????????? ?????? ???????/ GIS ?????????? ?? ???? ????? ???????? ?????? ??????? ?????? ?????.",
+  "caption_ar": "",
+  "caption_en": "",
+  "tags": [
+    "bilingual",
+    "call_for_volunteers",
+    "research_pdf",
+    "timeline_relevant",
+    "video",
+    "youtube_link"
+  ],
+  "media_count": 1,
+  "media_types": [
+    "video"
+  ],
+  "media_refs": [
+    {
+      "type": "video",
+      "url": "https://www.facebook.com/61574424444648/videos/1338309874313048/"
+    }
+  ],
+  "thumbnail_url": "",
+  "outbound_links": [
+    "https://notebooklm.google.com/notebook/897d6cfa-8b8f-470e-aacd-a749293eaef7",
+    "https://youtube.com/@atyafalard?si=vHoa74DDlTasVl5Y"
+  ],
+  "engagement_text": "",
+  "timeline_relevance": true,
+  "needs_manual_review": false,
+  "related_production_ids": [
+    "Atyaf Al Ard project introduction"
+  ],
+  "related_media_appearance_ids": [],
+  "related_support_call_ids": [
+    "october-support-and-team-call"
+  ],
+  "status": "published",
+  "public_visibility": "public",
+  "evidence_confidence": "high",
+  "source_refs": [
+    {
+      "platform": "facebook",
+      "label": "Recovered Facebook post",
+      "url": "https://www.facebook.com/61574424444648/videos/1338309874313048/"
+    }
+  ],
+  "asset_refs": [
+    {
+      "type": "screenshot",
+      "path": "02_raw_data/facebook/screenshots/page_overview.png"
+    },
+    {
+      "type": "raw_html",
+      "path": "02_raw_data/facebook/html/page_structure.html"
+    }
+  ],
+  "notes_internal": "Mission-defining Facebook introduction connecting the project to NotebookLM and YouTube."
+}

@@ -1,0 +1,62 @@
+{
+  "id": "facebook-launch-post-april-13",
+  "slug": "facebook-launch-post-april-13",
+  "page_name": "Atyaf Al Ard",
+  "source_platform": "facebook",
+  "post_url": "https://www.facebook.com/permalink.php?id=61574424444648&story_fbid=pfbid0MZKzu7VwunZp1zRVbAogsL9TJiVuNZ6tzjv1ayVH6nYmJRoMBUEP4xFdvpuCho3Sl",
+  "post_id": "story_pfbid0MZKzu7VwunZp1zRVbAogsL9TJiVuNZ6tzjv1ayVH6nYmJRoMBUEP4xFdvpuCho3Sl",
+  "visible_date_text": "April 13, 2025",
+  "normalized_date": "2025-04-13",
+  "title_ar": "منشور إطلاق مبكر - 13 أبريل",
+  "title_en": "Early Launch Post - April 13",
+  "summary_ar": "Confirms dense posting activity during the April launch window.",
+  "summary_en": "Confirms dense posting activity during the April launch window.",
+  "post_type": "image",
+  "post_category": "update_or_progress",
+  "source_caption": "Post published by Tamer Mansour on April 13, 2025. Visible as a dated project permalink in the authenticated feed, paired with other early April activity.",
+  "caption_ar": "Post published by Tamer Mansour on April 13, 2025. Visible as a dated project permalink in the authenticated feed, paired with other early April activity.",
+  "caption_en": "",
+  "tags": [
+    "needs_manual_review",
+    "timeline_relevant"
+  ],
+  "media_count": 1,
+  "media_types": [
+    "image"
+  ],
+  "media_refs": [
+    {
+      "type": "image",
+      "url": "https://www.facebook.com/permalink.php?id=61574424444648&story_fbid=pfbid0MZKzu7VwunZp1zRVbAogsL9TJiVuNZ6tzjv1ayVH6nYmJRoMBUEP4xFdvpuCho3Sl"
+    }
+  ],
+  "thumbnail_url": "",
+  "outbound_links": [],
+  "engagement_text": "",
+  "timeline_relevance": true,
+  "needs_manual_review": true,
+  "related_production_ids": [],
+  "related_media_appearance_ids": [],
+  "related_support_call_ids": [],
+  "status": "needs_review",
+  "public_visibility": "public",
+  "evidence_confidence": "medium",
+  "source_refs": [
+    {
+      "platform": "facebook",
+      "label": "Recovered Facebook post",
+      "url": "https://www.facebook.com/permalink.php?id=61574424444648&story_fbid=pfbid0MZKzu7VwunZp1zRVbAogsL9TJiVuNZ6tzjv1ayVH6nYmJRoMBUEP4xFdvpuCho3Sl"
+    }
+  ],
+  "asset_refs": [
+    {
+      "type": "screenshot",
+      "path": ""
+    },
+    {
+      "type": "raw_html",
+      "path": "02_raw_data/facebook/html/combined_tab_anchor_candidates.json"
+    }
+  ],
+  "notes_internal": "Confirms dense posting activity during the April launch window."
+}

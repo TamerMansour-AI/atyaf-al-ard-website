@@ -1,0 +1,61 @@
+{
+  "id": "canaanite-kitchen-memory-post",
+  "slug": "canaanite-kitchen-memory-post",
+  "page_name": "Atyaf Al Ard",
+  "source_platform": "facebook",
+  "post_url": "https://www.facebook.com/permalink.php?id=61574424444648&story_fbid=pfbid0mHhkPLRa9tHuAcXv41yALAbRY938gb31KQMcUCAAx16jgJXSxbDKWVjrL4JWXZHRl",
+  "post_id": "story_pfbid0mHhkPLRa9tHuAcXv41yALAbRY938gb31KQMcUCAAx16jgJXSxbDKWVjrL4JWXZHRl",
+  "visible_date_text": "April 15, 2025",
+  "normalized_date": "2025-04-15",
+  "title_ar": "العودة إلى المطبخ الكنعاني",
+  "title_en": "Returning to the Canaanite Kitchen",
+  "summary_ar": "منشور مبكر يربط الطعام والذاكرة والمقاومة، ويؤكد في التعليقات وجود نية لبناء موسوعة/قاعدة معرفة.",
+  "summary_en": "An early post linking food, memory, and resistance, with comments that confirm plans for an encyclopedia-style knowledge layer.",
+  "post_type": "image",
+  "post_category": "research_or_history",
+  "source_caption": "????? ???? ??? ?????? ???????? ?????? ?????? ?????... ??????? ????????. ???? ??????? ??? ?????? ???????? ???????? ??????? ?????????? ?????? ???????? ????????? ??????? ???????? ??????? ??????. ?? ????????? ??? ????? ??? ???? ?????? ??? ????????? ???? ??????: ??? ?????? ?????.",
+  "caption_ar": "",
+  "caption_en": "",
+  "tags": [
+    "timeline_relevant"
+  ],
+  "media_count": 1,
+  "media_types": [
+    "image"
+  ],
+  "media_refs": [
+    {
+      "type": "image",
+      "url": "https://www.facebook.com/permalink.php?id=61574424444648&story_fbid=pfbid0mHhkPLRa9tHuAcXv41yALAbRY938gb31KQMcUCAAx16jgJXSxbDKWVjrL4JWXZHRl"
+    }
+  ],
+  "thumbnail_url": "",
+  "outbound_links": [],
+  "engagement_text": "All reactions: 3, 2 comments, 3 shares",
+  "timeline_relevance": true,
+  "needs_manual_review": false,
+  "related_production_ids": [],
+  "related_media_appearance_ids": [],
+  "related_support_call_ids": [],
+  "status": "published",
+  "public_visibility": "public",
+  "evidence_confidence": "high",
+  "source_refs": [
+    {
+      "platform": "facebook",
+      "label": "Recovered Facebook post",
+      "url": "https://www.facebook.com/permalink.php?id=61574424444648&story_fbid=pfbid0mHhkPLRa9tHuAcXv41yALAbRY938gb31KQMcUCAAx16jgJXSxbDKWVjrL4JWXZHRl"
+    }
+  ],
+  "asset_refs": [
+    {
+      "type": "screenshot",
+      "path": "02_raw_data/facebook/screenshots/mini_apr15_kitchen.png"
+    },
+    {
+      "type": "raw_html",
+      "path": "02_raw_data/facebook/post_pages/mini_apr15_kitchen.html"
+    }
+  ],
+  "notes_internal": "Mini pass recovered full caption plus a key comment exchange confirming a planned encyclopedia/knowledge resource."
+}

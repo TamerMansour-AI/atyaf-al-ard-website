@@ -1,0 +1,33 @@
+{
+  "id": "timeline::palestine-tv-interview-and-volunteer-call",
+  "slug": "palestine-tv-interview-and-volunteer-call",
+  "date": "2026-03-21",
+  "date_precision": "day",
+  "event_type": "media_appearance",
+  "title_ar": "مقابلة تلفزيونية ودعوة للمتطوعين",
+  "title_en": "TV Appearance and Volunteer Call",
+  "summary_ar": "ظهور إعلامي على تلفزيون فلسطين ترافق مع دعوة للمساعدة في إدارة وإطلاق القنوات الرسمية للمشروع.",
+  "summary_en": "A Palestine TV appearance paired with a public call for volunteers to help launch and run the official channels.",
+  "visibility_recommendation": "public",
+  "public_visibility": "public",
+  "evidence_confidence": "high",
+  "source_refs": [
+    {
+      "platform": "facebook",
+      "label": "March 21 recovered reel",
+      "url": "https://www.facebook.com/reel/26921548534096848/"
+    }
+  ],
+  "related_social_post_ids": [
+    "palestine-tv-volunteer-call"
+  ],
+  "related_media_appearance_ids": [
+    "palestine-tv-interview"
+  ],
+  "related_support_call_ids": [
+    "social-launch-volunteer-call"
+  ],
+  "related_production_ids": [
+    "princes-of-ashes-trailer"
+  ]
+}

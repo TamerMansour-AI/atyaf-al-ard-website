@@ -1,0 +1,63 @@
+{
+  "id": "reel-april-13-2025",
+  "slug": "reel-april-13-2025",
+  "page_name": "Atyaf Al Ard",
+  "source_platform": "facebook",
+  "post_url": "https://www.facebook.com/reel/1788158622118294/",
+  "post_id": "reel_1788158622118294",
+  "visible_date_text": "April 13, 2025",
+  "normalized_date": "2025-04-13",
+  "title_ar": "منشور ترويجي - 2025-04-13",
+  "title_en": "Promo or teaser post - 2025-04-13",
+  "summary_ar": "Mini pass strengthened media traceability for the earliest recovered reel, but the caption still did not render.",
+  "summary_en": "Mini pass strengthened media traceability for the earliest recovered reel, but the caption still did not render.",
+  "post_type": "reel",
+  "post_category": "teaser_or_promo",
+  "source_caption": "Reel published by Tamer Mansour on April 13, 2025. The authenticated feed confirms the reel date and URL during the project?s earliest visible public activity.",
+  "caption_ar": "",
+  "caption_en": "",
+  "tags": [
+    "needs_manual_review",
+    "reel",
+    "timeline_relevant"
+  ],
+  "media_count": 1,
+  "media_types": [
+    "reel"
+  ],
+  "media_refs": [
+    {
+      "type": "reel",
+      "url": "https://www.facebook.com/reel/1788158622118294/"
+    }
+  ],
+  "thumbnail_url": "",
+  "outbound_links": [],
+  "engagement_text": "Direct reel page metrics visible during mini pass: 328K, 1.9K, 128K.",
+  "timeline_relevance": true,
+  "needs_manual_review": true,
+  "related_production_ids": [],
+  "related_media_appearance_ids": [],
+  "related_support_call_ids": [],
+  "status": "needs_review",
+  "public_visibility": "public",
+  "evidence_confidence": "medium",
+  "source_refs": [
+    {
+      "platform": "facebook",
+      "label": "Recovered Facebook post",
+      "url": "https://www.facebook.com/reel/1788158622118294/"
+    }
+  ],
+  "asset_refs": [
+    {
+      "type": "screenshot",
+      "path": "02_raw_data/facebook/screenshots/mini_apr13_reel.png"
+    },
+    {
+      "type": "raw_html",
+      "path": "02_raw_data/facebook/post_pages/mini_apr13_reel.html"
+    }
+  ],
+  "notes_internal": "Mini pass strengthened media traceability for the earliest recovered reel, but the caption still did not render."
+}

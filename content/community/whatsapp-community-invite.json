@@ -1,0 +1,35 @@
+{
+  "id": "support::whatsapp-community-invite",
+  "slug": "whatsapp-community-invite",
+  "call_type": "whatsapp_join",
+  "date": "2025-05-21",
+  "title_ar": "انضم إلى مجموعة واتساب",
+  "title_en": "Join the WhatsApp Community",
+  "summary_ar": "دعوة للانضمام إلى مجموعة المشروع لمتابعة الإصدارات والفيديوهات والفعاليات والنقاشات.",
+  "summary_en": "An invitation to join the project's WhatsApp group for releases, videos, events, and discussion.",
+  "target_audience": [
+    "followers",
+    "community"
+  ],
+  "source_platform": "facebook",
+  "source_url": "https://www.facebook.com/permalink.php?id=61574424444648&story_fbid=pfbid0JfoP7TNmdcf62M4d126rV4apSXargCLiNHDU8jNQAe8usq6AzdVCmTyBBNWErBiAl",
+  "cta_url": "https://chat.whatsapp.com/JZRtLy0eR76C3Mwr2uOnN3",
+  "active_state": "historical",
+  "related_project_phase": "launch_community_building",
+  "status": "published",
+  "public_visibility": "public",
+  "evidence_confidence": "high",
+  "source_refs": [
+    {
+      "platform": "facebook",
+      "label": "Recovered May 21 WhatsApp invite",
+      "url": "https://www.facebook.com/permalink.php?id=61574424444648&story_fbid=pfbid0JfoP7TNmdcf62M4d126rV4apSXargCLiNHDU8jNQAe8usq6AzdVCmTyBBNWErBiAl"
+    }
+  ],
+  "related_social_post_ids": [
+    "whatsapp-community-invite"
+  ],
+  "related_timeline_event_ids": [
+    "whatsapp-community-launch"
+  ]
+}

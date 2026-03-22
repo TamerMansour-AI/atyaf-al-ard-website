@@ -1,0 +1,28 @@
+{
+  "id": "timeline::october-mission-post",
+  "slug": "october-mission-post",
+  "date": "2025-10-04",
+  "date_precision": "day",
+  "event_type": "mission_statement",
+  "title_ar": "بوست المهمة وبناء الفريق",
+  "title_en": "Mission and Team-Building Post",
+  "summary_ar": "أحد أوضح النصوص العامة التي تعرّف المشروع وتربطه بيوتيوب وNotebookLM واحتياجات الفريق والدعم.",
+  "summary_en": "One of the clearest public statements of project identity, linking the platform to YouTube, NotebookLM, team roles, and support needs.",
+  "visibility_recommendation": "public",
+  "public_visibility": "public",
+  "evidence_confidence": "high",
+  "source_refs": [
+    {
+      "platform": "facebook",
+      "label": "October 4 mission post",
+      "url": "https://www.facebook.com/61574424444648/videos/1338309874313048/"
+    }
+  ],
+  "related_social_post_ids": [
+    "facebook-mission-post-oct-2025"
+  ],
+  "related_research_entry_ids": [
+    "notebooklm-public-lab",
+    "evidence-first-palestine-deep-history"
+  ]
+}
