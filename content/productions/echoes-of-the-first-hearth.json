@@ -55,5 +55,9 @@
   "related_research_entry_ids": [
     "canaanite-kitchen-memory"
   ],
-  "notes_internal": "Palestinian identity, deep history, AI-assisted media"
+  "notes_internal": "Palestinian identity, deep history, AI-assisted media",
+  "language_availability": "bilingual",
+  "source_platforms": [
+    "youtube"
+  ]
 }

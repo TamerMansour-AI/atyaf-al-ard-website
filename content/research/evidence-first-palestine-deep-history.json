@@ -28,12 +28,18 @@
       "platform": "youtube",
       "label": "Bilingual explainer",
       "url": "https://www.youtube.com/watch?v=0ZNiH0KjiPo"
+    },
+    {
+      "platform": "website",
+      "label": "Palestine evidence narrative PDF",
+      "url": "/atyaf-al-ard-website/assets/Palestine_Evidence_Narrative.pdf"
     }
   ],
   "related_production_ids": [
     "deep-history-evidence-stories-ar",
     "deep-history-evidence-stories-en",
-    "princes-of-ashes-trailer"
+    "princes-of-ashes-trailer",
+    "visual-memory-teaser"
   ],
   "related_social_post_ids": [
     "facebook-mission-post-oct-2025"
@@ -41,5 +47,32 @@
   "related_timeline_event_ids": [
     "youtube-evidence-first-explainers",
     "october-mission-post"
+  ],
+  "featured": true,
+  "translation_status": "bilingual_complete",
+  "asset_refs": [
+    {
+      "type": "image",
+      "path": "assets/images/research/jericho-continuity-en.png",
+      "label_en": "Jericho continuity image",
+      "label_ar": "صورة استمرارية أريحا"
+    },
+    {
+      "type": "image",
+      "path": "assets/images/research/jericho-continuity-ar.png",
+      "label_en": "Arabic Jericho continuity image",
+      "label_ar": "الصورة العربية لاستمرارية أريحا"
+    },
+    {
+      "type": "pdf",
+      "path": "assets/Palestine_Evidence_Narrative.pdf",
+      "label_en": "Palestine evidence narrative",
+      "label_ar": "سردية فلسطين بالأدلة"
+    }
+  ],
+  "language_availability": "bilingual",
+  "source_platforms": [
+    "youtube",
+    "website"
   ]
 }

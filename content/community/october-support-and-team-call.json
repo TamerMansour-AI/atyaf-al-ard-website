@@ -34,5 +34,11 @@
   ],
   "related_timeline_event_ids": [
     "october-mission-post"
+  ],
+  "featured": true,
+  "translation_status": "bilingual_complete",
+  "language_availability": "bilingual",
+  "source_platforms": [
+    "facebook"
   ]
 }

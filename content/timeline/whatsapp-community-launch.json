@@ -20,5 +20,13 @@
   ],
   "related_social_post_ids": [
     "whatsapp-community-invite"
+  ],
+  "related_support_call_ids": [
+    "whatsapp-community-invite"
+  ],
+  "translation_status": "bilingual_complete",
+  "language_availability": "bilingual",
+  "source_platforms": [
+    "facebook"
   ]
 }

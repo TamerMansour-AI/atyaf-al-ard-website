@@ -51,9 +51,15 @@
     "canaanite-fact-series-launch",
     "youtube-first-release-day"
   ],
-  "related_social_post_ids": [],
+  "related_social_post_ids": [
+    "canaanite-fact-launch-post"
+  ],
   "related_research_entry_ids": [
     "canaanite-fact-series"
   ],
-  "notes_internal": "Palestinian identity, Canaanite continuity, AI-assisted media"
+  "notes_internal": "Palestinian identity, Canaanite continuity, AI-assisted media",
+  "language_availability": "bilingual",
+  "source_platforms": [
+    "youtube"
+  ]
 }

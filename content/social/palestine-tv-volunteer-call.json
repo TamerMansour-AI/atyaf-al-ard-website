@@ -65,5 +65,14 @@
       "path": "02_raw_data/facebook/post_pages/reel_26921548534096848_page.html"
     }
   ],
-  "notes_internal": "Interview appearance plus volunteer onboarding call."
+  "notes_internal": "Interview appearance plus volunteer onboarding call.",
+  "featured": true,
+  "translation_status": "arabic_primary_english_pending",
+  "related_timeline_event_ids": [
+    "palestine-tv-interview-and-volunteer-call"
+  ],
+  "language_availability": "arabic_primary",
+  "source_platforms": [
+    "facebook"
+  ]
 }

@@ -34,5 +34,10 @@
   ],
   "related_timeline_event_ids": [
     "canaanite-kitchen-memory-post"
+  ],
+  "translation_status": "bilingual_complete",
+  "language_availability": "bilingual",
+  "source_platforms": [
+    "facebook"
   ]
 }

@@ -34,5 +34,11 @@
   "related_social_post_ids": [
     "ramallah-ai-dialogue-post"
   ],
-  "related_production_ids": []
+  "related_production_ids": [],
+  "featured": true,
+  "translation_status": "bilingual_complete",
+  "language_availability": "bilingual",
+  "source_platforms": [
+    "facebook"
+  ]
 }

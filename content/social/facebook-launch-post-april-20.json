@@ -9,12 +9,12 @@
   "normalized_date": "2025-04-20",
   "title_ar": "منشور إطلاق مبكر - 20 أبريل",
   "title_en": "Early Launch Post - April 20",
-  "summary_ar": "Early-April project activity.",
+  "summary_ar": "نشاط مشروع موثق في أبريل قبل موجة مايو اللاحقة.",
   "summary_en": "Early-April project activity.",
   "post_type": "image",
   "post_category": "update_or_progress",
   "source_caption": "Post published by Mohamed Abumaliq on April 20, 2025. Authenticated feed evidence confirms dated project activity before the later May posts.",
-  "caption_ar": "Post published by Mohamed Abumaliq on April 20, 2025. Authenticated feed evidence confirms dated project activity before the later May posts.",
+  "caption_ar": "",
   "caption_en": "",
   "tags": [
     "needs_manual_review",
@@ -58,5 +58,13 @@
       "path": "02_raw_data/facebook/html/combined_tab_anchor_candidates.json"
     }
   ],
-  "notes_internal": "Early-April project activity."
+  "notes_internal": "Early-April project activity.",
+  "translation_status": "english_primary_arabic_pending",
+  "related_timeline_event_ids": [
+    "facebook-launch-window"
+  ],
+  "language_availability": "english_primary",
+  "source_platforms": [
+    "facebook"
+  ]
 }

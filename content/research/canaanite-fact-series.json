@@ -36,12 +36,21 @@
     "journey-to-canaan-short-a",
     "journey-to-canaan-short-b",
     "crimson-cry-short",
-    "decision-announcement-short"
+    "decision-announcement-short",
+    "canaanite-wedding-song",
+    "princes-of-ashes-trailer"
   ],
   "related_social_post_ids": [
     "canaanite-fact-launch-post"
   ],
   "related_timeline_event_ids": [
     "canaanite-fact-series-launch"
+  ],
+  "featured": true,
+  "translation_status": "bilingual_complete",
+  "language_availability": "bilingual",
+  "source_platforms": [
+    "facebook",
+    "youtube"
   ]
 }

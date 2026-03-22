@@ -9,12 +9,12 @@
   "normalized_date": "2025-04-18",
   "title_ar": "منشور إطلاق مبكر - 18 أبريل",
   "title_en": "Early Launch Post - April 18",
-  "summary_ar": "Early launch-period post.",
+  "summary_ar": "منشور مبكر ضمن فترة الإطلاق.",
   "summary_en": "Early launch-period post.",
   "post_type": "image",
   "post_category": "update_or_progress",
   "source_caption": "Post published by Tamer Mansour on April 18, 2025. Visible as a dated permalink in the authenticated feed archive.",
-  "caption_ar": "Post published by Tamer Mansour on April 18, 2025. Visible as a dated permalink in the authenticated feed archive.",
+  "caption_ar": "",
   "caption_en": "",
   "tags": [
     "needs_manual_review",
@@ -58,5 +58,13 @@
       "path": "02_raw_data/facebook/html/combined_tab_anchor_candidates.json"
     }
   ],
-  "notes_internal": "Early launch-period post."
+  "notes_internal": "Early launch-period post.",
+  "translation_status": "english_primary_arabic_pending",
+  "related_timeline_event_ids": [
+    "facebook-launch-window"
+  ],
+  "language_availability": "english_primary",
+  "source_platforms": [
+    "facebook"
+  ]
 }

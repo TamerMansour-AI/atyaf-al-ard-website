@@ -60,5 +60,14 @@
       "path": "02_raw_data/facebook/post_pages/mini_may21_ramallah.html"
     }
   ],
-  "notes_internal": "Mini pass recovered full event/civic dialogue context tying the project to Ramallah Municipality and an artist-residency program."
+  "notes_internal": "Mini pass recovered full event/civic dialogue context tying the project to Ramallah Municipality and an artist-residency program.",
+  "featured": true,
+  "translation_status": "arabic_primary_english_pending",
+  "related_timeline_event_ids": [
+    "ramallah-dialogue-event"
+  ],
+  "language_availability": "arabic_primary",
+  "source_platforms": [
+    "facebook"
+  ]
 }

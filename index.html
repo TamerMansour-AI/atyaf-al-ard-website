@@ -8,6 +8,7 @@
   <base href="/atyaf-al-ard-website/">
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="stylesheet" href="assets/css/structured.css">
+  <script defer src="assets/js/phase5-browse.js"></script>
 </head>
 <body>
   <header class="site-header">
@@ -31,142 +32,130 @@
   <main class="page-main structured-page">
     <div class="container">
       
-        <section class="page-hero">
-          <p class="section-eyebrow">Palestine · Research · Storytelling</p>
-          <h1>Atyaf Al Ard: Structured Archive Foundation</h1>
-          <p>A long-term Palestinian research and storytelling platform that turns evidence, memory, and media into a living public archive.</p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="/atyaf-al-ard-website/productions/">Browse productions</a>
-            <a class="btn btn-secondary" href="/atyaf-al-ard-website/research/">Explore research</a>
-            <a class="btn btn-outline" href="/atyaf-al-ard-website/timeline/">View timeline</a>
+        <section class="page-hero with-media">
+          <div class="hero-copy">
+            <p class="section-eyebrow">Palestine · Research · Storytelling</p>
+            <h1>Atyaf Al Ard: Structured Archive Foundation</h1>
+            <p>A long-term Palestinian research and storytelling platform that turns evidence, memory, and media into a living public archive.</p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="/atyaf-al-ard-website/productions/">Browse productions</a>
+              <a class="btn btn-secondary" href="/atyaf-al-ard-website/research/">Explore research</a>
+              <a class="btn btn-outline" href="/atyaf-al-ard-website/assets/Palestine_Evidence_Narrative.pdf" target="_blank" rel="noopener">Open evidence narrative</a>
+            </div>
+            <div class="stats-row">
+              <div class="stat-card"><h3>12</h3><p>productions</p></div>
+              <div class="stat-card"><h3>5</h3><p>research entries</p></div>
+              <div class="stat-card"><h3>16</h3><p>archive signals</p></div>
+            </div>
+          </div>
+          <div class="hero-media">
+            <video controls preload="metadata" poster="/atyaf-al-ard-website/assets/images/home/hero-fallback.jpg">
+              <source src="/atyaf-al-ard-website/assets/videos/hero-atyaf-al-ard-loop.mp4" type="video/mp4">
+            </video>
+            <img src="/atyaf-al-ard-website/assets/images/home/hero-atyaf-al-ard-v1.png" alt="Atyaf Al Ard hero artwork">
           </div>
         </section>
-        <section class="section-panel">
-          <h2>Featured production</h2>
-          <div class="card-grid">
-    <article class="content-card">
-      <div class="card-body">
-        <h3>Princes of Ashes</h3>
-        <ul class="meta-list"><li>21 March 2026</li><li>trailer</li></ul>
-        <p>The flagship trailer for a long-term cinematic chapter that frames Atyaf Al Ard as a research-driven story world about Palestine&#x27;s deep history.</p>
-      </div>
-      <div class="card-actions">
-        <a class="btn btn-secondary" href="/atyaf-al-ard-website/productions/princes-of-ashes-trailer/">View details</a>
-      </div>
-    </article>
-    </div>
-        </section>
-        <section class="section-panel">
-          <h2>Research seeds</h2>
-          <div class="card-grid">
-    <article class="content-card">
-      <div class="card-body">
-        <h3>Foundational Overview</h3>
-        <ul class="meta-list"></ul>
-        <p>A foundational overview explaining how the project connects research, storytelling, media production, and Palestinian identity.</p>
-      </div>
-      <div class="card-actions">
-        <a class="btn btn-secondary" href="/atyaf-al-ard-website/research/foundational-overview/">Read entry</a>
-      </div>
+        <section class="section-panel"><h2>Featured productions</h2><div class="card-grid">
+    <article class="content-card" data-browse-item data-type="trailer" data-platform="youtube" data-year="2026" data-language="bilingual" data-featured="featured" data-tags="palestinian_identity|deep_history|canaanite_continuity|evidence_based_storytelling|ai_assisted_media|memory_and_heritage">
+      <p class="eyebrow">Trailer</p>
+      <h3>Princes of Ashes</h3>
+      <ul class="meta-list"><li>21 March 2026</li><li>Trailer</li><li>Bilingual</li><li class="is-strong">Flagship</li></ul>
+      <p>The flagship trailer for a long-term cinematic chapter that frames Atyaf Al Ard as a research-driven story world about Palestine&#x27;s deep history.</p>
+      <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/productions/princes-of-ashes-trailer/">View details</a></div>
     </article>
     
-    <article class="content-card">
-      <div class="card-body">
-        <h3>Canaanite Fact Series</h3>
-        <ul class="meta-list"></ul>
-        <p>An early Facebook and YouTube explainer track that uses short visual facts to reframe Canaanite continuity in Palestine.</p>
-      </div>
-      <div class="card-actions">
-        <a class="btn btn-secondary" href="/atyaf-al-ard-website/research/canaanite-fact-series/">Read entry</a>
-      </div>
+    <article class="content-card" data-browse-item data-type="explainer" data-platform="youtube" data-year="2025" data-language="bilingual" data-featured="featured" data-tags="palestinian_identity|deep_history|evidence_based_storytelling|ai_assisted_media|memory_and_heritage|community_and_youth">
+      <p class="eyebrow">Explainer</p>
+      <h3>Atyaf Al Ard: Evidence-First Stories of Palestine&#x27;s Deep History</h3>
+      <ul class="meta-list"><li>13 December 2025</li><li>Explainer</li><li>Bilingual</li><li class="is-strong">Featured</li></ul>
+      <p>A bilingual explainer presenting Atyaf Al Ard as a research-and-storytelling platform about Palestine&#x27;s deep history.</p>
+      <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/productions/deep-history-evidence-stories-en/">View details</a></div>
+    </article>
+    </div></section>
+        <section class="section-panel"><h2>Research anchors</h2><div class="card-grid">
+    <article class="content-card" data-browse-item data-type="theme_brief" data-platform="website" data-language="bilingual" data-featured="featured" data-tags="palestinian_history|evidence_first|research_storytelling|cross_period">
+      <p class="eyebrow">Theme brief</p>
+      <h3>Foundational Overview</h3>
+      <ul class="meta-list"><li>Theme brief</li><li>Bilingual</li><li class="is-strong">Featured</li></ul>
+      <p>A foundational overview explaining how the project connects research, storytelling, media production, and Palestinian identity.</p>
+      <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/research/foundational-overview/">View details</a></div>
     </article>
     
-    <article class="content-card">
-      <div class="card-body">
-        <h3>Canaanite Kitchen and Memory</h3>
-        <ul class="meta-list"></ul>
-        <p>An early cultural-research note linking food, memory, and everyday resistance, with a clear signal toward a future encyclopedia layer.</p>
-      </div>
-      <div class="card-actions">
-        <a class="btn btn-secondary" href="/atyaf-al-ard-website/research/canaanite-kitchen-memory/">Read entry</a>
-      </div>
+    <article class="content-card" data-browse-item data-type="historical_topic" data-platform="youtube|website" data-language="bilingual" data-featured="featured" data-tags="evidence_first|palestinian_history|civilizational_development|cross_period">
+      <p class="eyebrow">Historical topic</p>
+      <h3>Evidence-First Palestine Deep History</h3>
+      <ul class="meta-list"><li>Historical topic</li><li>Bilingual</li><li class="is-strong">Featured</li></ul>
+      <p>The core interpretive frame that presents the project as an evidence-first story world about Palestine&#x27;s deep history, continuity, and lived civilization.</p>
+      <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/research/evidence-first-palestine-deep-history/">View details</a></div>
     </article>
-    </div>
-        </section>
-        <section class="section-panel">
-          <h2>Timeline highlights</h2>
-          <div class="section-stack"><article class='timeline-item'><h3>Structured Website Foundation</h3><p>Conversion of the site from a brochure-style static presence into a structured, data-driven platform foundation.</p></article><article class='timeline-item'><h3>Release of the Princes of Ashes Trailer</h3><p>Release of the official trailer for the project&#x27;s clearest flagship chapter to date.</p></article><article class='timeline-item'><h3>TV Appearance and Volunteer Call</h3><p>A Palestine TV appearance paired with a public call for volunteers to help launch and run the official channels.</p></article><article class='timeline-item'><h3>Release of the Visual Teaser</h3><p>Release of a visual teaser centered on Palestinian memory and the project&#x27;s aesthetic register.</p></article><article class='timeline-item'><h3>Release of the Core YouTube Explainers</h3><p>Release of the two core explainers that define the project&#x27;s method and evidence-first identity.</p></article></div>
-        </section>
-        <section class="section-panel">
-          <h2>Latest archive signals</h2>
-          <div class="card-grid">
-    <article class="content-card">
-      <div class="card-body">
-        <h3>Palestine TV Interview and Volunteer Call</h3>
-        <ul class="meta-list"><li>21 March 2026</li><li>media coverage or interview</li></ul>
-        <p>A post that pairs a Palestine TV appearance with a call for volunteers to launch and run the project&#x27;s official channels.</p>
-      </div>
-      <div class="card-actions">
-        <a class="btn btn-secondary" href="/atyaf-al-ard-website/archive/">Open archive</a>
-      </div>
+    </div></section>
+        <section class="section-panel"><h2>Timeline milestones</h2><div class="card-grid">
+    <article class="content-card" data-browse-item data-type="production_release" data-platform="youtube" data-year="2026" data-language="bilingual" data-featured="featured" data-tags="production_release">
+      <p class="eyebrow">Production release</p>
+      <h3>Release of the Princes of Ashes Trailer</h3>
+      <ul class="meta-list"><li>21 March 2026</li><li>Production release</li><li>Bilingual</li><li class="is-strong">Featured</li></ul>
+      <p>Release of the official trailer for the project&#x27;s clearest flagship chapter to date.</p>
+      <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/timeline/princes-of-ashes-trailer-release/">View details</a></div>
     </article>
     
-    <article class="content-card">
-      <div class="card-body">
-        <h3>Mission Post and Project Introduction</h3>
-        <ul class="meta-list"><li>4 October 2025</li><li>project identity or mission</li></ul>
-        <p>One of the clearest Facebook-native identity posts, linking the project to NotebookLM, YouTube, team roles, and support needs.</p>
-      </div>
-      <div class="card-actions">
-        <a class="btn btn-secondary" href="/atyaf-al-ard-website/archive/">Open archive</a>
-      </div>
+    <article class="content-card" data-browse-item data-type="production_release" data-platform="youtube" data-year="2025" data-language="bilingual" data-featured="featured" data-tags="production_release">
+      <p class="eyebrow">Production release</p>
+      <h3>First YouTube Release Day</h3>
+      <ul class="meta-list"><li>11 May 2025</li><li>Production release</li><li>Bilingual</li><li class="is-strong">Featured</li></ul>
+      <p>The first known cluster of YouTube releases, turning the project into a visible production stream rather than a concept only.</p>
+      <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/timeline/youtube-first-release-day/">View details</a></div>
     </article>
     
-    <article class="content-card">
-      <div class="card-body">
-        <h3>Late-May Promo Reel</h3>
-        <ul class="meta-list"><li>30 May 2025</li><li>teaser or promo</li></ul>
-        <p>Mini pass improved media evidence and recovered a caption fragment, but the full reel body still needs manual follow-up.</p>
-      </div>
-      <div class="card-actions">
-        <a class="btn btn-secondary" href="/atyaf-al-ard-website/archive/">Open archive</a>
-      </div>
+    <article class="content-card" data-browse-item data-type="project_launch_signal" data-platform="facebook" data-year="2025" data-language="bilingual" data-featured="featured" data-tags="project_launch_signal">
+      <p class="eyebrow">Launch signal</p>
+      <h3>Dense Facebook Launch Window</h3>
+      <ul class="meta-list"><li>18 April 2025</li><li>Launch signal</li><li>Bilingual</li><li class="is-strong">Featured</li></ul>
+      <p>A dense sequence of recovered posts between April 18 and April 29, confirming sustained launch-period activity.</p>
+      <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/timeline/facebook-launch-window/">View details</a></div>
+    </article>
+    </div></section>
+        <section class="section-panel"><h2>Archive signals</h2><div class="card-grid">
+    <article class="content-card" data-browse-item data-type="media_coverage_or_interview" data-platform="facebook" data-year="2026" data-language="arabic_primary" data-featured="featured" data-tags="bilingual|call_for_volunteers|interview|reel|timeline_relevant">
+      <p class="eyebrow">Media / interview</p>
+      <h3>Palestine TV Interview and Volunteer Call</h3>
+      <ul class="meta-list"><li>21 March 2026</li><li>Media / interview</li><li>Arabic-led</li><li class="is-strong">Featured</li></ul>
+      <p>A post that pairs a Palestine TV appearance with a call for volunteers to launch and run the project&#x27;s official channels.</p>
+      <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/archive/social/palestine-tv-volunteer-call/">View details</a><a class="btn btn-outline" href="https://www.facebook.com/reel/26921548534096848/" target="_blank" rel="noopener">Open source</a></div>
     </article>
     
-    <article class="content-card">
-      <div class="card-body">
-        <h3>WhatsApp Community Invite</h3>
-        <ul class="meta-list"><li>21 May 2025</li><li>volunteer or community call</li></ul>
-        <p>An invitation to join the project&#x27;s WhatsApp group for releases, videos, events, and open discussion.</p>
-      </div>
-      <div class="card-actions">
-        <a class="btn btn-secondary" href="/atyaf-al-ard-website/archive/">Open archive</a>
-      </div>
+    <article class="content-card" data-browse-item data-type="project_identity_or_mission" data-platform="facebook" data-year="2025" data-language="arabic_primary" data-featured="featured" data-tags="bilingual|call_for_volunteers|research_pdf|timeline_relevant|video|youtube_link">
+      <p class="eyebrow">Mission / identity</p>
+      <h3>Mission Post and Project Introduction</h3>
+      <ul class="meta-list"><li>4 October 2025</li><li>Mission / identity</li><li>Arabic-led</li><li class="is-strong">Featured</li></ul>
+      <p>One of the clearest Facebook-native identity posts, linking the project to NotebookLM, YouTube, team roles, and support needs.</p>
+      <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/archive/social/facebook-mission-post-oct-2025/">View details</a><a class="btn btn-outline" href="https://www.facebook.com/61574424444648/videos/1338309874313048/" target="_blank" rel="noopener">Open source</a></div>
     </article>
     
-    <article class="content-card">
-      <div class="card-body">
-        <h3>Ramallah Dialogue on Documenting Palestinian History</h3>
-        <ul class="meta-list"><li>21 May 2025</li><li>media coverage or interview</li></ul>
-        <p>A post documenting a public Ramallah dialogue on documenting Palestinian history with AI tools.</p>
-      </div>
-      <div class="card-actions">
-        <a class="btn btn-secondary" href="/atyaf-al-ard-website/archive/">Open archive</a>
-      </div>
+    <article class="content-card" data-browse-item data-type="educational_or_public_explainer" data-platform="facebook" data-year="2025" data-language="mixed" data-featured="featured" data-tags="bilingual|image_gallery|timeline_relevant">
+      <p class="eyebrow">Public explainer</p>
+      <h3>Launch of the Canaanite Fact Series</h3>
+      <ul class="meta-list"><li>14 April 2025</li><li>Public explainer</li><li>Mixed</li><li class="is-strong">Featured</li></ul>
+      <p>A bilingual explainer post launching the #CanaaniteFact series as an early visual public-history track.</p>
+      <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/archive/social/canaanite-fact-launch-post/">View details</a><a class="btn btn-outline" href="https://www.facebook.com/permalink.php?id=61574424444648&story_fbid=pfbid02Ti7j41KVToUyS3nPg8Gsgwkzr1WDDiaF7HeCaZP7Mgwe4516xfapfhJvfx8AJXapl" target="_blank" rel="noopener">Open source</a></div>
+    </article>
+    </div></section>
+        <section class="section-panel"><h2>Community pathways</h2><div class="card-grid">
+    <article class="content-card" data-browse-item data-type="volunteer_recruitment" data-platform="facebook" data-year="2026" data-language="bilingual" data-featured="featured" data-tags="volunteers|social_media_support">
+      <p class="eyebrow">Volunteer call</p>
+      <h3>Volunteer Call for Platform Launch</h3>
+      <ul class="meta-list"><li>21 March 2026</li><li>Volunteer call</li><li>Bilingual</li><li class="is-strong">Featured</li></ul>
+      <p>A volunteer call to help launch and manage the project&#x27;s official channels during its current media-visibility phase.</p>
+      <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/community/social-launch-volunteer-call/">View details</a></div>
     </article>
     
-    <article class="content-card">
-      <div class="card-body">
-        <h3>Early Launch Post - April 29</h3>
-        <ul class="meta-list"><li>29 April 2025</li><li>update or progress</li></ul>
-        <p>Launch-period Facebook post; caption still partial.</p>
-      </div>
-      <div class="card-actions">
-        <a class="btn btn-secondary" href="/atyaf-al-ard-website/archive/">Open archive</a>
-      </div>
+    <article class="content-card" data-browse-item data-type="funding_support" data-platform="facebook" data-year="2025" data-language="bilingual" data-featured="featured" data-tags="researchers|translators|designers|editors|supporters">
+      <p class="eyebrow">Support call</p>
+      <h3>Support and Team-Building Call</h3>
+      <ul class="meta-list"><li>4 October 2025</li><li>Support call</li><li>Bilingual</li><li class="is-strong">Featured</li></ul>
+      <p>A mission post calling for researchers, translators, designers, editors, GIS help, and financial support.</p>
+      <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/community/october-support-and-team-call/">View details</a></div>
     </article>
-    </div>
-        </section>
+    </div></section>
         
     </div>
   </main>

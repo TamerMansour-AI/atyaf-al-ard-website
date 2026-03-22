@@ -57,5 +57,17 @@
       "path": "02_raw_data/facebook/post_pages/mini_apr15_kitchen.html"
     }
   ],
-  "notes_internal": "Mini pass recovered full caption plus a key comment exchange confirming a planned encyclopedia/knowledge resource."
+  "notes_internal": "Mini pass recovered full caption plus a key comment exchange confirming a planned encyclopedia/knowledge resource.",
+  "featured": true,
+  "translation_status": "arabic_primary_english_pending",
+  "related_research_entry_ids": [
+    "canaanite-kitchen-memory"
+  ],
+  "related_timeline_event_ids": [
+    "canaanite-kitchen-memory-post"
+  ],
+  "language_availability": "arabic_primary",
+  "source_platforms": [
+    "facebook"
+  ]
 }

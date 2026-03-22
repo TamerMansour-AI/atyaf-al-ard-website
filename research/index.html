@@ -8,6 +8,7 @@
   <base href="/atyaf-al-ard-website/">
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="stylesheet" href="assets/css/structured.css">
+  <script defer src="assets/js/phase5-browse.js"></script>
 </head>
 <body>
   <header class="site-header">
@@ -33,64 +34,60 @@
       
         <section class="page-hero">
           <h1>Research</h1>
-          <p>Seed entries for the future public knowledge layer, grounded in the evidence already recovered.</p>
+          <p>Research entries now surface document assets, related productions, and archive context without leaving the structured layer.</p>
         </section>
-        <div class="card-grid">
-    <article class="content-card">
-      <div class="card-body">
-        <h3>Foundational Overview</h3>
-        <ul class="meta-list"></ul>
-        <p>A foundational overview explaining how the project connects research, storytelling, media production, and Palestinian identity.</p>
+        
+    <section class="browse-shell" data-browse-root="research">
+      <p class="supporting-text">Filter by research type, theme, source platform, language handling, and priority.</p>
+      <div class="browse-controls"><label>Type<select data-filter-key="type"><option value=""></option><option value="historical_topic">Historical topic</option><option value="notebook_or_encyclopedia_seed">Knowledge seed</option><option value="public_explainer">Public explainer</option><option value="reading_note">Reading note</option><option value="theme_brief">Theme brief</option></select></label><label>Theme / tag<select data-filter-key="tags"><option value=""></option><option value="bronze_age">Bronze Age</option><option value="canaan">Canaan</option><option value="civilizational_development">Civilizational development</option><option value="cross_period">Cross-period</option><option value="education">Education</option><option value="evidence_first">Evidence-first</option><option value="historical_memory">Historical memory</option><option value="iron_age">Iron Age</option><option value="palestinian_history">Palestinian history</option><option value="public_history">Public history</option><option value="research_storytelling">Research storytelling</option></select></label><label>Platform<select data-filter-key="platform"><option value=""></option><option value="facebook">Facebook</option><option value="notebooklm">Notebooklm</option><option value="website">Website</option><option value="youtube">Youtube</option></select></label><label>Year<select data-filter-key="year"><option value=""></option></select></label><label>Language<select data-filter-key="language"><option value=""></option><option value="bilingual">Bilingual</option></select></label><label>Priority<select data-filter-key="featured"><option value=""></option><option value="featured">Featured / flagship</option><option value="standard">Standard</option></select></label></div>
+      <div class="browse-actions">
+        <button class="btn btn-outline" type="button" data-clear-filters>Reset filters</button>
+        <p class="browse-summary" data-browse-count></p>
       </div>
-      <div class="card-actions">
-        <a class="btn btn-secondary" href="/atyaf-al-ard-website/research/foundational-overview/">Read entry</a>
-      </div>
+      <div class="card-grid">
+    <article class="content-card" data-browse-item data-type="notebook_or_encyclopedia_seed" data-platform="facebook|notebooklm" data-language="bilingual" data-featured="standard" data-tags="education|research_storytelling|evidence_first|cross_period">
+      <p class="eyebrow">Knowledge seed</p>
+      <h3>NotebookLM Public Lab</h3>
+      <ul class="meta-list"><li>Knowledge seed</li><li>Bilingual</li></ul>
+      <p>An emerging research-learning layer in which the project frames itself as a public knowledge and evidence space.</p>
+      <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/research/notebooklm-public-lab/">View details</a></div>
     </article>
     
-    <article class="content-card">
-      <div class="card-body">
-        <h3>Canaanite Fact Series</h3>
-        <ul class="meta-list"></ul>
-        <p>An early Facebook and YouTube explainer track that uses short visual facts to reframe Canaanite continuity in Palestine.</p>
-      </div>
-      <div class="card-actions">
-        <a class="btn btn-secondary" href="/atyaf-al-ard-website/research/canaanite-fact-series/">Read entry</a>
-      </div>
+    <article class="content-card" data-browse-item data-type="theme_brief" data-platform="website" data-language="bilingual" data-featured="featured" data-tags="palestinian_history|evidence_first|research_storytelling|cross_period">
+      <p class="eyebrow">Theme brief</p>
+      <h3>Foundational Overview</h3>
+      <ul class="meta-list"><li>Theme brief</li><li>Bilingual</li><li class="is-strong">Featured</li></ul>
+      <p>A foundational overview explaining how the project connects research, storytelling, media production, and Palestinian identity.</p>
+      <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/research/foundational-overview/">View details</a></div>
     </article>
     
-    <article class="content-card">
-      <div class="card-body">
-        <h3>Canaanite Kitchen and Memory</h3>
-        <ul class="meta-list"></ul>
-        <p>An early cultural-research note linking food, memory, and everyday resistance, with a clear signal toward a future encyclopedia layer.</p>
-      </div>
-      <div class="card-actions">
-        <a class="btn btn-secondary" href="/atyaf-al-ard-website/research/canaanite-kitchen-memory/">Read entry</a>
-      </div>
+    <article class="content-card" data-browse-item data-type="historical_topic" data-platform="youtube|website" data-language="bilingual" data-featured="featured" data-tags="evidence_first|palestinian_history|civilizational_development|cross_period">
+      <p class="eyebrow">Historical topic</p>
+      <h3>Evidence-First Palestine Deep History</h3>
+      <ul class="meta-list"><li>Historical topic</li><li>Bilingual</li><li class="is-strong">Featured</li></ul>
+      <p>The core interpretive frame that presents the project as an evidence-first story world about Palestine&#x27;s deep history, continuity, and lived civilization.</p>
+      <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/research/evidence-first-palestine-deep-history/">View details</a></div>
     </article>
     
-    <article class="content-card">
-      <div class="card-body">
-        <h3>Evidence-First Palestine Deep History</h3>
-        <ul class="meta-list"></ul>
-        <p>The core interpretive frame that presents the project as an evidence-first story world about Palestine&#x27;s deep history, continuity, and lived civilization.</p>
-      </div>
-      <div class="card-actions">
-        <a class="btn btn-secondary" href="/atyaf-al-ard-website/research/evidence-first-palestine-deep-history/">Read entry</a>
-      </div>
+    <article class="content-card" data-browse-item data-type="reading_note" data-platform="facebook" data-language="bilingual" data-featured="standard" data-tags="historical_memory|public_history|education|cross_period">
+      <p class="eyebrow">Reading note</p>
+      <h3>Canaanite Kitchen and Memory</h3>
+      <ul class="meta-list"><li>Reading note</li><li>Bilingual</li></ul>
+      <p>An early cultural-research note linking food, memory, and everyday resistance, with a clear signal toward a future encyclopedia layer.</p>
+      <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/research/canaanite-kitchen-memory/">View details</a></div>
     </article>
     
-    <article class="content-card">
-      <div class="card-body">
-        <h3>NotebookLM Public Lab</h3>
-        <ul class="meta-list"></ul>
-        <p>An emerging research-learning layer in which the project frames itself as a public knowledge and evidence space.</p>
-      </div>
-      <div class="card-actions">
-        <a class="btn btn-secondary" href="/atyaf-al-ard-website/research/notebooklm-public-lab/">Read entry</a>
-      </div>
+    <article class="content-card" data-browse-item data-type="public_explainer" data-platform="facebook|youtube" data-language="bilingual" data-featured="featured" data-tags="canaan|public_history|education|bronze_age|iron_age|cross_period">
+      <p class="eyebrow">Public explainer</p>
+      <h3>Canaanite Fact Series</h3>
+      <ul class="meta-list"><li>Public explainer</li><li>Bilingual</li><li class="is-strong">Featured</li></ul>
+      <p>An early Facebook and YouTube explainer track that uses short visual facts to reframe Canaanite continuity in Palestine.</p>
+      <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/research/canaanite-fact-series/">View details</a></div>
     </article>
     </div>
+      <p class="empty-state" data-browse-empty hidden>No items match the current filters.</p>
+    </section>
+    
         
     </div>
   </main>
