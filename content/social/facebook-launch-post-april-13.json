@@ -9,12 +9,12 @@
   "normalized_date": "2025-04-13",
   "title_ar": "منشور إطلاق مبكر - 13 أبريل",
   "title_en": "Early Launch Post - April 13",
-  "summary_ar": "Confirms dense posting activity during the April launch window.",
+  "summary_ar": "يؤكد كثافة النشر خلال نافذة الإطلاق في أبريل.",
   "summary_en": "Confirms dense posting activity during the April launch window.",
   "post_type": "image",
   "post_category": "update_or_progress",
   "source_caption": "Post published by Tamer Mansour on April 13, 2025. Visible as a dated project permalink in the authenticated feed, paired with other early April activity.",
-  "caption_ar": "Post published by Tamer Mansour on April 13, 2025. Visible as a dated project permalink in the authenticated feed, paired with other early April activity.",
+  "caption_ar": "",
   "caption_en": "",
   "tags": [
     "needs_manual_review",
@@ -58,5 +58,13 @@
       "path": "02_raw_data/facebook/html/combined_tab_anchor_candidates.json"
     }
   ],
-  "notes_internal": "Confirms dense posting activity during the April launch window."
+  "notes_internal": "Confirms dense posting activity during the April launch window.",
+  "translation_status": "english_primary_arabic_pending",
+  "related_timeline_event_ids": [
+    "facebook-first-reel"
+  ],
+  "language_availability": "english_primary",
+  "source_platforms": [
+    "facebook"
+  ]
 }

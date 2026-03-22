@@ -37,7 +37,8 @@
   "timeline_relevance": true,
   "needs_manual_review": false,
   "related_production_ids": [
-    "A Journey to Canaan"
+    "journey-to-canaan-short-a",
+    "journey-to-canaan-short-b"
   ],
   "related_media_appearance_ids": [],
   "related_support_call_ids": [],
@@ -61,5 +62,17 @@
       "path": "02_raw_data/facebook/post_pages/mini_apr14_explainer.html"
     }
   ],
-  "notes_internal": "Mini pass recovered full bilingual explainer text from the direct April 14 post page."
+  "notes_internal": "Mini pass recovered full bilingual explainer text from the direct April 14 post page.",
+  "featured": true,
+  "translation_status": "mixed_source_partial_translation",
+  "related_research_entry_ids": [
+    "canaanite-fact-series"
+  ],
+  "related_timeline_event_ids": [
+    "canaanite-fact-series-launch"
+  ],
+  "language_availability": "mixed",
+  "source_platforms": [
+    "facebook"
+  ]
 }

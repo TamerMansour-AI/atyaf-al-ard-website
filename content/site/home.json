@@ -3,5 +3,33 @@
   "title_en": "Atyaf Al Ard: Structured Archive Foundation",
   "title_ar": "أطياف الأرض: منصة بحث وسرد فلسطينية",
   "summary_en": "A long-term Palestinian research and storytelling platform that turns evidence, memory, and media into a living public archive.",
-  "summary_ar": "منصة فلسطينية طويلة المدى للبحث والسرد، تحوّل الأدلة والذاكرة والإنتاجات إلى أرشيف حي ومتاح."
+  "summary_ar": "منصة فلسطينية طويلة المدى للبحث والسرد، تحوّل الأدلة والذاكرة والإنتاجات إلى أرشيف حي ومتاح.",
+  "hero_media": {
+    "video_path": "assets/videos/hero-atyaf-al-ard-loop.mp4",
+    "poster_path": "assets/images/home/hero-fallback.jpg",
+    "image_path": "assets/images/home/hero-atyaf-al-ard-v1.png"
+  },
+  "featured_production_slugs": [
+    "princes-of-ashes-trailer",
+    "deep-history-evidence-stories-en"
+  ],
+  "featured_research_slugs": [
+    "foundational-overview",
+    "evidence-first-palestine-deep-history"
+  ],
+  "featured_timeline_slugs": [
+    "princes-of-ashes-trailer-release",
+    "youtube-first-release-day",
+    "facebook-launch-window"
+  ],
+  "featured_social_slugs": [
+    "facebook-mission-post-oct-2025",
+    "palestine-tv-volunteer-call",
+    "canaanite-fact-launch-post"
+  ],
+  "featured_support_slugs": [
+    "social-launch-volunteer-call",
+    "october-support-and-team-call"
+  ],
+  "evidence_pdf_path": "assets/Palestine_Evidence_Narrative.pdf"
 }

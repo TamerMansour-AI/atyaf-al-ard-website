@@ -3,5 +3,12 @@
   "title_en": "About the Project",
   "title_ar": "عن المشروع",
   "summary_en": "Atyaf Al Ard is a long-term Palestinian lab for research, cinematic storytelling, public learning, and community-building.",
-  "summary_ar": "أطياف الأرض مختبر فلسطيني طويل المدى يجمع بين البحث والسرد السينمائي والتعلّم العام وبناء المجتمع."
+  "summary_ar": "أطياف الأرض مختبر فلسطيني طويل المدى يجمع بين البحث والسرد السينمائي والتعلّم العام وبناء المجتمع.",
+  "feature_image_en": "assets/images/about/about-founders-portal.png",
+  "feature_image_ar": "assets/images/about/about-founders-portal-ar.png",
+  "evidence_pdf_path": "assets/Palestine_Evidence_Narrative.pdf",
+  "related_research_entry_ids": [
+    "foundational-overview",
+    "evidence-first-palestine-deep-history"
+  ]
 }

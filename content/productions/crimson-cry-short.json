@@ -53,5 +53,9 @@
   "related_research_entry_ids": [
     "canaanite-fact-series"
   ],
-  "notes_internal": "Palestinian identity, Canaanite continuity"
+  "notes_internal": "Palestinian identity, Canaanite continuity",
+  "language_availability": "bilingual",
+  "source_platforms": [
+    "youtube"
+  ]
 }

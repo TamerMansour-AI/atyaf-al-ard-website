@@ -54,10 +54,16 @@
     "youtube-evidence-first-explainers",
     "october-mission-post"
   ],
-  "related_social_post_ids": [],
+  "related_social_post_ids": [
+    "facebook-mission-post-oct-2025"
+  ],
   "related_research_entry_ids": [
     "evidence-first-palestine-deep-history",
     "foundational-overview"
   ],
-  "notes_internal": "Palestinian identity, deep history, evidence-based storytelling, AI-assisted media, memory and heritage, community and youth"
+  "notes_internal": "Palestinian identity, deep history, evidence-based storytelling, AI-assisted media, memory and heritage, community and youth",
+  "language_availability": "bilingual",
+  "source_platforms": [
+    "youtube"
+  ]
 }

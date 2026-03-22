@@ -25,5 +25,11 @@
     "facebook-launch-post-april-25",
     "facebook-launch-post-april-28",
     "facebook-launch-post-april-29"
+  ],
+  "featured": true,
+  "translation_status": "bilingual_complete",
+  "language_availability": "bilingual",
+  "source_platforms": [
+    "facebook"
   ]
 }

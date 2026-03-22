@@ -27,5 +27,10 @@
   ],
   "related_research_entry_ids": [
     "canaanite-kitchen-memory"
+  ],
+  "translation_status": "bilingual_complete",
+  "language_availability": "bilingual",
+  "source_platforms": [
+    "facebook"
   ]
 }

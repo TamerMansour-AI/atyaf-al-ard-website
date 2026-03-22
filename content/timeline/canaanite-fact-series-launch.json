@@ -20,12 +20,18 @@
   ],
   "related_production_ids": [
     "journey-to-canaan-short-a",
-    "journey-to-canaan-short-b"
+    "journey-to-canaan-short-b",
+    "crimson-cry-short"
   ],
   "related_social_post_ids": [
     "canaanite-fact-launch-post"
   ],
   "related_research_entry_ids": [
     "canaanite-fact-series"
+  ],
+  "translation_status": "bilingual_complete",
+  "language_availability": "bilingual",
+  "source_platforms": [
+    "facebook"
   ]
 }

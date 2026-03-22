@@ -9,12 +9,12 @@
   "normalized_date": "2025-04-25",
   "title_ar": "منشور إطلاق مبكر - 25 أبريل",
   "title_en": "Early Launch Post - April 25",
-  "summary_ar": "One of several late-April public posts.",
+  "summary_ar": "واحد من عدة منشورات عامة في أواخر أبريل.",
   "summary_en": "One of several late-April public posts.",
   "post_type": "image",
   "post_category": "update_or_progress",
   "source_caption": "Post published by Tamer Mansour on April 25, 2025. The authenticated feed confirms continuing project activity during the April launch window.",
-  "caption_ar": "Post published by Tamer Mansour on April 25, 2025. The authenticated feed confirms continuing project activity during the April launch window.",
+  "caption_ar": "",
   "caption_en": "",
   "tags": [
     "needs_manual_review",
@@ -58,5 +58,13 @@
       "path": "02_raw_data/facebook/html/combined_tab_anchor_candidates.json"
     }
   ],
-  "notes_internal": "One of several late-April public posts."
+  "notes_internal": "One of several late-April public posts.",
+  "translation_status": "english_primary_arabic_pending",
+  "related_timeline_event_ids": [
+    "facebook-launch-window"
+  ],
+  "language_availability": "english_primary",
+  "source_platforms": [
+    "facebook"
+  ]
 }

@@ -9,12 +9,12 @@
   "normalized_date": "2025-04-28",
   "title_ar": "منشور إطلاق مبكر - 28 أبريل",
   "title_en": "Early Launch Post - April 28",
-  "summary_ar": "Launch-period project activity confirmed.",
+  "summary_ar": "نشاط موثق من فترة الإطلاق على فيسبوك.",
   "summary_en": "Launch-period project activity confirmed.",
   "post_type": "image",
   "post_category": "update_or_progress",
   "source_caption": "Post published by Mohamed Abumaliq on April 28, 2025. Visible in the authenticated Facebook feed with a preserved permalink and date.",
-  "caption_ar": "Post published by Mohamed Abumaliq on April 28, 2025. Visible in the authenticated Facebook feed with a preserved permalink and date.",
+  "caption_ar": "",
   "caption_en": "",
   "tags": [
     "needs_manual_review",
@@ -58,5 +58,13 @@
       "path": "02_raw_data/facebook/html/combined_tab_anchor_candidates.json"
     }
   ],
-  "notes_internal": "Launch-period project activity confirmed."
+  "notes_internal": "Launch-period project activity confirmed.",
+  "translation_status": "english_primary_arabic_pending",
+  "related_timeline_event_ids": [
+    "facebook-launch-window"
+  ],
+  "language_availability": "english_primary",
+  "source_platforms": [
+    "facebook"
+  ]
 }

@@ -20,6 +20,13 @@
   ],
   "related_production_ids": [],
   "related_social_post_ids": [
-    "reel-april-13-2025"
+    "reel-april-13-2025",
+    "facebook-launch-post-april-13"
+  ],
+  "featured": true,
+  "translation_status": "bilingual_complete",
+  "language_availability": "bilingual",
+  "source_platforms": [
+    "facebook"
   ]
 }

@@ -8,6 +8,7 @@
   <base href="/atyaf-al-ard-website/">
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="stylesheet" href="assets/css/structured.css">
+  <script defer src="assets/js/phase5-browse.js"></script>
 </head>
 <body>
   <header class="site-header">
@@ -33,9 +34,132 @@
       
         <section class="page-hero">
           <h1>Timeline</h1>
-          <p>A chronological spine connecting launch-period Facebook activity, YouTube releases, public dialogue, and the current site milestone.</p>
+          <p>Chronology is now filterable and each milestone can open into its linked productions, research, archive, media, and community records.</p>
         </section>
-        <section class="section-stack"><article class='timeline-item'><p class='eyebrow'>22 March 2026</p><h3>Structured Website Foundation</h3><p>Conversion of the site from a brochure-style static presence into a structured, data-driven platform foundation.</p></article><article class='timeline-item'><p class='eyebrow'>21 March 2026</p><h3>Release of the Princes of Ashes Trailer</h3><p>Release of the official trailer for the project&#x27;s clearest flagship chapter to date.</p></article><article class='timeline-item'><p class='eyebrow'>21 March 2026</p><h3>TV Appearance and Volunteer Call</h3><p>A Palestine TV appearance paired with a public call for volunteers to help launch and run the official channels.</p></article><article class='timeline-item'><p class='eyebrow'>16 December 2025</p><h3>Release of the Visual Teaser</h3><p>Release of a visual teaser centered on Palestinian memory and the project&#x27;s aesthetic register.</p></article><article class='timeline-item'><p class='eyebrow'>13 December 2025</p><h3>Release of the Core YouTube Explainers</h3><p>Release of the two core explainers that define the project&#x27;s method and evidence-first identity.</p></article><article class='timeline-item'><p class='eyebrow'>4 October 2025</p><h3>Mission and Team-Building Post</h3><p>One of the clearest public statements of project identity, linking the platform to YouTube, NotebookLM, team roles, and support needs.</p></article><article class='timeline-item'><p class='eyebrow'>30 May 2025</p><h3>Late-May Promo Reel</h3><p>A late-May promo reel whose evidence improved during recovery, though the full caption remains partial.</p></article><article class='timeline-item'><p class='eyebrow'>21 May 2025</p><h3>WhatsApp Community Invite</h3><p>Launch of a WhatsApp-based community channel for releases, events, and discussion.</p></article><article class='timeline-item'><p class='eyebrow'>21 May 2025</p><h3>Ramallah Dialogue on Documenting Palestinian History</h3><p>An early civic-cultural appearance linking the project to Ramallah Municipality and an artist-residency context.</p></article><article class='timeline-item'><p class='eyebrow'>11 May 2025</p><h3>First YouTube Release Day</h3><p>The first known cluster of YouTube releases, turning the project into a visible production stream rather than a concept only.</p></article><article class='timeline-item'><p class='eyebrow'>18 April 2025</p><h3>Dense Facebook Launch Window</h3><p>A dense sequence of recovered posts between April 18 and April 29, confirming sustained launch-period activity.</p></article><article class='timeline-item'><p class='eyebrow'>15 April 2025</p><h3>Canaanite Kitchen and Memory Post</h3><p>A post connecting food, memory, and everyday resistance, with an early signal toward an encyclopedia-style knowledge layer.</p></article><article class='timeline-item'><p class='eyebrow'>14 April 2025</p><h3>Launch of the Canaanite Fact Series</h3><p>Launch of an early visual public-history track linking historical facts to Palestine&#x27;s deep identity.</p></article><article class='timeline-item'><p class='eyebrow'>13 April 2025</p><h3>First Confirmed Facebook Reel</h3><p>The earliest currently confirmed public Facebook reel in the project&#x27;s launch window.</p></article></section>
+        
+    <section class="browse-shell" data-browse-root="timeline">
+      <p class="supporting-text">Filter milestones by event type, year, platform, language handling, and priority.</p>
+      <div class="browse-controls"><label>Type<select data-filter-key="type"><option value=""></option><option value="community_call">Community call</option><option value="media_appearance">Media appearance</option><option value="mission_statement">Mission statement</option><option value="partnership_or_dialogue">Dialogue / partnership</option><option value="production_release">Production release</option><option value="project_launch_signal">Launch signal</option><option value="research_publication">Research milestone</option><option value="website_milestone">Website milestone</option></select></label><label>Theme / tag<select data-filter-key="tags"><option value=""></option><option value="community_call">Community Call</option><option value="media_appearance">Media Appearance</option><option value="mission_statement">Mission Statement</option><option value="partnership_or_dialogue">Partnership Or Dialogue</option><option value="production_release">Production Release</option><option value="project_launch_signal">Project Launch Signal</option><option value="research_publication">Research Publication</option><option value="website_milestone">Website Milestone</option></select></label><label>Platform<select data-filter-key="platform"><option value=""></option><option value="facebook">Facebook</option><option value="github">Github</option><option value="youtube">Youtube</option></select></label><label>Year<select data-filter-key="year"><option value=""></option><option value="2026">2026</option><option value="2025">2025</option></select></label><label>Language<select data-filter-key="language"><option value=""></option><option value="bilingual">Bilingual</option></select></label><label>Priority<select data-filter-key="featured"><option value=""></option><option value="featured">Featured / flagship</option><option value="standard">Standard</option></select></label></div>
+      <div class="browse-actions">
+        <button class="btn btn-outline" type="button" data-clear-filters>Reset filters</button>
+        <p class="browse-summary" data-browse-count></p>
+      </div>
+      <div class="card-grid">
+    <article class="content-card" data-browse-item data-type="website_milestone" data-platform="github" data-year="2026" data-language="bilingual" data-featured="featured" data-tags="website_milestone">
+      <p class="eyebrow">Website milestone</p>
+      <h3>Structured Website Foundation</h3>
+      <ul class="meta-list"><li>22 March 2026</li><li>Website milestone</li><li>Bilingual</li><li class="is-strong">Featured</li></ul>
+      <p>Conversion of the site from a brochure-style static presence into a structured, data-driven platform foundation.</p>
+      <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/timeline/website-structured-foundation/">View details</a></div>
+    </article>
+    
+    <article class="content-card" data-browse-item data-type="media_appearance" data-platform="facebook" data-year="2026" data-language="bilingual" data-featured="standard" data-tags="media_appearance">
+      <p class="eyebrow">Media appearance</p>
+      <h3>TV Appearance and Volunteer Call</h3>
+      <ul class="meta-list"><li>21 March 2026</li><li>Media appearance</li><li>Bilingual</li></ul>
+      <p>A Palestine TV appearance paired with a public call for volunteers to help launch and run the official channels.</p>
+      <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/timeline/palestine-tv-interview-and-volunteer-call/">View details</a></div>
+    </article>
+    
+    <article class="content-card" data-browse-item data-type="production_release" data-platform="youtube" data-year="2026" data-language="bilingual" data-featured="featured" data-tags="production_release">
+      <p class="eyebrow">Production release</p>
+      <h3>Release of the Princes of Ashes Trailer</h3>
+      <ul class="meta-list"><li>21 March 2026</li><li>Production release</li><li>Bilingual</li><li class="is-strong">Featured</li></ul>
+      <p>Release of the official trailer for the project&#x27;s clearest flagship chapter to date.</p>
+      <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/timeline/princes-of-ashes-trailer-release/">View details</a></div>
+    </article>
+    
+    <article class="content-card" data-browse-item data-type="production_release" data-platform="youtube" data-year="2025" data-language="bilingual" data-featured="standard" data-tags="production_release">
+      <p class="eyebrow">Production release</p>
+      <h3>Release of the Visual Teaser</h3>
+      <ul class="meta-list"><li>16 December 2025</li><li>Production release</li><li>Bilingual</li></ul>
+      <p>Release of a visual teaser centered on Palestinian memory and the project&#x27;s aesthetic register.</p>
+      <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/timeline/visual-memory-teaser-release/">View details</a></div>
+    </article>
+    
+    <article class="content-card" data-browse-item data-type="research_publication" data-platform="youtube" data-year="2025" data-language="bilingual" data-featured="standard" data-tags="research_publication">
+      <p class="eyebrow">Research milestone</p>
+      <h3>Release of the Core YouTube Explainers</h3>
+      <ul class="meta-list"><li>13 December 2025</li><li>Research milestone</li><li>Bilingual</li></ul>
+      <p>Release of the two core explainers that define the project&#x27;s method and evidence-first identity.</p>
+      <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/timeline/youtube-evidence-first-explainers/">View details</a></div>
+    </article>
+    
+    <article class="content-card" data-browse-item data-type="mission_statement" data-platform="facebook" data-year="2025" data-language="bilingual" data-featured="featured" data-tags="mission_statement">
+      <p class="eyebrow">Mission statement</p>
+      <h3>Mission and Team-Building Post</h3>
+      <ul class="meta-list"><li>4 October 2025</li><li>Mission statement</li><li>Bilingual</li><li class="is-strong">Featured</li></ul>
+      <p>One of the clearest public statements of project identity, linking the platform to YouTube, NotebookLM, team roles, and support needs.</p>
+      <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/timeline/october-mission-post/">View details</a></div>
+    </article>
+    
+    <article class="content-card" data-browse-item data-type="production_release" data-platform="facebook" data-year="2025" data-language="bilingual" data-featured="standard" data-tags="production_release">
+      <p class="eyebrow">Production release</p>
+      <h3>Late-May Promo Reel</h3>
+      <ul class="meta-list"><li>30 May 2025</li><li>Production release</li><li>Bilingual</li></ul>
+      <p>A late-May promo reel whose evidence improved during recovery, though the full caption remains partial.</p>
+      <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/timeline/may-promo-reel/">View details</a></div>
+    </article>
+    
+    <article class="content-card" data-browse-item data-type="community_call" data-platform="facebook" data-year="2025" data-language="bilingual" data-featured="standard" data-tags="community_call">
+      <p class="eyebrow">Community call</p>
+      <h3>WhatsApp Community Invite</h3>
+      <ul class="meta-list"><li>21 May 2025</li><li>Community call</li><li>Bilingual</li></ul>
+      <p>Launch of a WhatsApp-based community channel for releases, events, and discussion.</p>
+      <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/timeline/whatsapp-community-launch/">View details</a></div>
+    </article>
+    
+    <article class="content-card" data-browse-item data-type="partnership_or_dialogue" data-platform="facebook" data-year="2025" data-language="bilingual" data-featured="standard" data-tags="partnership_or_dialogue">
+      <p class="eyebrow">Dialogue / partnership</p>
+      <h3>Ramallah Dialogue on Documenting Palestinian History</h3>
+      <ul class="meta-list"><li>21 May 2025</li><li>Dialogue / partnership</li><li>Bilingual</li></ul>
+      <p>An early civic-cultural appearance linking the project to Ramallah Municipality and an artist-residency context.</p>
+      <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/timeline/ramallah-dialogue-event/">View details</a></div>
+    </article>
+    
+    <article class="content-card" data-browse-item data-type="production_release" data-platform="youtube" data-year="2025" data-language="bilingual" data-featured="featured" data-tags="production_release">
+      <p class="eyebrow">Production release</p>
+      <h3>First YouTube Release Day</h3>
+      <ul class="meta-list"><li>11 May 2025</li><li>Production release</li><li>Bilingual</li><li class="is-strong">Featured</li></ul>
+      <p>The first known cluster of YouTube releases, turning the project into a visible production stream rather than a concept only.</p>
+      <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/timeline/youtube-first-release-day/">View details</a></div>
+    </article>
+    
+    <article class="content-card" data-browse-item data-type="project_launch_signal" data-platform="facebook" data-year="2025" data-language="bilingual" data-featured="featured" data-tags="project_launch_signal">
+      <p class="eyebrow">Launch signal</p>
+      <h3>Dense Facebook Launch Window</h3>
+      <ul class="meta-list"><li>18 April 2025</li><li>Launch signal</li><li>Bilingual</li><li class="is-strong">Featured</li></ul>
+      <p>A dense sequence of recovered posts between April 18 and April 29, confirming sustained launch-period activity.</p>
+      <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/timeline/facebook-launch-window/">View details</a></div>
+    </article>
+    
+    <article class="content-card" data-browse-item data-type="research_publication" data-platform="facebook" data-year="2025" data-language="bilingual" data-featured="standard" data-tags="research_publication">
+      <p class="eyebrow">Research milestone</p>
+      <h3>Canaanite Kitchen and Memory Post</h3>
+      <ul class="meta-list"><li>15 April 2025</li><li>Research milestone</li><li>Bilingual</li></ul>
+      <p>A post connecting food, memory, and everyday resistance, with an early signal toward an encyclopedia-style knowledge layer.</p>
+      <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/timeline/canaanite-kitchen-memory-post/">View details</a></div>
+    </article>
+    
+    <article class="content-card" data-browse-item data-type="research_publication" data-platform="facebook" data-year="2025" data-language="bilingual" data-featured="standard" data-tags="research_publication">
+      <p class="eyebrow">Research milestone</p>
+      <h3>Launch of the Canaanite Fact Series</h3>
+      <ul class="meta-list"><li>14 April 2025</li><li>Research milestone</li><li>Bilingual</li></ul>
+      <p>Launch of an early visual public-history track linking historical facts to Palestine&#x27;s deep identity.</p>
+      <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/timeline/canaanite-fact-series-launch/">View details</a></div>
+    </article>
+    
+    <article class="content-card" data-browse-item data-type="project_launch_signal" data-platform="facebook" data-year="2025" data-language="bilingual" data-featured="featured" data-tags="project_launch_signal">
+      <p class="eyebrow">Launch signal</p>
+      <h3>First Confirmed Facebook Reel</h3>
+      <ul class="meta-list"><li>13 April 2025</li><li>Launch signal</li><li>Bilingual</li><li class="is-strong">Featured</li></ul>
+      <p>The earliest currently confirmed public Facebook reel in the project&#x27;s launch window.</p>
+      <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/timeline/facebook-first-reel/">View details</a></div>
+    </article>
+    </div>
+      <p class="empty-state" data-browse-empty hidden>No items match the current filters.</p>
+    </section>
+    
         
     </div>
   </main>

@@ -59,5 +59,9 @@
     "canaanite-fact-series",
     "canaanite-kitchen-memory"
   ],
-  "notes_internal": "Palestinian identity, deep history, Canaanite continuity, music and poetry, AI-assisted media, memory and heritage, community and youth"
+  "notes_internal": "Palestinian identity, deep history, Canaanite continuity, music and poetry, AI-assisted media, memory and heritage, community and youth",
+  "language_availability": "bilingual",
+  "source_platforms": [
+    "youtube"
+  ]
 }

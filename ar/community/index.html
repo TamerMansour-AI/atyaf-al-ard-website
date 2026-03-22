@@ -4,10 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>المجتمع | أطياف الأرض</title>
-  <meta name="description" content="Community and support calls">
+  <meta name="description" content="دعوات المجتمع والدعم">
   <base href="/atyaf-al-ard-website/">
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="stylesheet" href="assets/css/structured.css">
+  <script defer src="assets/js/phase5-browse.js"></script>
 </head>
 <body>
   <header class="site-header">
@@ -17,7 +18,7 @@
         <span class="site-title">Atyaf Al Ard</span>
       </a>
       <div class="header-right">
-        <nav class="site-nav" aria-label="Primary">
+        <nav class="site-nav" aria-label="التنقل الرئيسي">
           <a href="/atyaf-al-ard-website/ar/">الرئيسية</a><a href="/atyaf-al-ard-website/ar/about/">عن المشروع</a><a href="/atyaf-al-ard-website/ar/productions/">الإنتاجات</a><a href="/atyaf-al-ard-website/ar/research/">الأبحاث</a><a href="/atyaf-al-ard-website/ar/timeline/">الخط الزمني</a><a href="/atyaf-al-ard-website/ar/archive/">الأرشيف</a><a href="/atyaf-al-ard-website/ar/community/" class='active'>المجتمع</a><a href="/atyaf-al-ard-website/ar/support/">الدعم</a><a href="/atyaf-al-ard-website/ar/contact/">تواصل</a>
         </nav>
         <div class="lang-switch">
@@ -33,48 +34,50 @@
       
         <section class="page-hero">
           <h1>المجتمع</h1>
-          <p>دعوات مستردة للانضمام والدعم والتطوع ومرافقة المشروع وهو يتوسّع.</p>
+          <p>تعرض دعوات المجتمع والدعم الآن إشارات الأرشيف المرتبطة بها وسياقها الزمني بدلاً من بقائها سجلات منفصلة.</p>
         </section>
-        <div class="card-grid">
-    <article class="content-card">
-      <div class="card-body">
-        <h3>انضم إلى مجموعة واتساب</h3>
-        <ul class="meta-list"><li>21 مايو 2025</li></ul>
-        <p>دعوة للانضمام إلى مجموعة المشروع لمتابعة الإصدارات والفيديوهات والفعاليات والنقاشات.</p>
+        
+    <section class="browse-shell" data-browse-root="community">
+      <p class="supporting-text">رشح حسب نوع الدعوة والجمهور والسنة والمنصة واللغة والأولوية.</p>
+      <div class="browse-controls"><label>النوع<select data-filter-key="type"><option value=""></option><option value="funding_support">دعوة للدعم</option><option value="volunteer_recruitment">دعوة للتطوع</option><option value="whatsapp_join">دعوة واتساب</option></select></label><label>الموضوع / الوسم<select data-filter-key="tags"><option value=""></option><option value="community">Community</option><option value="designers">مصممون</option><option value="editors">محررون</option><option value="followers">Followers</option><option value="researchers">باحثون</option><option value="social_media_support">دعم القنوات</option><option value="supporters">داعمون</option><option value="translators">مترجمون</option><option value="volunteers">متطوعون</option></select></label><label>المنصة<select data-filter-key="platform"><option value=""></option><option value="facebook">Facebook</option></select></label><label>السنة<select data-filter-key="year"><option value=""></option><option value="2026">2026</option><option value="2025">2025</option></select></label><label>اللغة<select data-filter-key="language"><option value=""></option><option value="bilingual">ثنائي اللغة</option></select></label><label>الأولوية<select data-filter-key="featured"><option value=""></option><option value="featured">مميز / رئيسي</option><option value="standard">عادي</option></select></label></div>
+      <div class="browse-actions">
+        <button class="btn btn-outline" type="button" data-clear-filters>إعادة ضبط المرشحات</button>
+        <p class="browse-summary" data-browse-count></p>
       </div>
-      <div class="card-actions">
-        <a class="btn btn-secondary" href="/atyaf-al-ard-website/ar/community/whatsapp-community-invite/">افتح الدعوة</a>
-      </div>
+      <div class="card-grid">
+    <article class="content-card" data-browse-item data-type="volunteer_recruitment" data-platform="facebook" data-year="2026" data-language="bilingual" data-featured="featured" data-tags="volunteers|social_media_support">
+      <p class="eyebrow">دعوة للتطوع</p>
+      <h3>دعوة متطوعين لإطلاق المنصات</h3>
+      <ul class="meta-list"><li>21 مارس 2026</li><li>دعوة للتطوع</li><li>ثنائي اللغة</li><li class="is-strong">مميز</li></ul>
+      <p>دعوة للمساعدة في إطلاق وإدارة القنوات الرسمية للمشروع تزامنًا مع الظهور الإعلامي.</p>
+      <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/ar/community/social-launch-volunteer-call/">عرض التفاصيل</a></div>
     </article>
     
-    <article class="content-card">
-      <div class="card-body">
-        <h3>دعوة للدعم وبناء الفريق</h3>
-        <ul class="meta-list"><li>4 أكتوبر 2025</li></ul>
-        <p>منشور يطلب باحثين ومترجمين ومصممين ومحررين ودعمًا ماليًا وتقنيًا لتوسيع المشروع.</p>
-      </div>
-      <div class="card-actions">
-        <a class="btn btn-secondary" href="/atyaf-al-ard-website/ar/community/october-support-and-team-call/">افتح الدعوة</a>
-      </div>
+    <article class="content-card" data-browse-item data-type="funding_support" data-platform="facebook" data-year="2025" data-language="bilingual" data-featured="featured" data-tags="researchers|translators|designers|editors|supporters">
+      <p class="eyebrow">دعوة للدعم</p>
+      <h3>دعوة للدعم وبناء الفريق</h3>
+      <ul class="meta-list"><li>4 أكتوبر 2025</li><li>دعوة للدعم</li><li>ثنائي اللغة</li><li class="is-strong">مميز</li></ul>
+      <p>منشور يطلب باحثين ومترجمين ومصممين ومحررين ودعمًا ماليًا وتقنيًا لتوسيع المشروع.</p>
+      <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/ar/community/october-support-and-team-call/">عرض التفاصيل</a></div>
     </article>
     
-    <article class="content-card">
-      <div class="card-body">
-        <h3>دعوة متطوعين لإطلاق المنصات</h3>
-        <ul class="meta-list"><li>21 مارس 2026</li></ul>
-        <p>دعوة للمساعدة في إطلاق وإدارة القنوات الرسمية للمشروع تزامنًا مع الظهور الإعلامي.</p>
-      </div>
-      <div class="card-actions">
-        <a class="btn btn-secondary" href="/atyaf-al-ard-website/ar/community/social-launch-volunteer-call/">افتح الدعوة</a>
-      </div>
+    <article class="content-card" data-browse-item data-type="whatsapp_join" data-platform="facebook" data-year="2025" data-language="bilingual" data-featured="featured" data-tags="followers|community">
+      <p class="eyebrow">دعوة واتساب</p>
+      <h3>انضم إلى مجموعة واتساب</h3>
+      <ul class="meta-list"><li>21 مايو 2025</li><li>دعوة واتساب</li><li>ثنائي اللغة</li><li class="is-strong">مميز</li></ul>
+      <p>دعوة للانضمام إلى مجموعة المشروع لمتابعة الإصدارات والفيديوهات والفعاليات والنقاشات.</p>
+      <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/ar/community/whatsapp-community-invite/">عرض التفاصيل</a></div>
     </article>
     </div>
+      <p class="empty-state" data-browse-empty hidden>لا توجد عناصر تطابق المرشحات الحالية.</p>
+    </section>
+    
         
     </div>
   </main>
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p>منصة بحث وسرد فلسطينية طويلة المدى.</p>
+      <p>منصة فلسطينية طويلة المدى للبحث والسرد.</p>
       <p><a href="/atyaf-al-ard-website/ar/support/">ادعم المشروع</a></p>
     </div>
   </footer>

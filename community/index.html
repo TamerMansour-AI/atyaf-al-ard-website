@@ -8,6 +8,7 @@
   <base href="/atyaf-al-ard-website/">
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="stylesheet" href="assets/css/structured.css">
+  <script defer src="assets/js/phase5-browse.js"></script>
 </head>
 <body>
   <header class="site-header">
@@ -33,42 +34,44 @@
       
         <section class="page-hero">
           <h1>Community</h1>
-          <p>Recovered calls to join, support, volunteer, and follow the project as it grows.</p>
+          <p>Community and support calls now show their related archive signals and timeline context instead of living as isolated records.</p>
         </section>
-        <div class="card-grid">
-    <article class="content-card">
-      <div class="card-body">
-        <h3>Join the WhatsApp Community</h3>
-        <ul class="meta-list"><li>21 May 2025</li></ul>
-        <p>An invitation to join the project&#x27;s WhatsApp group for releases, videos, events, and discussion.</p>
+        
+    <section class="browse-shell" data-browse-root="community">
+      <p class="supporting-text">Filter by call type, audience, year, platform, language handling, and priority.</p>
+      <div class="browse-controls"><label>Type<select data-filter-key="type"><option value=""></option><option value="funding_support">Support call</option><option value="volunteer_recruitment">Volunteer call</option><option value="whatsapp_join">WhatsApp invite</option></select></label><label>Theme / tag<select data-filter-key="tags"><option value=""></option><option value="community">Community</option><option value="designers">Designers</option><option value="editors">Editors</option><option value="followers">Followers</option><option value="researchers">Researchers</option><option value="social_media_support">Channel support</option><option value="supporters">Supporters</option><option value="translators">Translators</option><option value="volunteers">Volunteers</option></select></label><label>Platform<select data-filter-key="platform"><option value=""></option><option value="facebook">Facebook</option></select></label><label>Year<select data-filter-key="year"><option value=""></option><option value="2026">2026</option><option value="2025">2025</option></select></label><label>Language<select data-filter-key="language"><option value=""></option><option value="bilingual">Bilingual</option></select></label><label>Priority<select data-filter-key="featured"><option value=""></option><option value="featured">Featured / flagship</option><option value="standard">Standard</option></select></label></div>
+      <div class="browse-actions">
+        <button class="btn btn-outline" type="button" data-clear-filters>Reset filters</button>
+        <p class="browse-summary" data-browse-count></p>
       </div>
-      <div class="card-actions">
-        <a class="btn btn-secondary" href="/atyaf-al-ard-website/community/whatsapp-community-invite/">Open call</a>
-      </div>
+      <div class="card-grid">
+    <article class="content-card" data-browse-item data-type="volunteer_recruitment" data-platform="facebook" data-year="2026" data-language="bilingual" data-featured="featured" data-tags="volunteers|social_media_support">
+      <p class="eyebrow">Volunteer call</p>
+      <h3>Volunteer Call for Platform Launch</h3>
+      <ul class="meta-list"><li>21 March 2026</li><li>Volunteer call</li><li>Bilingual</li><li class="is-strong">Featured</li></ul>
+      <p>A volunteer call to help launch and manage the project&#x27;s official channels during its current media-visibility phase.</p>
+      <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/community/social-launch-volunteer-call/">View details</a></div>
     </article>
     
-    <article class="content-card">
-      <div class="card-body">
-        <h3>Support and Team-Building Call</h3>
-        <ul class="meta-list"><li>4 October 2025</li></ul>
-        <p>A mission post calling for researchers, translators, designers, editors, GIS help, and financial support.</p>
-      </div>
-      <div class="card-actions">
-        <a class="btn btn-secondary" href="/atyaf-al-ard-website/community/october-support-and-team-call/">Open call</a>
-      </div>
+    <article class="content-card" data-browse-item data-type="funding_support" data-platform="facebook" data-year="2025" data-language="bilingual" data-featured="featured" data-tags="researchers|translators|designers|editors|supporters">
+      <p class="eyebrow">Support call</p>
+      <h3>Support and Team-Building Call</h3>
+      <ul class="meta-list"><li>4 October 2025</li><li>Support call</li><li>Bilingual</li><li class="is-strong">Featured</li></ul>
+      <p>A mission post calling for researchers, translators, designers, editors, GIS help, and financial support.</p>
+      <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/community/october-support-and-team-call/">View details</a></div>
     </article>
     
-    <article class="content-card">
-      <div class="card-body">
-        <h3>Volunteer Call for Platform Launch</h3>
-        <ul class="meta-list"><li>21 March 2026</li></ul>
-        <p>A volunteer call to help launch and manage the project&#x27;s official channels during its current media-visibility phase.</p>
-      </div>
-      <div class="card-actions">
-        <a class="btn btn-secondary" href="/atyaf-al-ard-website/community/social-launch-volunteer-call/">Open call</a>
-      </div>
+    <article class="content-card" data-browse-item data-type="whatsapp_join" data-platform="facebook" data-year="2025" data-language="bilingual" data-featured="featured" data-tags="followers|community">
+      <p class="eyebrow">WhatsApp invite</p>
+      <h3>Join the WhatsApp Community</h3>
+      <ul class="meta-list"><li>21 May 2025</li><li>WhatsApp invite</li><li>Bilingual</li><li class="is-strong">Featured</li></ul>
+      <p>An invitation to join the project&#x27;s WhatsApp group for releases, videos, events, and discussion.</p>
+      <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/community/whatsapp-community-invite/">View details</a></div>
     </article>
     </div>
+      <p class="empty-state" data-browse-empty hidden>No items match the current filters.</p>
+    </section>
+    
         
     </div>
   </main>

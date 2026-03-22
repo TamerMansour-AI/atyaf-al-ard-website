@@ -3,5 +3,10 @@
   "title_en": "Support the Project",
   "title_ar": "ادعم المشروع",
   "summary_en": "Support can include funding, collaboration, hosting, translation, design, editing, research, and platform-building.",
-  "summary_ar": "يمكن أن يكون الدعم تمويلًا أو تعاونًا أو استضافة أو ترجمة أو تصميمًا أو تحريرًا أو بحثًا أو بناء منصات."
+  "summary_ar": "يمكن أن يكون الدعم تمويلًا أو تعاونًا أو استضافة أو ترجمة أو تصميمًا أو تحريرًا أو بحثًا أو بناء منصات.",
+  "featured_support_slugs": [
+    "october-support-and-team-call",
+    "social-launch-volunteer-call",
+    "whatsapp-community-invite"
+  ]
 }

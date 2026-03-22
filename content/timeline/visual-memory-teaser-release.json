@@ -20,5 +20,10 @@
   ],
   "related_production_ids": [
     "visual-memory-teaser"
+  ],
+  "translation_status": "bilingual_complete",
+  "language_availability": "bilingual",
+  "source_platforms": [
+    "youtube"
   ]
 }
