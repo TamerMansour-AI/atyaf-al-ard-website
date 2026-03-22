@@ -1,0 +1,27 @@
+<svg width="880" height="1140" viewBox="0 0 880 1140" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dhBg" x1="94" y1="91" x2="720" y2="1046" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#211610"/>
+      <stop offset="0.55" stop-color="#6A4633"/>
+      <stop offset="1" stop-color="#B97843"/>
+    </linearGradient>
+    <radialGradient id="dhGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(612 236) rotate(145.304) scale(302.987 273.952)">
+      <stop stop-color="#F0CC9D"/>
+      <stop offset="0.6" stop-color="#C78652" stop-opacity="0.52"/>
+      <stop offset="1" stop-color="#20140F" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="880" height="1140" rx="38" fill="url(#dhBg)"/>
+  <circle cx="612" cy="236" r="238" fill="url(#dhGlow)"/>
+  <rect x="140" y="186" width="354" height="512" rx="30" fill="#251712" stroke="#F1C48B" stroke-width="6"/>
+  <path d="M196 282H439" stroke="#F1C48B" stroke-width="6" stroke-linecap="round"/>
+  <path d="M196 336H446" stroke="#F1C48B" stroke-width="4" stroke-linecap="round" opacity="0.78"/>
+  <path d="M196 386H426" stroke="#F1C48B" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+  <path d="M196 434H458" stroke="#F1C48B" stroke-width="4" stroke-linecap="round" opacity="0.42"/>
+  <path d="M196 482H418" stroke="#F1C48B" stroke-width="4" stroke-linecap="round" opacity="0.28"/>
+  <circle cx="620" cy="524" r="135" stroke="#E4A26A" stroke-width="6" opacity="0.84"/>
+  <path d="M694 596L790 692" stroke="#E4A26A" stroke-width="8" stroke-linecap="round"/>
+  <path d="M130 836C217 784 312 756 415 754C517 752 610 780 694 838" stroke="#F7E2C2" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 16"/>
+  <path d="M114 94H766" stroke="#F7E2C2" stroke-width="2" opacity="0.22"/>
+  <path d="M114 1048H766" stroke="#F7E2C2" stroke-width="2" opacity="0.22"/>
+</svg>

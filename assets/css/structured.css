@@ -372,6 +372,63 @@ html[lang="ar"] button.btn {
   object-fit: cover;
 }
 
+.hero-media.asset-plate {
+  padding: 0.8rem;
+  border-radius: 30px;
+  background: linear-gradient(180deg, rgba(255, 248, 238, 0.16), rgba(255, 246, 232, 0.06));
+  border: 1px solid rgba(255, 229, 193, 0.12);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.card-cover {
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  border-radius: 24px 24px 18px 18px;
+}
+
+.card-cover img {
+  width: 100%;
+  display: block;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border: 0;
+  border-radius: 24px 24px 18px 18px;
+  background: linear-gradient(180deg, rgba(38, 24, 17, 0.96), rgba(84, 50, 33, 0.88));
+  box-shadow: none;
+}
+
+.content-card.has-cover {
+  gap: 0.92rem;
+  padding: 0 0 1.4rem;
+}
+
+.content-card.has-cover > :not(.card-cover) {
+  padding-inline: 1.4rem;
+}
+
+.route-icon {
+  width: 74px;
+  height: 74px;
+  margin: 1.35rem 0 0 1.4rem;
+  display: grid;
+  place-items: center;
+  border-radius: 22px;
+  background: linear-gradient(180deg, rgba(255, 248, 238, 0.92), rgba(235, 220, 203, 0.82));
+  border: 1px solid rgba(85, 58, 39, 0.12);
+  box-shadow: 0 18px 34px rgba(32, 20, 12, 0.09);
+}
+
+.route-icon img {
+  width: 44px;
+  height: 44px;
+  display: block;
+}
+
+html[dir="rtl"] .route-icon {
+  margin: 1.35rem 1.4rem 0 0;
+}
+
 .hero-actions,
 .pill-list,
 .card-actions,
@@ -629,6 +686,9 @@ html[lang="ar"] .browse-controls label {
   isolation: isolate;
   border-color: rgba(255, 226, 194, 0.12);
   box-shadow: var(--shadow-hero);
+  background-repeat: no-repeat;
+  background-size: cover, 31rem auto;
+  background-position: center, calc(100% + 2.5rem) center;
 }
 
 .section-hero::after {
@@ -688,31 +748,49 @@ html[lang="ar"] .section-hero h1 {
 }
 
 .section-hero-productions {
-  background: linear-gradient(135deg, rgba(28, 20, 17, 0.98) 0%, rgba(63, 36, 28, 0.95) 54%, rgba(113, 63, 43, 0.92) 100%);
+  background-image:
+    linear-gradient(135deg, rgba(28, 20, 17, 0.98) 0%, rgba(63, 36, 28, 0.95) 54%, rgba(113, 63, 43, 0.92) 100%),
+    url("/atyaf-al-ard-website/assets/images/sections/productions-anchor.svg");
 }
 
 .section-hero-research {
-  background: linear-gradient(135deg, rgba(48, 34, 24, 0.97) 0%, rgba(94, 67, 48, 0.94) 55%, rgba(134, 97, 59, 0.9) 100%);
+  background-image:
+    linear-gradient(135deg, rgba(48, 34, 24, 0.97) 0%, rgba(94, 67, 48, 0.94) 55%, rgba(134, 97, 59, 0.9) 100%),
+    url("/atyaf-al-ard-website/assets/images/sections/research-anchor.svg");
 }
 
 .section-hero-timeline {
-  background: linear-gradient(135deg, rgba(39, 28, 23, 0.98) 0%, rgba(73, 48, 36, 0.95) 52%, rgba(111, 77, 53, 0.9) 100%);
+  background-image:
+    linear-gradient(135deg, rgba(39, 28, 23, 0.98) 0%, rgba(73, 48, 36, 0.95) 52%, rgba(111, 77, 53, 0.9) 100%),
+    url("/atyaf-al-ard-website/assets/images/sections/timeline-anchor.svg");
 }
 
 .section-hero-archive {
-  background: linear-gradient(135deg, rgba(33, 24, 20, 0.98) 0%, rgba(70, 44, 33, 0.95) 55%, rgba(121, 71, 46, 0.91) 100%);
+  background-image:
+    linear-gradient(135deg, rgba(33, 24, 20, 0.98) 0%, rgba(70, 44, 33, 0.95) 55%, rgba(121, 71, 46, 0.91) 100%),
+    url("/atyaf-al-ard-website/assets/images/sections/archive-anchor.svg");
 }
 
 .section-hero-community {
-  background: linear-gradient(135deg, rgba(36, 25, 19, 0.98) 0%, rgba(86, 53, 38, 0.94) 52%, rgba(132, 84, 53, 0.9) 100%);
+  background-image:
+    linear-gradient(135deg, rgba(36, 25, 19, 0.98) 0%, rgba(86, 53, 38, 0.94) 52%, rgba(132, 84, 53, 0.9) 100%),
+    url("/atyaf-al-ard-website/assets/images/sections/community-anchor.svg");
 }
 
 .section-hero-support {
-  background: linear-gradient(135deg, rgba(34, 23, 18, 0.98) 0%, rgba(82, 50, 35, 0.94) 52%, rgba(136, 83, 47, 0.91) 100%);
+  background-image:
+    linear-gradient(135deg, rgba(34, 23, 18, 0.98) 0%, rgba(82, 50, 35, 0.94) 52%, rgba(136, 83, 47, 0.91) 100%),
+    url("/atyaf-al-ard-website/assets/images/sections/support-anchor.svg");
 }
 
 .section-hero-contact {
-  background: linear-gradient(135deg, rgba(31, 23, 18, 0.98) 0%, rgba(68, 45, 34, 0.95) 56%, rgba(112, 75, 55, 0.9) 100%);
+  background-image:
+    linear-gradient(135deg, rgba(31, 23, 18, 0.98) 0%, rgba(68, 45, 34, 0.95) 56%, rgba(112, 75, 55, 0.9) 100%),
+    url("/atyaf-al-ard-website/assets/images/sections/contact-anchor.svg");
+}
+
+html[dir="rtl"] .section-hero {
+  background-position: center, calc(0% - 2.5rem) center;
 }
 
 .section-note-grid,
@@ -969,7 +1047,13 @@ html[lang="ar"] .detail-hero-rich h1 {
 }
 
 .home-hero {
-  background: linear-gradient(135deg, rgba(34, 22, 16, 0.97) 0%, rgba(64, 40, 28, 0.94) 58%, rgba(101, 63, 40, 0.92) 100%);
+  background-image:
+    linear-gradient(135deg, rgba(34, 22, 16, 0.97) 0%, rgba(64, 40, 28, 0.94) 58%, rgba(101, 63, 40, 0.92) 100%),
+    radial-gradient(circle at 82% 18%, rgba(231, 177, 106, 0.18), rgba(231, 177, 106, 0) 32%),
+    url("/atyaf-al-ard-website/assets/images/generated/home-hero-atlas.svg");
+  background-repeat: no-repeat;
+  background-size: cover, auto, 42rem auto;
+  background-position: center, 86% 12%, calc(100% + 8rem) center;
   border-color: rgba(255, 222, 185, 0.12);
   box-shadow: var(--shadow-hero);
 }
@@ -1054,6 +1138,7 @@ html[lang="ar"] .hero-signal span {
 .hero-media-stack {
   display: grid;
   gap: 1rem;
+  align-content: start;
 }
 
 .hero-video-shell {
@@ -1066,7 +1151,7 @@ html[lang="ar"] .hero-signal span {
 }
 
 .hero-still-shell {
-  width: min(76%, 360px);
+  width: min(82%, 390px);
   margin-inline-start: auto;
   margin-top: -4.5rem;
   padding: 0.68rem;
@@ -1074,6 +1159,52 @@ html[lang="ar"] .hero-signal span {
   background: rgba(255, 249, 240, 0.96);
   border: 1px solid rgba(255, 223, 185, 0.18);
   box-shadow: 0 22px 44px rgba(14, 10, 7, 0.24);
+}
+
+.hero-emblem-row {
+  display: grid;
+  gap: 0.9rem;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.hero-emblem-chip {
+  min-height: 100%;
+  display: grid;
+  gap: 0.55rem;
+  align-content: start;
+  padding: 1rem;
+  border-radius: 22px;
+  background: rgba(255, 247, 236, 0.08);
+  border: 1px solid rgba(255, 230, 199, 0.12);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+.hero-emblem-chip img {
+  width: 42px;
+  height: 42px;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+}
+
+.hero-emblem-chip strong {
+  color: #fff6ea;
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.hero-emblem-chip span {
+  color: rgba(244, 235, 221, 0.72);
+  font-size: 0.84rem;
+  line-height: 1.5;
+}
+
+html[lang="ar"] .hero-emblem-chip strong {
+  font-size: 0.98rem;
+  letter-spacing: 0;
+  text-transform: none;
 }
 
 .hero-media-note {
@@ -1100,6 +1231,17 @@ html[lang="ar"] .hero-signal span {
 
 .home-route-card {
   min-height: 100%;
+}
+
+.home-route-card.has-mark,
+.quick-link-card.has-mark {
+  gap: 0.95rem;
+  padding: 0 0 1.4rem;
+}
+
+.home-route-card.has-mark > :not(.route-icon),
+.quick-link-card.has-mark > :not(.route-icon) {
+  padding-inline: 1.4rem;
 }
 
 .route-meta {
@@ -1188,6 +1330,21 @@ html[lang="ar"] .route-meta {
   border: 1px solid rgba(68, 47, 33, 0.08);
 }
 
+.asset-link-grid .quick-link-card,
+.detail-page .figure-card {
+  background-image:
+    linear-gradient(180deg, rgba(255, 250, 243, 0.82), rgba(244, 233, 220, 0.76)),
+    url("/atyaf-al-ard-website/assets/images/evidence/evidence-panel.svg");
+  background-repeat: no-repeat;
+  background-size: cover, 15rem auto;
+  background-position: center, calc(100% + 4.5rem) calc(100% + 3rem);
+}
+
+html[dir="rtl"] .asset-link-grid .quick-link-card,
+html[dir="rtl"] .detail-page .figure-card {
+  background-position: center, calc(0% - 4.5rem) calc(100% + 3rem);
+}
+
 .figure-card a,
 .two-col-grid > li a {
   font-weight: 700;
@@ -1248,6 +1405,10 @@ html[dir="rtl"] .site-title {
   .hero-still-shell {
     width: min(72%, 320px);
     margin-top: -2rem;
+  }
+
+  .hero-emblem-row {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .stats-row {
@@ -1322,6 +1483,20 @@ html[dir="rtl"] .site-title {
     width: 100%;
     margin-top: 0;
     margin-inline-start: 0;
+  }
+
+  .route-icon {
+    margin: 1.2rem 1.2rem 0;
+  }
+
+  .home-route-card.has-mark > :not(.route-icon),
+  .quick-link-card.has-mark > :not(.route-icon),
+  .content-card.has-cover > :not(.card-cover) {
+    padding-inline: 1.2rem;
+  }
+
+  .hero-emblem-row {
+    grid-template-columns: 1fr;
   }
 
   .btn,

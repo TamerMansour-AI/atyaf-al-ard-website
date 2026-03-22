@@ -1,0 +1,15 @@
+<svg width="920" height="620" viewBox="0 0 920 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g opacity="0.94">
+    <path d="M271 141H623C655 141 681 167 681 199V495C681 527 655 553 623 553H271C239 553 213 527 213 495V199C213 167 239 141 271 141Z" stroke="#F0C693" stroke-width="8"/>
+    <path d="M447 141V553" stroke="#F0C693" stroke-width="6" opacity="0.7"/>
+    <path d="M274 225H396" stroke="#F0C693" stroke-width="6" stroke-linecap="round"/>
+    <path d="M274 273H403" stroke="#F0C693" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+    <path d="M274 323H374" stroke="#F0C693" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+    <path d="M499 225H621" stroke="#F0C693" stroke-width="6" stroke-linecap="round"/>
+    <path d="M499 273H628" stroke="#F0C693" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+    <path d="M499 323H599" stroke="#F0C693" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+    <circle cx="731" cy="158" r="72" stroke="#D28E58" stroke-width="6"/>
+    <path d="M780 207L846 273" stroke="#D28E58" stroke-width="8" stroke-linecap="round"/>
+    <path d="M102 476C193 420 274 397 346 407C421 417 501 453 587 516" stroke="#F8E1C2" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 16"/>
+  </g>
+</svg>
