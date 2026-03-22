@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Productions | Atyaf Al Ard</title>
-  <meta name="description" content="Structured productions archive">
+  <meta name="description" content="A curated bilingual production catalog spanning flagship trailers, explainers, songs, poetic pieces, and short visual fragments.">
   <base href="/atyaf-al-ard-website/">
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="stylesheet" href="assets/css/structured.css">
@@ -19,7 +19,7 @@
       </a>
       <div class="header-right">
         <nav class="site-nav" aria-label="Primary">
-          <a href="/atyaf-al-ard-website/">Home</a><a href="/atyaf-al-ard-website/about/">About</a><a href="/atyaf-al-ard-website/productions/" class='active'>Productions</a><a href="/atyaf-al-ard-website/research/">Research</a><a href="/atyaf-al-ard-website/timeline/">Timeline</a><a href="/atyaf-al-ard-website/archive/">Archive</a><a href="/atyaf-al-ard-website/community/">Community</a><a href="/atyaf-al-ard-website/support/">Support</a><a href="/atyaf-al-ard-website/contact/">Contact</a>
+          <a href="/atyaf-al-ard-website/">Home</a><a href="/atyaf-al-ard-website/about/">About</a><a href="/atyaf-al-ard-website/productions/" class="active">Productions</a><a href="/atyaf-al-ard-website/research/">Research</a><a href="/atyaf-al-ard-website/timeline/">Timeline</a><a href="/atyaf-al-ard-website/archive/">Archive</a><a href="/atyaf-al-ard-website/community/">Community</a><a href="/atyaf-al-ard-website/support/">Support</a><a href="/atyaf-al-ard-website/contact/">Contact</a>
         </nav>
         <div class="lang-switch">
           <span class="active-lang">EN</span>
@@ -29,27 +29,95 @@
       </div>
     </div>
   </header>
-  <main class="page-main structured-page">
-    <div class="container">
-      
-        <section class="page-hero">
-          <h1>Productions</h1>
-          <p>Browse the structured production library by type, theme, year, language, and flagship priority.</p>
-        </section>
-        
-    <section class="browse-shell" data-browse-root="productions">
-      <p class="supporting-text">These cards now surface transcript availability, language handling, and links back into the archive graph.</p>
-      <div class="browse-controls"><label>Type<select data-filter-key="type"><option value=""></option><option value="explainer">Explainer</option><option value="poetic_historical_piece">Poetic piece</option><option value="short_social_fragment">Short fragment</option><option value="song">Song</option><option value="teaser">Teaser</option><option value="trailer">Trailer</option></select></label><label>Theme / tag<select data-filter-key="tags"><option value=""></option><option value="ai_assisted_media">AI-assisted media</option><option value="canaanite_continuity">Canaanite continuity</option><option value="community_and_youth">Community and youth</option><option value="deep_history">Deep history</option><option value="evidence_based_storytelling">Evidence-based storytelling</option><option value="memory_and_heritage">Memory and heritage</option><option value="music_and_poetry">Music and poetry</option><option value="palestinian_identity">Palestinian identity</option></select></label><label>Platform<select data-filter-key="platform"><option value=""></option><option value="youtube">Youtube</option></select></label><label>Year<select data-filter-key="year"><option value=""></option><option value="2026">2026</option><option value="2025">2025</option></select></label><label>Language<select data-filter-key="language"><option value=""></option><option value="bilingual">Bilingual</option></select></label><label>Priority<select data-filter-key="featured"><option value=""></option><option value="featured">Featured / flagship</option><option value="standard">Standard</option></select></label></div>
-      <div class="browse-actions">
-        <button class="btn btn-outline" type="button" data-clear-filters>Reset filters</button>
-        <p class="browse-summary" data-browse-count></p>
-      </div>
-      <div class="card-grid">
+  <main class="page-main structured-page section-page productions-page">
+    <div class="container section-canvas">
+      <section class="page-hero section-hero section-hero-productions">
+        <p class="section-eyebrow">Cinematic catalog</p>
+        <div class="hero-signal">
+          <span>Flagship works</span>
+          <span>Short-form releases</span>
+          <span>Bilingual storytelling</span>
+        </div>
+        <h1>Productions</h1>
+        <p class="hero-lead">This catalog holds the project's public-facing cinematic layer: trailers, explainers, songs, poetic pieces, and short visual fragments that turn research, memory, and atmosphere into viewable form.</p>
+        <p class="hero-note">The goal here is not only to list videos. It is to make the production layer feel curated, traceable, and tied back to the wider evidence-and-archive structure.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#production-library">Browse the full catalog</a>
+          <a class="btn btn-secondary" href="/atyaf-al-ard-website/productions/princes-of-ashes-trailer/">Open the flagship trailer</a>
+        </div>
+        <div class="stats-row">
+          <div class="stat-card is-featured"><h3>12</h3><p>released works spanning cinematic, musical, poetic, and explainer formats</p></div>
+          <div class="stat-card"><h3>2</h3><p>clear flagship anchors currently carrying the public face of the platform</p></div>
+          <div class="stat-card"><h3>6</h3><p>recurring thematic strands linking deep history, identity, memory, and continuity</p></div>
+        </div>
+      </section>
+
+      <section class="section-panel">
+        <div class="section-heading">
+          <p class="section-eyebrow">How to read this catalog</p>
+          <h2>The production layer is arranged as a story world, not a flat upload list.</h2>
+          <p class="section-lead">Use the flagship works to understand tone and ambition first, then move into the supporting releases that expand atmosphere, historical continuity, and visual language.</p>
+        </div>
+        <div class="section-note-grid">
+          <article class="quick-link-card">
+            <p class="section-eyebrow">Start with the clearest signal</p>
+            <h3>Flagship works show the strongest public articulation of the project.</h3>
+            <p>They carry the best combination of identity, narrative confidence, and broader project recognizability.</p>
+          </article>
+          <article class="quick-link-card">
+            <p class="section-eyebrow">Then move into the texture layer</p>
+            <h3>Short fragments, songs, and poetic works build the emotional field around the flagship spine.</h3>
+            <p>These items matter because they turn research themes into recurring motifs and public atmosphere.</p>
+          </article>
+          <article class="quick-link-card">
+            <p class="section-eyebrow">Keep the archive connected</p>
+            <h3>Production records are meant to stay linked to research, timeline entries, and source-aware archive traces.</h3>
+            <p>This keeps the cinematic layer grounded in the wider project rather than letting it float as disconnected media.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-panel">
+        <div class="section-heading">
+          <p class="section-eyebrow">Featured works</p>
+          <h2>Begin with the pieces that define the project's public screen presence most clearly.</h2>
+          <p class="section-lead">These works are currently the strongest entry points into the cinematic side of Atyaf Al Ard.</p>
+        </div>
+        <div class="card-grid">
+          <article class="content-card" data-browse-item data-type="trailer" data-platform="youtube" data-year="2026" data-language="bilingual" data-featured="featured" data-tags="palestinian_identity|deep_history|canaanite_continuity|evidence_based_storytelling|ai_assisted_media|memory_and_heritage">
+            <p class="eyebrow">Trailer</p>
+            <h3>Princes of Ashes</h3>
+            <ul class="meta-list"><li>21 March 2026</li><li>Trailer</li><li>Bilingual</li><li class="is-strong">Flagship</li></ul>
+            <p>The flagship trailer for a long-term cinematic chapter that frames Atyaf Al Ard as a research-driven story world about Palestine's deep history.</p>
+            <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/productions/princes-of-ashes-trailer/">View details</a></div>
+          </article>
+          <article class="content-card" data-browse-item data-type="explainer" data-platform="youtube" data-year="2025" data-language="bilingual" data-featured="featured" data-tags="palestinian_identity|deep_history|evidence_based_storytelling|ai_assisted_media|memory_and_heritage|community_and_youth">
+            <p class="eyebrow">Explainer</p>
+            <h3>Atyaf Al Ard: Evidence-First Stories of Palestine's Deep History</h3>
+            <ul class="meta-list"><li>13 December 2025</li><li>Explainer</li><li>Bilingual</li><li class="is-strong">Featured</li></ul>
+            <p>A bilingual explainer presenting Atyaf Al Ard as a research-and-storytelling platform about Palestine's deep history.</p>
+            <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/productions/deep-history-evidence-stories-en/">View details</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="browse-shell" id="production-library" data-browse-root="productions">
+        <div class="section-heading">
+          <p class="section-eyebrow">Full production library</p>
+          <h2>Browse the wider catalog by form, theme, year, platform, language, and priority.</h2>
+          <p class="section-lead">The library remains structured so a visitor can move from flagship works into the surrounding production field without losing orientation.</p>
+        </div>
+        <div class="browse-controls"><label>Type<select data-filter-key="type"><option value=""></option><option value="explainer">Explainer</option><option value="poetic_historical_piece">Poetic piece</option><option value="short_social_fragment">Short fragment</option><option value="song">Song</option><option value="teaser">Teaser</option><option value="trailer">Trailer</option></select></label><label>Theme / tag<select data-filter-key="tags"><option value=""></option><option value="ai_assisted_media">AI-assisted media</option><option value="canaanite_continuity">Canaanite continuity</option><option value="community_and_youth">Community and youth</option><option value="deep_history">Deep history</option><option value="evidence_based_storytelling">Evidence-based storytelling</option><option value="memory_and_heritage">Memory and heritage</option><option value="music_and_poetry">Music and poetry</option><option value="palestinian_identity">Palestinian identity</option></select></label><label>Platform<select data-filter-key="platform"><option value=""></option><option value="youtube">Youtube</option></select></label><label>Year<select data-filter-key="year"><option value=""></option><option value="2026">2026</option><option value="2025">2025</option></select></label><label>Language<select data-filter-key="language"><option value=""></option><option value="bilingual">Bilingual</option></select></label><label>Priority<select data-filter-key="featured"><option value=""></option><option value="featured">Featured / flagship</option><option value="standard">Standard</option></select></label></div>
+        <div class="browse-actions">
+          <button class="btn btn-outline" type="button" data-clear-filters>Reset filters</button>
+          <p class="browse-summary" data-browse-count></p>
+        </div>
+        <div class="card-grid">
     <article class="content-card" data-browse-item data-type="trailer" data-platform="youtube" data-year="2026" data-language="bilingual" data-featured="featured" data-tags="palestinian_identity|deep_history|canaanite_continuity|evidence_based_storytelling|ai_assisted_media|memory_and_heritage">
       <p class="eyebrow">Trailer</p>
       <h3>Princes of Ashes</h3>
       <ul class="meta-list"><li>21 March 2026</li><li>Trailer</li><li>Bilingual</li><li class="is-strong">Flagship</li></ul>
-      <p>The flagship trailer for a long-term cinematic chapter that frames Atyaf Al Ard as a research-driven story world about Palestine&#x27;s deep history.</p>
+      <p>The flagship trailer for a long-term cinematic chapter that frames Atyaf Al Ard as a research-driven story world about Palestine's deep history.</p>
       <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/productions/princes-of-ashes-trailer/">View details</a></div>
     </article>
     
@@ -57,23 +125,23 @@
       <p class="eyebrow">Teaser</p>
       <h3>Atyaf Al Ard: A Visual Teaser from Palestinian Memory</h3>
       <ul class="meta-list"><li>16 December 2025</li><li>Teaser</li><li>Bilingual</li></ul>
-      <p>A visual teaser that introduces the project&#x27;s aesthetic tone and memory-driven atmosphere through short cinematic fragments.</p>
+      <p>A visual teaser that introduces the project's aesthetic tone and memory-driven atmosphere through short cinematic fragments.</p>
       <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/productions/visual-memory-teaser/">View details</a></div>
     </article>
     
     <article class="content-card" data-browse-item data-type="explainer" data-platform="youtube" data-year="2025" data-language="bilingual" data-featured="featured" data-tags="palestinian_identity|evidence_based_storytelling|ai_assisted_media">
       <p class="eyebrow">Explainer</p>
-      <h3>Atyaf Al Ard: Evidence-First Stories of Palestine&#x27;s Deep History</h3>
+      <h3>Atyaf Al Ard: Evidence-First Stories of Palestine's Deep History</h3>
       <ul class="meta-list"><li>13 December 2025</li><li>Explainer</li><li>Bilingual</li><li class="is-strong">Featured</li></ul>
-      <p>An Arabic explainer that introduces the project&#x27;s evidence-first method for telling Palestine&#x27;s deep history.</p>
+      <p>An Arabic explainer that introduces the project's evidence-first method for telling Palestine's deep history.</p>
       <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/productions/deep-history-evidence-stories-ar/">View details</a></div>
     </article>
     
     <article class="content-card" data-browse-item data-type="explainer" data-platform="youtube" data-year="2025" data-language="bilingual" data-featured="featured" data-tags="palestinian_identity|deep_history|evidence_based_storytelling|ai_assisted_media|memory_and_heritage|community_and_youth">
       <p class="eyebrow">Explainer</p>
-      <h3>Atyaf Al Ard: Evidence-First Stories of Palestine&#x27;s Deep History</h3>
+      <h3>Atyaf Al Ard: Evidence-First Stories of Palestine's Deep History</h3>
       <ul class="meta-list"><li>13 December 2025</li><li>Explainer</li><li>Bilingual</li><li class="is-strong">Featured</li></ul>
-      <p>A bilingual explainer presenting Atyaf Al Ard as a research-and-storytelling platform about Palestine&#x27;s deep history.</p>
+      <p>A bilingual explainer presenting Atyaf Al Ard as a research-and-storytelling platform about Palestine's deep history.</p>
       <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/productions/deep-history-evidence-stories-en/">View details</a></div>
     </article>
     
@@ -81,7 +149,7 @@
       <p class="eyebrow">Short fragment</p>
       <h3>Declaration of the Decision</h3>
       <ul class="meta-list"><li>22 May 2025</li><li>Short fragment</li><li>Bilingual</li></ul>
-      <p>A short-form social fragment that extends the project&#x27;s world in a fast, shareable format.</p>
+      <p>A short-form social fragment that extends the project's world in a fast, shareable format.</p>
       <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/productions/decision-announcement-short/">View details</a></div>
     </article>
     
@@ -97,7 +165,7 @@
       <p class="eyebrow">Song</p>
       <h3>The Echoes of the Land</h3>
       <ul class="meta-list"><li>11 May 2025</li><li>Song</li><li>Bilingual</li></ul>
-      <p>A song that invokes the civilizations of Palestine and extends the project&#x27;s emotional and historical atmosphere.</p>
+      <p>A song that invokes the civilizations of Palestine and extends the project's emotional and historical atmosphere.</p>
       <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/productions/echoes-of-the-land-song/">View details</a></div>
     </article>
     
@@ -137,14 +205,12 @@
       <p class="eyebrow">Short fragment</p>
       <h3>A Journey to Canaan</h3>
       <ul class="meta-list"><li>11 May 2025</li><li>Short fragment</li><li>Bilingual</li></ul>
-      <p>A second short-form cut of A Journey to Canaan in the project&#x27;s early short-video layer.</p>
+      <p>A second short-form cut of A Journey to Canaan in the project's early short-video layer.</p>
       <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/productions/journey-to-canaan-short-b/">View details</a></div>
     </article>
-    </div>
-      <p class="empty-state" data-browse-empty hidden>No items match the current filters.</p>
-    </section>
-    
-        
+        </div>
+        <p class="empty-state" data-browse-empty hidden>No items match the current filters.</p>
+      </section>
     </div>
   </main>
   <footer class="site-footer">

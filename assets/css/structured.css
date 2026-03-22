@@ -618,6 +618,165 @@ html[lang="ar"] .browse-controls label {
   color: var(--color-muted);
 }
 
+.section-page .section-canvas {
+  display: grid;
+  gap: 1.35rem;
+}
+
+.section-hero {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  border-color: rgba(255, 226, 194, 0.12);
+  box-shadow: var(--shadow-hero);
+}
+
+.section-hero::after {
+  content: "";
+  position: absolute;
+  inset: auto auto -5rem -4rem;
+  width: 16rem;
+  height: 16rem;
+  border-radius: 999px;
+  background: radial-gradient(circle, rgba(199, 157, 100, 0.22), rgba(199, 157, 100, 0));
+  pointer-events: none;
+}
+
+.section-hero > * {
+  position: relative;
+  z-index: 1;
+}
+
+.section-hero h1 {
+  max-width: 10ch;
+  color: #fff8ef;
+  font-size: clamp(3.1rem, 5.3vw, 4.9rem);
+  text-wrap: balance;
+}
+
+html[lang="ar"] .section-hero h1 {
+  max-width: 14ch;
+  font-size: clamp(2.8rem, 4.8vw, 4.3rem);
+}
+
+.section-hero .section-eyebrow,
+.section-hero .route-meta {
+  color: var(--color-highlight);
+}
+
+.section-hero .hero-lead {
+  margin: 0;
+  max-width: 50rem;
+  color: rgba(244, 235, 221, 0.9);
+  font-size: clamp(1.06rem, 1.35vw, 1.22rem);
+}
+
+.section-hero .hero-note,
+.section-hero .supporting-text,
+.section-hero .route-note {
+  color: rgba(244, 235, 221, 0.74);
+  max-width: 52rem;
+}
+
+.section-hero .stats-row {
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+}
+
+.section-hero .stat-card {
+  min-height: 100%;
+  background: linear-gradient(180deg, rgba(255, 247, 236, 0.9), rgba(239, 225, 209, 0.82));
+}
+
+.section-hero-productions {
+  background: linear-gradient(135deg, rgba(28, 20, 17, 0.98) 0%, rgba(63, 36, 28, 0.95) 54%, rgba(113, 63, 43, 0.92) 100%);
+}
+
+.section-hero-research {
+  background: linear-gradient(135deg, rgba(48, 34, 24, 0.97) 0%, rgba(94, 67, 48, 0.94) 55%, rgba(134, 97, 59, 0.9) 100%);
+}
+
+.section-hero-timeline {
+  background: linear-gradient(135deg, rgba(39, 28, 23, 0.98) 0%, rgba(73, 48, 36, 0.95) 52%, rgba(111, 77, 53, 0.9) 100%);
+}
+
+.section-hero-archive {
+  background: linear-gradient(135deg, rgba(33, 24, 20, 0.98) 0%, rgba(70, 44, 33, 0.95) 55%, rgba(121, 71, 46, 0.91) 100%);
+}
+
+.section-hero-community {
+  background: linear-gradient(135deg, rgba(36, 25, 19, 0.98) 0%, rgba(86, 53, 38, 0.94) 52%, rgba(132, 84, 53, 0.9) 100%);
+}
+
+.section-hero-support {
+  background: linear-gradient(135deg, rgba(34, 23, 18, 0.98) 0%, rgba(82, 50, 35, 0.94) 52%, rgba(136, 83, 47, 0.91) 100%);
+}
+
+.section-hero-contact {
+  background: linear-gradient(135deg, rgba(31, 23, 18, 0.98) 0%, rgba(68, 45, 34, 0.95) 56%, rgba(112, 75, 55, 0.9) 100%);
+}
+
+.section-note-grid,
+.channel-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+}
+
+.section-page .browse-shell {
+  gap: 1.15rem;
+  padding: 1.6rem;
+}
+
+.section-page .browse-shell .browse-controls {
+  padding: 1rem;
+  border-radius: 24px;
+  background: rgba(255, 250, 243, 0.7);
+  border: 1px solid rgba(68, 47, 33, 0.08);
+}
+
+.section-page .browse-shell .browse-actions {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-page .browse-shell .browse-summary {
+  margin: 0;
+}
+
+.productions-page .browse-shell {
+  background: linear-gradient(180deg, rgba(255, 249, 242, 0.94) 0%, rgba(244, 233, 220, 0.86) 100%);
+}
+
+.research-page .browse-shell {
+  background: linear-gradient(180deg, rgba(255, 251, 246, 0.96) 0%, rgba(242, 233, 223, 0.84) 100%);
+}
+
+.timeline-page .browse-shell {
+  background: linear-gradient(180deg, rgba(252, 247, 241, 0.95) 0%, rgba(238, 228, 216, 0.84) 100%);
+}
+
+.archive-page .browse-shell {
+  background: linear-gradient(180deg, rgba(255, 249, 243, 0.95) 0%, rgba(241, 229, 216, 0.86) 100%);
+}
+
+.community-page .browse-shell,
+.support-page .browse-shell {
+  background: linear-gradient(180deg, rgba(255, 250, 244, 0.94) 0%, rgba(242, 231, 218, 0.84) 100%);
+}
+
+.channel-card h3,
+.section-note-grid h3 {
+  margin-bottom: 0;
+}
+
+.channel-card .link-list {
+  gap: 0.45rem;
+}
+
+.channel-card .meta-list {
+  margin-bottom: 0.2rem;
+}
+
 .home-page .home-canvas {
   gap: 1.65rem;
 }

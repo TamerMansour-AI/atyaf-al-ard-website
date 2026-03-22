@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>الخط الزمني | أطياف الأرض</title>
-  <meta name="description" content="الخط الزمني للمشروع">
+  <meta name="description" content="تسلسل زمني منظّم يتتبع إشارات الإطلاق، والظهورات العامة، والإصدارات، والمحطات البحثية، وتحوّل الموقع إلى منصة بنيوية.">
   <base href="/atyaf-al-ard-website/">
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="stylesheet" href="assets/css/structured.css">
@@ -14,12 +14,12 @@
   <header class="site-header">
     <div class="container header-inner">
       <a href="/atyaf-al-ard-website/ar/" class="site-logo">
-        <img src="assets/images/common/logo-atyaf-al-ard.png" alt="أطياف الأرض logo">
+        <img src="assets/images/common/logo-atyaf-al-ard.png" alt="شعار أطياف الأرض">
         <span class="site-title">Atyaf Al Ard</span>
       </a>
       <div class="header-right">
         <nav class="site-nav" aria-label="التنقل الرئيسي">
-          <a href="/atyaf-al-ard-website/ar/">الرئيسية</a><a href="/atyaf-al-ard-website/ar/about/">عن المشروع</a><a href="/atyaf-al-ard-website/ar/productions/">الإنتاجات</a><a href="/atyaf-al-ard-website/ar/research/">الأبحاث</a><a href="/atyaf-al-ard-website/ar/timeline/" class='active'>الخط الزمني</a><a href="/atyaf-al-ard-website/ar/archive/">الأرشيف</a><a href="/atyaf-al-ard-website/ar/community/">المجتمع</a><a href="/atyaf-al-ard-website/ar/support/">الدعم</a><a href="/atyaf-al-ard-website/ar/contact/">تواصل</a>
+          <a href="/atyaf-al-ard-website/ar/">الرئيسية</a><a href="/atyaf-al-ard-website/ar/about/">عن المشروع</a><a href="/atyaf-al-ard-website/ar/productions/">الإنتاجات</a><a href="/atyaf-al-ard-website/ar/research/">الأبحاث</a><a href="/atyaf-al-ard-website/ar/timeline/" class="active">الخط الزمني</a><a href="/atyaf-al-ard-website/ar/archive/">الأرشيف</a><a href="/atyaf-al-ard-website/ar/community/">المجتمع</a><a href="/atyaf-al-ard-website/ar/support/">الدعم</a><a href="/atyaf-al-ard-website/ar/contact/">تواصل</a>
         </nav>
         <div class="lang-switch">
           <span class="active-lang">العربية</span>
@@ -29,22 +29,104 @@
       </div>
     </div>
   </header>
-  <main class="page-main structured-page">
-    <div class="container">
-      
-        <section class="page-hero">
-          <h1>الخط الزمني</h1>
-          <p>أصبح الخط الزمني قابلاً للترشيح ويمكن فتح كل محطة إلى ما يرتبط بها من إنتاجات وأبحاث وأرشيف وإعلام ومجتمع.</p>
-        </section>
-        
-    <section class="browse-shell" data-browse-root="timeline">
-      <p class="supporting-text">رشح المحطات حسب نوع الحدث والسنة والمنصة واللغة والأولوية.</p>
-      <div class="browse-controls"><label>النوع<select data-filter-key="type"><option value=""></option><option value="community_call">دعوة مجتمعية</option><option value="media_appearance">ظهور إعلامي</option><option value="mission_statement">بيان تعريفي</option><option value="partnership_or_dialogue">حوار / شراكة</option><option value="production_release">إطلاق إنتاج</option><option value="project_launch_signal">إشارة إطلاق</option><option value="research_publication">محطة بحثية</option><option value="website_milestone">محطة للموقع</option></select></label><label>الموضوع / الوسم<select data-filter-key="tags"><option value=""></option><option value="community_call">Community Call</option><option value="media_appearance">Media Appearance</option><option value="mission_statement">Mission Statement</option><option value="partnership_or_dialogue">Partnership Or Dialogue</option><option value="production_release">Production Release</option><option value="project_launch_signal">Project Launch Signal</option><option value="research_publication">Research Publication</option><option value="website_milestone">Website Milestone</option></select></label><label>المنصة<select data-filter-key="platform"><option value=""></option><option value="facebook">Facebook</option><option value="github">Github</option><option value="youtube">Youtube</option></select></label><label>السنة<select data-filter-key="year"><option value=""></option><option value="2026">2026</option><option value="2025">2025</option></select></label><label>اللغة<select data-filter-key="language"><option value=""></option><option value="bilingual">ثنائي اللغة</option></select></label><label>الأولوية<select data-filter-key="featured"><option value=""></option><option value="featured">مميز / رئيسي</option><option value="standard">عادي</option></select></label></div>
-      <div class="browse-actions">
-        <button class="btn btn-outline" type="button" data-clear-filters>إعادة ضبط المرشحات</button>
-        <p class="browse-summary" data-browse-count></p>
-      </div>
-      <div class="card-grid">
+  <main class="page-main structured-page section-page timeline-page">
+    <div class="container section-canvas">
+      <section class="page-hero section-hero section-hero-timeline">
+        <p class="section-eyebrow">تاريخ الظهور</p>
+        <div class="hero-signal">
+          <span>إشارات إطلاق</span>
+          <span>محطات بحثية</span>
+          <span>وضوح عام متزايد</span>
+        </div>
+        <h1>الخط الزمني</h1>
+        <p class="hero-lead">يوضح هذا الخط كيف تحرك مشروع أطياف الأرض من شذرات عامة متفرقة إلى منصة مرئية ومنظمة. فهو يجمع بين الإصدارات، والإشارات، والظهورات، والمحطات البحثية، وتحولات بناء الموقع نفسه.</p>
+        <p class="hero-note">يفترض أن تشعر هذه الصفحة كتاريخٍ قابلٍ للقراءة، لا كسيلٍ عام من البطاقات المؤرخة. فكل محطة فيها تفتح إلى الشبكة الأوسع من السجلات المرتبطة بها.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#timeline-library">تصفح التسلسل الزمني</a>
+          <a class="btn btn-secondary" href="/atyaf-al-ard-website/ar/timeline/princes-of-ashes-trailer-release/">افتح محطة رئيسية</a>
+        </div>
+        <div class="stats-row">
+          <div class="stat-card is-featured"><h3>14</h3><p>محطة زمنية تربط بين الموقع، والأرشيف، والإنتاجات، والبحث داخل حقل واحد</p></div>
+          <div class="stat-card"><h3>2025</h3><p>سنة الإطلاق الكثيف التي صار فيها الأثر العام ظاهرًا وقابلًا للتتبع</p></div>
+          <div class="stat-card"><h3>2026</h3><p>السنة التي عززت فيها البنية المنظمة وتريلر العمل الرئيسي الوجه العام للمشروع</p></div>
+        </div>
+      </section>
+
+      <section class="section-panel">
+        <div class="section-heading">
+          <p class="section-eyebrow">كيف تستخدم الخط الزمني</p>
+          <h2>اقرأ هذا التسلسل بوصفه ظهور المشروع، لا مجرد قائمة تواريخ.</h2>
+          <p class="section-lead">الطريقة الأجدى للتصفح هنا هي ملاحظة كيف تبدأ إشارات المهمة، والمخرجات البحثية، والإطلاقات، والدعوات المجتمعية، ومحطات بناء الموقع، بالتقاطع داخل هوية عامة أكثر تماسكًا.</p>
+        </div>
+        <div class="section-note-grid">
+          <article class="quick-link-card">
+            <p class="section-eyebrow">ابدأ بالمحطات المميزة</p>
+            <h3>هذه السجلات تظهر أوضح التحولات في وضوح المشروع العام.</h3>
+            <p>فهي تكشف اللحظات التي أصبحت فيها القصة، وطبقة الإنتاج، والقنوات العامة، أقرب إلى أن تُرى كمشروع واحد.</p>
+          </article>
+          <article class="quick-link-card">
+            <p class="section-eyebrow">ثم املأ المجال المحيط</p>
+            <h3>المداخل العادية تضيف كثافةً واستمراريةً وملمسًا تاريخيًا.</h3>
+            <p>وهي تشرح كيف كانت اللحظات الأبرز مسنودة بإطلاقات أصغر، وحوارات، وآثار أرشيفية متقاربة.</p>
+          </article>
+          <article class="quick-link-card">
+            <p class="section-eyebrow">تحرك بين الطبقات</p>
+            <h3>كل محطة تستطيع أن تقودك إلى الإنتاجات، والأبحاث، والأرشيف، والدعوات المجتمعية.</h3>
+            <p>وهذا ما يحول التسلسل الزمني إلى حقل ملاحيّ، لا إلى أداة زمنية مغلقة.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-panel">
+        <div class="section-heading">
+          <p class="section-eyebrow">محطات محورية</p>
+          <h2>هذه هي اللحظات التي تحدد حاليًا الانعطافات الأوضح في الهيئة العامة للمشروع.</h2>
+          <p class="section-lead">استخدمها كنقاط ارتكاز قبل الانتقال إلى الحقل الزمني الأوسع.</p>
+        </div>
+        <div class="card-grid">
+          <article class="content-card" data-browse-item data-type="website_milestone" data-platform="github" data-year="2026" data-language="bilingual" data-featured="featured" data-tags="website_milestone">
+            <p class="eyebrow">محطة للموقع</p>
+            <h3>بداية النسخة المنظمة من الموقع</h3>
+            <ul class="meta-list"><li>22 مارس 2026</li><li>محطة للموقع</li><li>ثنائي اللغة</li><li class="is-strong">مميز</li></ul>
+            <p>تحويل الموقع من بروشور ثابت إلى بنية محتوى منظمة بالبيانات والقوالب القابلة للتوسع.</p>
+            <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/ar/timeline/website-structured-foundation/">عرض التفاصيل</a></div>
+          </article>
+          <article class="content-card" data-browse-item data-type="production_release" data-platform="youtube" data-year="2026" data-language="bilingual" data-featured="featured" data-tags="production_release">
+            <p class="eyebrow">إطلاق إنتاج</p>
+            <h3>إطلاق تريلر أمراء الرماد</h3>
+            <ul class="meta-list"><li>21 مارس 2026</li><li>إطلاق إنتاج</li><li>ثنائي اللغة</li><li class="is-strong">مميز</li></ul>
+            <p>طرح التريلر الرسمي للفصل الأبرز حتى الآن داخل عالم أطياف الأرض.</p>
+            <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/ar/timeline/princes-of-ashes-trailer-release/">عرض التفاصيل</a></div>
+          </article>
+          <article class="content-card" data-browse-item data-type="mission_statement" data-platform="facebook" data-year="2025" data-language="bilingual" data-featured="featured" data-tags="mission_statement">
+            <p class="eyebrow">بيان تعريفي</p>
+            <h3>بوست المهمة وبناء الفريق</h3>
+            <ul class="meta-list"><li>4 أكتوبر 2025</li><li>بيان تعريفي</li><li>ثنائي اللغة</li><li class="is-strong">مميز</li></ul>
+            <p>أحد أوضح النصوص العامة التي تعرّف المشروع وتربطه بيوتيوب وNotebookLM واحتياجات الفريق والدعم.</p>
+            <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/ar/timeline/october-mission-post/">عرض التفاصيل</a></div>
+          </article>
+          <article class="content-card" data-browse-item data-type="project_launch_signal" data-platform="facebook" data-year="2025" data-language="bilingual" data-featured="featured" data-tags="project_launch_signal">
+            <p class="eyebrow">إشارة إطلاق</p>
+            <h3>نافذة الإطلاق المكثفة على فيسبوك</h3>
+            <ul class="meta-list"><li>18 أبريل 2025</li><li>إشارة إطلاق</li><li>ثنائي اللغة</li><li class="is-strong">مميز</li></ul>
+            <p>سلسلة منشورات مؤكدة بين 18 و29 أبريل تشير إلى نشاط تأسيسي متواصل، لا إلى إعلان معزول.</p>
+            <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/ar/timeline/facebook-launch-window/">عرض التفاصيل</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="browse-shell" id="timeline-library" data-browse-root="timeline">
+        <div class="section-heading">
+          <p class="section-eyebrow">متصفح التسلسل الزمني</p>
+          <h2>رشّح الخط الزمني بحسب نوع الحدث، والسنة، والمنصة، واللغة، والأولوية.</h2>
+          <p class="section-lead">تبقى أدوات الترشح خفيفة، لكنها باتت موضوعة داخل تجربة قراءة تاريخية أوضح بدل قائمة تقنية عارية.</p>
+        </div>
+        <div class="browse-controls"><label>النوع<select data-filter-key="type"><option value=""></option><option value="community_call">دعوة مجتمعية</option><option value="media_appearance">ظهور إعلامي</option><option value="mission_statement">بيان تعريفي</option><option value="partnership_or_dialogue">حوار / شراكة</option><option value="production_release">إطلاق إنتاج</option><option value="project_launch_signal">إشارة إطلاق</option><option value="research_publication">محطة بحثية</option><option value="website_milestone">محطة للموقع</option></select></label><label>الموضوع / الوسم<select data-filter-key="tags"><option value=""></option><option value="community_call">Community Call</option><option value="media_appearance">Media Appearance</option><option value="mission_statement">Mission Statement</option><option value="partnership_or_dialogue">Partnership Or Dialogue</option><option value="production_release">Production Release</option><option value="project_launch_signal">Project Launch Signal</option><option value="research_publication">Research Publication</option><option value="website_milestone">Website Milestone</option></select></label><label>المنصة<select data-filter-key="platform"><option value=""></option><option value="facebook">Facebook</option><option value="github">Github</option><option value="youtube">Youtube</option></select></label><label>السنة<select data-filter-key="year"><option value=""></option><option value="2026">2026</option><option value="2025">2025</option></select></label><label>اللغة<select data-filter-key="language"><option value=""></option><option value="bilingual">ثنائي اللغة</option></select></label><label>الأولوية<select data-filter-key="featured"><option value=""></option><option value="featured">مميز / رئيسي</option><option value="standard">عادي</option></select></label></div>
+        <div class="browse-actions">
+          <button class="btn btn-outline" type="button" data-clear-filters>إعادة ضبط المرشحات</button>
+          <p class="browse-summary" data-browse-count></p>
+        </div>
+        <div class="card-grid">
     <article class="content-card" data-browse-item data-type="website_milestone" data-platform="github" data-year="2026" data-language="bilingual" data-featured="featured" data-tags="website_milestone">
       <p class="eyebrow">محطة للموقع</p>
       <h3>بداية النسخة المنظمة من الموقع</h3>
@@ -129,7 +211,7 @@
       <p class="eyebrow">إشارة إطلاق</p>
       <h3>نافذة الإطلاق المكثفة على فيسبوك</h3>
       <ul class="meta-list"><li>18 أبريل 2025</li><li>إشارة إطلاق</li><li>ثنائي اللغة</li><li class="is-strong">مميز</li></ul>
-      <p>سلسلة منشورات مؤكدة بين 18 و29 أبريل تشير إلى نشاط تأسيسي متواصل وليس إعلانًا معزولًا.</p>
+      <p>سلسلة منشورات مؤكدة بين 18 و29 أبريل تشير إلى نشاط تأسيسي متواصل، وليس إعلانًا معزولًا.</p>
       <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/ar/timeline/facebook-launch-window/">عرض التفاصيل</a></div>
     </article>
     
@@ -156,11 +238,9 @@
       <p>أقدم إشارة عامة مؤكدة حاليًا إلى نشاط المشروع على فيسبوك خلال نافذة الإطلاق المبكرة.</p>
       <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/ar/timeline/facebook-first-reel/">عرض التفاصيل</a></div>
     </article>
-    </div>
-      <p class="empty-state" data-browse-empty hidden>لا توجد عناصر تطابق المرشحات الحالية.</p>
-    </section>
-    
-        
+        </div>
+        <p class="empty-state" data-browse-empty hidden>لا توجد عناصر تطابق المرشحات الحالية.</p>
+      </section>
     </div>
   </main>
   <footer class="site-footer">

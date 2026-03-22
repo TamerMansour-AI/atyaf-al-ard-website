@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>الإنتاجات | أطياف الأرض</title>
-  <meta name="description" content="أرشيف الإنتاجات">
+  <meta name="description" content="فهرس بصري ثنائي اللغة يجمع التريلرات، والشروح، والأغاني، والقطع الشعرية، والمقاطع القصيرة ضمن طبقة إنتاجية واحدة.">
   <base href="/atyaf-al-ard-website/">
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="stylesheet" href="assets/css/structured.css">
@@ -14,12 +14,12 @@
   <header class="site-header">
     <div class="container header-inner">
       <a href="/atyaf-al-ard-website/ar/" class="site-logo">
-        <img src="assets/images/common/logo-atyaf-al-ard.png" alt="أطياف الأرض logo">
+        <img src="assets/images/common/logo-atyaf-al-ard.png" alt="شعار أطياف الأرض">
         <span class="site-title">Atyaf Al Ard</span>
       </a>
       <div class="header-right">
         <nav class="site-nav" aria-label="التنقل الرئيسي">
-          <a href="/atyaf-al-ard-website/ar/">الرئيسية</a><a href="/atyaf-al-ard-website/ar/about/">عن المشروع</a><a href="/atyaf-al-ard-website/ar/productions/" class='active'>الإنتاجات</a><a href="/atyaf-al-ard-website/ar/research/">الأبحاث</a><a href="/atyaf-al-ard-website/ar/timeline/">الخط الزمني</a><a href="/atyaf-al-ard-website/ar/archive/">الأرشيف</a><a href="/atyaf-al-ard-website/ar/community/">المجتمع</a><a href="/atyaf-al-ard-website/ar/support/">الدعم</a><a href="/atyaf-al-ard-website/ar/contact/">تواصل</a>
+          <a href="/atyaf-al-ard-website/ar/">الرئيسية</a><a href="/atyaf-al-ard-website/ar/about/">عن المشروع</a><a href="/atyaf-al-ard-website/ar/productions/" class="active">الإنتاجات</a><a href="/atyaf-al-ard-website/ar/research/">الأبحاث</a><a href="/atyaf-al-ard-website/ar/timeline/">الخط الزمني</a><a href="/atyaf-al-ard-website/ar/archive/">الأرشيف</a><a href="/atyaf-al-ard-website/ar/community/">المجتمع</a><a href="/atyaf-al-ard-website/ar/support/">الدعم</a><a href="/atyaf-al-ard-website/ar/contact/">تواصل</a>
         </nav>
         <div class="lang-switch">
           <span class="active-lang">العربية</span>
@@ -29,22 +29,90 @@
       </div>
     </div>
   </header>
-  <main class="page-main structured-page">
-    <div class="container">
-      
-        <section class="page-hero">
-          <h1>الإنتاجات</h1>
-          <p>تصفح مكتبة الإنتاجات حسب النوع والموضوع والسنة واللغة والأولوية.</p>
-        </section>
-        
-    <section class="browse-shell" data-browse-root="productions">
-      <p class="supporting-text">تعرض هذه البطاقات حالة النصوص واللغة وروابط العودة إلى شبكة الأرشيف.</p>
-      <div class="browse-controls"><label>النوع<select data-filter-key="type"><option value=""></option><option value="explainer">شرح</option><option value="poetic_historical_piece">قطعة شعرية</option><option value="short_social_fragment">مقطع قصير</option><option value="song">أغنية</option><option value="teaser">تيزر</option><option value="trailer">تريلر</option></select></label><label>الموضوع / الوسم<select data-filter-key="tags"><option value=""></option><option value="ai_assisted_media">إنتاج بمساندة الذكاء الاصطناعي</option><option value="canaanite_continuity">الاستمرارية الكنعانية</option><option value="community_and_youth">المجتمع والشباب</option><option value="deep_history">التاريخ العميق</option><option value="evidence_based_storytelling">سرد قائم على الدليل</option><option value="memory_and_heritage">الذاكرة والتراث</option><option value="music_and_poetry">الموسيقى والشعر</option><option value="palestinian_identity">الهوية الفلسطينية</option></select></label><label>المنصة<select data-filter-key="platform"><option value=""></option><option value="youtube">Youtube</option></select></label><label>السنة<select data-filter-key="year"><option value=""></option><option value="2026">2026</option><option value="2025">2025</option></select></label><label>اللغة<select data-filter-key="language"><option value=""></option><option value="bilingual">ثنائي اللغة</option></select></label><label>الأولوية<select data-filter-key="featured"><option value=""></option><option value="featured">مميز / رئيسي</option><option value="standard">عادي</option></select></label></div>
-      <div class="browse-actions">
-        <button class="btn btn-outline" type="button" data-clear-filters>إعادة ضبط المرشحات</button>
-        <p class="browse-summary" data-browse-count></p>
-      </div>
-      <div class="card-grid">
+  <main class="page-main structured-page section-page productions-page">
+    <div class="container section-canvas">
+      <section class="page-hero section-hero section-hero-productions">
+        <p class="section-eyebrow">فهرس بصري</p>
+        <div class="hero-signal">
+          <span>أعمال رئيسية</span>
+          <span>إطلاقات قصيرة</span>
+          <span>سرد ثنائي اللغة</span>
+        </div>
+        <h1>الإنتاجات</h1>
+        <p class="hero-lead">تضم هذه الصفحة الطبقة البصرية العامة للمشروع: تريلرات، وشروح، وأغانٍ، وقطع شعرية، ومقاطع قصيرة تحوّل البحث والذاكرة والمناخ البصري إلى أعمال قابلة للمشاهدة.</p>
+        <p class="hero-note">المطلوب هنا ليس مجرد سرد للفيديوهات، بل تقديم طبقة الإنتاج بوصفها فهرسًا مُنظَّمًا يمكن تتبعه وربطه مجددًا بالأرشيف والبحث والخط الزمني.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#production-library">تصفح الفهرس الكامل</a>
+          <a class="btn btn-secondary" href="/atyaf-al-ard-website/ar/productions/princes-of-ashes-trailer/">افتح التريلر الرئيسي</a>
+        </div>
+        <div class="stats-row">
+          <div class="stat-card is-featured"><h3>12</h3><p>عملًا منشورًا بين التريلرات، والأغاني، والقطع الشعرية، والشروح، والمقاطع القصيرة</p></div>
+          <div class="stat-card"><h3>2</h3><p>مرتكزان رئيسيان يحملان الوجه العام الأوضح للمشروع في هذه المرحلة</p></div>
+          <div class="stat-card"><h3>6</h3><p>خيوط موضوعية متكررة تربط التاريخ العميق، والهوية، والذاكرة، والاستمرارية</p></div>
+        </div>
+      </section>
+
+      <section class="section-panel">
+        <div class="section-heading">
+          <p class="section-eyebrow">كيف تقرأ هذا الفهرس</p>
+          <h2>طبقة الإنتاج هنا مرتبة بوصفها عالمًا سرديًا، لا قائمة رفعٍ مسطّحة.</h2>
+          <p class="section-lead">ابدأ بالأعمال الرئيسية لفهم النبرة والطموح، ثم انتقل إلى الإطلاقات المساندة التي تبني المناخ، وتوسّع الخيوط التاريخية، وتمنح العالم البصري كثافته.</p>
+        </div>
+        <div class="section-note-grid">
+          <article class="quick-link-card">
+            <p class="section-eyebrow">ابدأ بالإشارة الأوضح</p>
+            <h3>الأعمال الرئيسية تُظهر أوضح تمثيل علني للمشروع.</h3>
+            <p>فهي تحمل أعلى درجات الهوية، والثقة السردية، وقابلية التعرف العام.</p>
+          </article>
+          <article class="quick-link-card">
+            <p class="section-eyebrow">ثم انتقل إلى طبقة المناخ</p>
+            <h3>المقاطع القصيرة، والأغاني، والقطع الشعرية تبني المجال الشعوري حول الأعمال الرئيسية.</h3>
+            <p>وهذه المواد مهمة لأنها تحوّل موضوعات البحث إلى مفردات بصرية وصوتية متكررة.</p>
+          </article>
+          <article class="quick-link-card">
+            <p class="section-eyebrow">أبقِ الأرشيف حاضرًا</p>
+            <h3>سجلات الإنتاج يفترض أن تبقى مرتبطة بالبحث، والخط الزمني، وإشارات الأرشيف.</h3>
+            <p>بهذا تظل الطبقة السينمائية متصلة بالحقل الأوسع للمشروع، لا طافيةً كمحتوى منفصل.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-panel">
+        <div class="section-heading">
+          <p class="section-eyebrow">الأعمال المميزة</p>
+          <h2>ابدأ بالأعمال التي تعرّف الحضور البصري العام للمشروع بأوضح صورة.</h2>
+          <p class="section-lead">هذه الأعمال هي نقاط الدخول الأقوى حاليًا إلى الطبقة السينمائية في أطياف الأرض.</p>
+        </div>
+        <div class="card-grid">
+          <article class="content-card" data-browse-item data-type="trailer" data-platform="youtube" data-year="2026" data-language="bilingual" data-featured="featured" data-tags="palestinian_identity|deep_history|canaanite_continuity|evidence_based_storytelling|ai_assisted_media|memory_and_heritage">
+            <p class="eyebrow">تريلر</p>
+            <h3>أمراء الرماد</h3>
+            <ul class="meta-list"><li>21 مارس 2026</li><li>تريلر</li><li>ثنائي اللغة</li><li class="is-strong">فصل رئيسي</li></ul>
+            <p>التريلر الرئيسي للفصل السينمائي الأوضح حتى الآن، والذي يقدّم أطياف الأرض بوصفه عالمًا سرديًا طويل النفس عن تاريخ فلسطين العميق.</p>
+            <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/ar/productions/princes-of-ashes-trailer/">عرض التفاصيل</a></div>
+          </article>
+          <article class="content-card" data-browse-item data-type="explainer" data-platform="youtube" data-year="2025" data-language="bilingual" data-featured="featured" data-tags="palestinian_identity|deep_history|evidence_based_storytelling|ai_assisted_media|memory_and_heritage|community_and_youth">
+            <p class="eyebrow">شرح</p>
+            <h3>أطياف الأرض: حكايات فلسطين العميقة بالدليل</h3>
+            <ul class="meta-list"><li>13 ديسمبر 2025</li><li>شرح</li><li>ثنائي اللغة</li><li class="is-strong">مميز</li></ul>
+            <p>نسخة شارحة ثنائية اللغة تقدّم المشروع باعتباره منصة بحث وسرد بصري عن التاريخ الفلسطيني العميق.</p>
+            <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/ar/productions/deep-history-evidence-stories-en/">عرض التفاصيل</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="browse-shell" id="production-library" data-browse-root="productions">
+        <div class="section-heading">
+          <p class="section-eyebrow">الفهرس الكامل</p>
+          <h2>تصفح طبقة الإنتاج بحسب الشكل، والموضوع، والسنة، والمنصة، واللغة، والأولوية.</h2>
+          <p class="section-lead">يبقى الفهرس منظّمًا بما يسمح للزائر بالانتقال من الأعمال الرئيسية إلى الحقل الإنتاجي الأوسع من دون أن يفقد الاتجاه.</p>
+        </div>
+        <div class="browse-controls"><label>النوع<select data-filter-key="type"><option value=""></option><option value="explainer">شرح</option><option value="poetic_historical_piece">قطعة شعرية</option><option value="short_social_fragment">مقطع قصير</option><option value="song">أغنية</option><option value="teaser">تيزر</option><option value="trailer">تريلر</option></select></label><label>الموضوع / الوسم<select data-filter-key="tags"><option value=""></option><option value="ai_assisted_media">إنتاج بمساندة الذكاء الاصطناعي</option><option value="canaanite_continuity">الاستمرارية الكنعانية</option><option value="community_and_youth">المجتمع والشباب</option><option value="deep_history">التاريخ العميق</option><option value="evidence_based_storytelling">سرد قائم على الدليل</option><option value="memory_and_heritage">الذاكرة والتراث</option><option value="music_and_poetry">الموسيقى والشعر</option><option value="palestinian_identity">الهوية الفلسطينية</option></select></label><label>المنصة<select data-filter-key="platform"><option value=""></option><option value="youtube">Youtube</option></select></label><label>السنة<select data-filter-key="year"><option value=""></option><option value="2026">2026</option><option value="2025">2025</option></select></label><label>اللغة<select data-filter-key="language"><option value=""></option><option value="bilingual">ثنائي اللغة</option></select></label><label>الأولوية<select data-filter-key="featured"><option value=""></option><option value="featured">مميز / رئيسي</option><option value="standard">عادي</option></select></label></div>
+        <div class="browse-actions">
+          <button class="btn btn-outline" type="button" data-clear-filters>إعادة ضبط المرشحات</button>
+          <p class="browse-summary" data-browse-count></p>
+        </div>
+        <div class="card-grid">
     <article class="content-card" data-browse-item data-type="trailer" data-platform="youtube" data-year="2026" data-language="bilingual" data-featured="featured" data-tags="palestinian_identity|deep_history|canaanite_continuity|evidence_based_storytelling|ai_assisted_media|memory_and_heritage">
       <p class="eyebrow">تريلر</p>
       <h3>أمراء الرماد</h3>
@@ -140,11 +208,9 @@
       <p>نسخة إضافية من رحلة كنعان ضمن طبقة الفيديوهات القصيرة للمشروع.</p>
       <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/ar/productions/journey-to-canaan-short-b/">عرض التفاصيل</a></div>
     </article>
-    </div>
-      <p class="empty-state" data-browse-empty hidden>لا توجد عناصر تطابق المرشحات الحالية.</p>
-    </section>
-    
-        
+        </div>
+        <p class="empty-state" data-browse-empty hidden>لا توجد عناصر تطابق المرشحات الحالية.</p>
+      </section>
     </div>
   </main>
   <footer class="site-footer">
