@@ -4,10 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>الأبحاث | أطياف الأرض</title>
-  <meta name="description" content="Structured research archive">
+  <meta name="description" content="أرشيف الأبحاث">
   <base href="/atyaf-al-ard-website/">
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="stylesheet" href="assets/css/structured.css">
+  <script defer src="assets/js/phase5-browse.js"></script>
 </head>
 <body>
   <header class="site-header">
@@ -17,7 +18,7 @@
         <span class="site-title">Atyaf Al Ard</span>
       </a>
       <div class="header-right">
-        <nav class="site-nav" aria-label="Primary">
+        <nav class="site-nav" aria-label="التنقل الرئيسي">
           <a href="/atyaf-al-ard-website/ar/">الرئيسية</a><a href="/atyaf-al-ard-website/ar/about/">عن المشروع</a><a href="/atyaf-al-ard-website/ar/productions/">الإنتاجات</a><a href="/atyaf-al-ard-website/ar/research/" class='active'>الأبحاث</a><a href="/atyaf-al-ard-website/ar/timeline/">الخط الزمني</a><a href="/atyaf-al-ard-website/ar/archive/">الأرشيف</a><a href="/atyaf-al-ard-website/ar/community/">المجتمع</a><a href="/atyaf-al-ard-website/ar/support/">الدعم</a><a href="/atyaf-al-ard-website/ar/contact/">تواصل</a>
         </nav>
         <div class="lang-switch">
@@ -33,70 +34,66 @@
       
         <section class="page-hero">
           <h1>الأبحاث</h1>
-          <p>مداخل تأسيسية لطبقة المعرفة العامة المستقبلية، مبنية على الأدلة المستردة حتى الآن.</p>
+          <p>تعرض المداخل البحثية الآن الوثائق المرتبطة والإنتاجات المتصلة وسياق الأرشيف داخل الطبقة المنظمة.</p>
         </section>
-        <div class="card-grid">
-    <article class="content-card">
-      <div class="card-body">
-        <h3>الخريطة التأسيسية للمشروع</h3>
-        <ul class="meta-list"></ul>
-        <p>مدخل تأسيسي يشرح كيف يربط المشروع بين البحث والسرد والإنتاجات البصرية والهوية الفلسطينية.</p>
+        
+    <section class="browse-shell" data-browse-root="research">
+      <p class="supporting-text">رشح حسب نوع البحث والموضوع والمنصة واللغة والأولوية.</p>
+      <div class="browse-controls"><label>النوع<select data-filter-key="type"><option value=""></option><option value="historical_topic">موضوع تاريخي</option><option value="notebook_or_encyclopedia_seed">بذرة معرفية</option><option value="public_explainer">شرح عام</option><option value="reading_note">ملاحظة بحثية</option><option value="theme_brief">ورقة تأسيسية</option></select></label><label>الموضوع / الوسم<select data-filter-key="tags"><option value=""></option><option value="bronze_age">العصر البرونزي</option><option value="canaan">كنعان</option><option value="civilizational_development">التطور الحضاري</option><option value="cross_period">عبر الفترات</option><option value="education">التعليم</option><option value="evidence_first">منهج الدليل</option><option value="historical_memory">الذاكرة التاريخية</option><option value="iron_age">العصر الحديدي</option><option value="palestinian_history">التاريخ الفلسطيني</option><option value="public_history">التاريخ العام</option><option value="research_storytelling">السرد البحثي</option></select></label><label>المنصة<select data-filter-key="platform"><option value=""></option><option value="facebook">Facebook</option><option value="notebooklm">Notebooklm</option><option value="website">Website</option><option value="youtube">Youtube</option></select></label><label>السنة<select data-filter-key="year"><option value=""></option></select></label><label>اللغة<select data-filter-key="language"><option value=""></option><option value="bilingual">ثنائي اللغة</option></select></label><label>الأولوية<select data-filter-key="featured"><option value=""></option><option value="featured">مميز / رئيسي</option><option value="standard">عادي</option></select></label></div>
+      <div class="browse-actions">
+        <button class="btn btn-outline" type="button" data-clear-filters>إعادة ضبط المرشحات</button>
+        <p class="browse-summary" data-browse-count></p>
       </div>
-      <div class="card-actions">
-        <a class="btn btn-secondary" href="/atyaf-al-ard-website/ar/research/foundational-overview/">اقرأ المدخل</a>
-      </div>
+      <div class="card-grid">
+    <article class="content-card" data-browse-item data-type="notebook_or_encyclopedia_seed" data-platform="facebook|notebooklm" data-language="bilingual" data-featured="standard" data-tags="education|research_storytelling|evidence_first|cross_period">
+      <p class="eyebrow">بذرة معرفية</p>
+      <h3>مختبر NotebookLM العام</h3>
+      <ul class="meta-list"><li>بذرة معرفية</li><li>ثنائي اللغة</li></ul>
+      <p>طبقة بحثية/تعليمية ناشئة يظهر فيها المشروع كمساحة مفتوحة لتجميع المعرفة وتقديمها للجمهور.</p>
+      <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/ar/research/notebooklm-public-lab/">عرض التفاصيل</a></div>
     </article>
     
-    <article class="content-card">
-      <div class="card-body">
-        <h3>سلسلة الحقيقة الكنعانية</h3>
-        <ul class="meta-list"></ul>
-        <p>سلسلة مبكرة على فيسبوك ويوتيوب تستخدم حقائق بصرية قصيرة لإعادة طرح الاستمرارية الكنعانية في فلسطين.</p>
-      </div>
-      <div class="card-actions">
-        <a class="btn btn-secondary" href="/atyaf-al-ard-website/ar/research/canaanite-fact-series/">اقرأ المدخل</a>
-      </div>
+    <article class="content-card" data-browse-item data-type="theme_brief" data-platform="website" data-language="bilingual" data-featured="featured" data-tags="palestinian_history|evidence_first|research_storytelling|cross_period">
+      <p class="eyebrow">ورقة تأسيسية</p>
+      <h3>الخريطة التأسيسية للمشروع</h3>
+      <ul class="meta-list"><li>ورقة تأسيسية</li><li>ثنائي اللغة</li><li class="is-strong">مميز</li></ul>
+      <p>مدخل تأسيسي يشرح كيف يربط المشروع بين البحث والسرد والإنتاجات البصرية والهوية الفلسطينية.</p>
+      <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/ar/research/foundational-overview/">عرض التفاصيل</a></div>
     </article>
     
-    <article class="content-card">
-      <div class="card-body">
-        <h3>المطبخ الكنعاني والذاكرة</h3>
-        <ul class="meta-list"></ul>
-        <p>مدخل بحثي/ثقافي مبكر يربط الطعام والذاكرة والمقاومة اليومية، مع إشارة واضحة إلى موسوعة معرفية قادمة.</p>
-      </div>
-      <div class="card-actions">
-        <a class="btn btn-secondary" href="/atyaf-al-ard-website/ar/research/canaanite-kitchen-memory/">اقرأ المدخل</a>
-      </div>
+    <article class="content-card" data-browse-item data-type="historical_topic" data-platform="youtube|website" data-language="bilingual" data-featured="featured" data-tags="evidence_first|palestinian_history|civilizational_development|cross_period">
+      <p class="eyebrow">موضوع تاريخي</p>
+      <h3>فلسطين العميقة بالدليل</h3>
+      <ul class="meta-list"><li>موضوع تاريخي</li><li>ثنائي اللغة</li><li class="is-strong">مميز</li></ul>
+      <p>الإطار التفسيري الذي يعرّف المشروع كسردية عن تاريخ فلسطين العميق مبنية على البحث والآثار والاستمرارية البشرية.</p>
+      <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/ar/research/evidence-first-palestine-deep-history/">عرض التفاصيل</a></div>
     </article>
     
-    <article class="content-card">
-      <div class="card-body">
-        <h3>فلسطين العميقة بالدليل</h3>
-        <ul class="meta-list"></ul>
-        <p>الإطار التفسيري الذي يعرّف المشروع كسردية عن تاريخ فلسطين العميق مبنية على البحث والآثار والاستمرارية البشرية.</p>
-      </div>
-      <div class="card-actions">
-        <a class="btn btn-secondary" href="/atyaf-al-ard-website/ar/research/evidence-first-palestine-deep-history/">اقرأ المدخل</a>
-      </div>
+    <article class="content-card" data-browse-item data-type="reading_note" data-platform="facebook" data-language="bilingual" data-featured="standard" data-tags="historical_memory|public_history|education|cross_period">
+      <p class="eyebrow">ملاحظة بحثية</p>
+      <h3>المطبخ الكنعاني والذاكرة</h3>
+      <ul class="meta-list"><li>ملاحظة بحثية</li><li>ثنائي اللغة</li></ul>
+      <p>مدخل بحثي/ثقافي مبكر يربط الطعام والذاكرة والمقاومة اليومية، مع إشارة واضحة إلى موسوعة معرفية قادمة.</p>
+      <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/ar/research/canaanite-kitchen-memory/">عرض التفاصيل</a></div>
     </article>
     
-    <article class="content-card">
-      <div class="card-body">
-        <h3>مختبر NotebookLM العام</h3>
-        <ul class="meta-list"></ul>
-        <p>طبقة بحثية/تعليمية ناشئة يظهر فيها المشروع كمساحة مفتوحة لتجميع المعرفة وتقديمها للجمهور.</p>
-      </div>
-      <div class="card-actions">
-        <a class="btn btn-secondary" href="/atyaf-al-ard-website/ar/research/notebooklm-public-lab/">اقرأ المدخل</a>
-      </div>
+    <article class="content-card" data-browse-item data-type="public_explainer" data-platform="facebook|youtube" data-language="bilingual" data-featured="featured" data-tags="canaan|public_history|education|bronze_age|iron_age|cross_period">
+      <p class="eyebrow">شرح عام</p>
+      <h3>سلسلة الحقيقة الكنعانية</h3>
+      <ul class="meta-list"><li>شرح عام</li><li>ثنائي اللغة</li><li class="is-strong">مميز</li></ul>
+      <p>سلسلة مبكرة على فيسبوك ويوتيوب تستخدم حقائق بصرية قصيرة لإعادة طرح الاستمرارية الكنعانية في فلسطين.</p>
+      <div class="card-actions"><a class="btn btn-secondary" href="/atyaf-al-ard-website/ar/research/canaanite-fact-series/">عرض التفاصيل</a></div>
     </article>
     </div>
+      <p class="empty-state" data-browse-empty hidden>لا توجد عناصر تطابق المرشحات الحالية.</p>
+    </section>
+    
         
     </div>
   </main>
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p>منصة بحث وسرد فلسطينية طويلة المدى.</p>
+      <p>منصة فلسطينية طويلة المدى للبحث والسرد.</p>
       <p><a href="/atyaf-al-ard-website/ar/support/">ادعم المشروع</a></p>
     </div>
   </footer>

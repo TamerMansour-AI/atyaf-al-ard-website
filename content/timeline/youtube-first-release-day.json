@@ -24,7 +24,14 @@
     "echoes-of-the-first-hearth",
     "heartbeat-of-the-land",
     "journey-to-canaan-short-a",
-    "journey-to-canaan-short-b"
+    "journey-to-canaan-short-b",
+    "decision-announcement-short"
   ],
-  "related_social_post_ids": []
+  "related_social_post_ids": [],
+  "featured": true,
+  "translation_status": "bilingual_complete",
+  "language_availability": "bilingual",
+  "source_platforms": [
+    "youtube"
+  ]
 }

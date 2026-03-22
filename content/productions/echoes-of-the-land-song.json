@@ -57,5 +57,9 @@
   "related_research_entry_ids": [
     "foundational-overview"
   ],
-  "notes_internal": "Palestinian identity, deep history, Canaanite continuity, music and poetry, AI-assisted media, memory and heritage"
+  "notes_internal": "Palestinian identity, deep history, Canaanite continuity, music and poetry, AI-assisted media, memory and heritage",
+  "language_availability": "bilingual",
+  "source_platforms": [
+    "youtube"
+  ]
 }

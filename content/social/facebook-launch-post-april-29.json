@@ -9,12 +9,12 @@
   "normalized_date": "2025-04-29",
   "title_ar": "منشور إطلاق مبكر - 29 أبريل",
   "title_en": "Early Launch Post - April 29",
-  "summary_ar": "Launch-period Facebook post; caption still partial.",
+  "summary_ar": "منشور من نافذة الإطلاق على فيسبوك مع بقاء نص الوصف غير مكتمل.",
   "summary_en": "Launch-period Facebook post; caption still partial.",
   "post_type": "image",
   "post_category": "update_or_progress",
   "source_caption": "Post published by Mohamed Abumaliq on April 29, 2025. Date, URL, and page association are confirmed from the authenticated feed bundle.",
-  "caption_ar": "Post published by Mohamed Abumaliq on April 29, 2025. Date, URL, and page association are confirmed from the authenticated feed bundle.",
+  "caption_ar": "",
   "caption_en": "",
   "tags": [
     "needs_manual_review",
@@ -58,5 +58,13 @@
       "path": "02_raw_data/facebook/html/combined_tab_anchor_candidates.json"
     }
   ],
-  "notes_internal": "Launch-period Facebook post; caption still partial."
+  "notes_internal": "Launch-period Facebook post; caption still partial.",
+  "translation_status": "english_primary_arabic_pending",
+  "related_timeline_event_ids": [
+    "facebook-launch-window"
+  ],
+  "language_availability": "english_primary",
+  "source_platforms": [
+    "facebook"
+  ]
 }

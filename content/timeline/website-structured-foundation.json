@@ -18,5 +18,11 @@
       "url": "https://github.com/TamerMansour-AI/atyaf-al-ard-website"
     }
   ],
-  "related_production_ids": []
+  "related_production_ids": [],
+  "featured": true,
+  "translation_status": "bilingual_complete",
+  "language_availability": "bilingual",
+  "source_platforms": [
+    "github"
+  ]
 }

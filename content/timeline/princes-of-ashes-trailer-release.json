@@ -20,5 +20,11 @@
   ],
   "related_production_ids": [
     "princes-of-ashes-trailer"
+  ],
+  "featured": true,
+  "translation_status": "bilingual_complete",
+  "language_availability": "bilingual",
+  "source_platforms": [
+    "youtube"
   ]
 }

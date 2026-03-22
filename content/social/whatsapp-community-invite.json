@@ -61,5 +61,14 @@
       "path": "02_raw_data/facebook/post_pages/mini_may21_whatsapp.html"
     }
   ],
-  "notes_internal": "Mini pass recovered full May 21 community-onboarding caption and WhatsApp invite link."
+  "notes_internal": "Mini pass recovered full May 21 community-onboarding caption and WhatsApp invite link.",
+  "featured": true,
+  "translation_status": "arabic_primary_english_pending",
+  "related_timeline_event_ids": [
+    "whatsapp-community-launch"
+  ],
+  "language_availability": "arabic_primary",
+  "source_platforms": [
+    "facebook"
+  ]
 }

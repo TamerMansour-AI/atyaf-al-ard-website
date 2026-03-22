@@ -31,5 +31,11 @@
   ],
   "related_timeline_event_ids": [
     "palestine-tv-interview-and-volunteer-call"
+  ],
+  "featured": true,
+  "translation_status": "bilingual_complete",
+  "language_availability": "bilingual",
+  "source_platforms": [
+    "facebook"
   ]
 }

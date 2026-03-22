@@ -3,5 +3,19 @@
   "title_en": "Contact and Public Channels",
   "title_ar": "التواصل والقنوات العامة",
   "summary_en": "Until a dedicated inbox is published, the project's public Facebook and YouTube channels remain the strongest contact points.",
-  "summary_ar": "إلى أن تُنشَر وسيلة تواصل مخصّصة، تبقى صفحة فيسبوك وقناة يوتيوب هما قناتي الاتصال العام الأوضح للمشروع."
+  "summary_ar": "إلى أن تُنشَر وسيلة تواصل مخصّصة، تبقى صفحة فيسبوك وقناة يوتيوب هما قناتي الاتصال العام الأوضح للمشروع.",
+  "platform_links": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/profile.php?id=61574424444648"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@AtyafAlArd"
+    },
+    {
+      "label": "NotebookLM",
+      "url": "https://notebooklm.google.com/notebook/897d6cfa-8b8f-470e-aacd-a749293eaef7"
+    }
+  ]
 }

@@ -22,20 +22,67 @@
     {
       "platform": "website",
       "label": "Foundational overview PDF",
-      "url": "/atyaf-al-ard-website/assets/docs/research/foundational-overview-en.pdf/"
+      "url": "/atyaf-al-ard-website/assets/docs/research/foundational-overview-en.pdf"
     },
     {
       "platform": "website",
       "label": "Arabic foundational overview PDF",
-      "url": "/atyaf-al-ard-website/assets/docs/research/foundational-overview-ar.pdf/"
+      "url": "/atyaf-al-ard-website/assets/docs/research/foundational-overview-ar.pdf"
     }
   ],
   "related_production_ids": [
     "deep-history-evidence-stories-en",
-    "deep-history-evidence-stories-ar"
+    "deep-history-evidence-stories-ar",
+    "echoes-of-the-land-song",
+    "heartbeat-of-the-land",
+    "visual-memory-teaser"
   ],
   "related_social_post_ids": [],
   "related_timeline_event_ids": [
     "youtube-evidence-first-explainers"
+  ],
+  "featured": true,
+  "translation_status": "bilingual_complete",
+  "asset_refs": [
+    {
+      "type": "image",
+      "path": "assets/images/research/foundational-overview-en.png",
+      "label_en": "Foundational overview image",
+      "label_ar": "صورة الخريطة التأسيسية"
+    },
+    {
+      "type": "image",
+      "path": "assets/images/research/foundational-overview-ar.png",
+      "label_en": "Arabic foundational overview image",
+      "label_ar": "الصورة العربية للخريطة التأسيسية"
+    },
+    {
+      "type": "pdf",
+      "path": "assets/docs/research/foundational-overview-en.pdf",
+      "label_en": "Foundational overview PDF",
+      "label_ar": "ملف الخريطة التأسيسية"
+    },
+    {
+      "type": "pdf",
+      "path": "assets/docs/research/foundational-overview-ar.pdf",
+      "label_en": "Arabic foundational overview PDF",
+      "label_ar": "الملف العربي للخريطة التأسيسية"
+    },
+    {
+      "type": "text",
+      "path": "assets/docs/research/foundational-overview-en.txt",
+      "label_en": "Text copy",
+      "label_ar": "نسخة نصية"
+    },
+    {
+      "type": "text",
+      "path": "assets/docs/research/foundational-overview-ar.txt",
+      "label_en": "Arabic text copy",
+      "label_ar": "نسخة نصية عربية"
+    }
+  ],
+  "language_availability": "bilingual",
+  "source_platforms": [
+    "website"
   ]
 }
